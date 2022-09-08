@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Button from '../../ui/button';
+import Button from '../ui/button';
 import styles from './course-item.module.css';
 import DateIcon from '../icons/date-icon';
 import AddressIcon from '../icons/address-icon';
@@ -16,7 +16,7 @@ function CourseItem(props) {
 
   const formattedAddress = location.replace(', ', '\n');
 
-  const exploreLink = `/events/${id}`;
+  const exploreLink = `/courses/${id}`;
 
   return (
     <li className={styles.item}>

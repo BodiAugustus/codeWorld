@@ -1,8 +1,9 @@
 import { useRouter } from 'next/router';
 import { getCourseById } from '../../dummy-data';
-import CourseSummary from '../../components/course-detail/course-summary';
-import CourseLogistics from '../../components/course-detail/course-logistics';
-import CourseContent from '../../components/course-detail/course-content';
+import CourseSummary from '@components/course-detail/course-summary';
+import CourseLogistics from '@components/course-detail/course-logistics';
+import CourseContent from '@components/course-detail/course-content';
+import ErrorAlert from '../../components/ui/error-alert';
 
 function CourseDetailPage() {
   //to enable router object with query prop
@@ -12,7 +13,11 @@ function CourseDetailPage() {
   const course = getCourseById(courseId);
 
   if (!course) {
-    return <p>No course found, check back later!</p>;
+    return (
+      <ErrorAlert>
+        <p>No course found, check back later!</p>
+      </ErrorAlert>
+    );
   }
   return (
     <>

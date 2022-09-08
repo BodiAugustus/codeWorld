@@ -1,5 +1,5 @@
 import { getFeaturedCourses } from '../dummy-data';
-import CourseList from '../components/courses/course-list';
+import CourseList from '@components/courses/course-list';
 
 function HomePage() {
   const featuredCourses = getFeaturedCourses();
