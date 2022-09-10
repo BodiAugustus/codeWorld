@@ -6,6 +6,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Head>
+        <title>Code World</title>
+        <meta
+          name="description"
+          content="Code world offering bright futures for young people!"
+        />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Component {...pageProps} />

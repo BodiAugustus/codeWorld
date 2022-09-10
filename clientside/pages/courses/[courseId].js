@@ -9,6 +9,7 @@ import CourseLogistics from '@components/course-detail/course-logistics';
 import CourseContent from '@components/course-detail/course-content';
 import ErrorAlert from '../../components/ui/error-alert';
 import Head from 'next/head';
+import Comments from '@components/input/comments';
 
 function CourseDetailPage(props) {
   const course = props.selectedCourse;
@@ -39,6 +40,7 @@ function CourseDetailPage(props) {
       <CourseContent>
         <p>{course.description}</p>
       </CourseContent>
+      <Comments courseId={course.id} />
     </>
   );
 }

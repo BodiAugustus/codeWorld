@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import Button from '../ui/button';
 import styles from './course-item.module.css';
 import DateIcon from '../icons/date-icon';
@@ -20,7 +21,7 @@ function CourseItem(props) {
 
   return (
     <li className={styles.item}>
-      <img src={'/' + image} alt={title} />
+      <Image src={'/' + image} alt={title} width={250} height={160} />
       <div className={styles.content}>
         <div className={styles.summary}>
           <h2>{title}</h2>

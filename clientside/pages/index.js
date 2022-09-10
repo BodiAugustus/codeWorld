@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import { getFeaturedCourses } from '../dummy-data';
 import CourseList from '@components/courses/course-list';
+import NewsletterRegistration from '@components/input/newsletter-registration';
 
 function HomePage(props) {
   return (
@@ -11,6 +12,7 @@ function HomePage(props) {
 
         <meta name="Main screen" content="Give your child a better future!" />
       </Head>
+      <NewsletterRegistration />
       <CourseList items={props.courses} />
     </div>
   );
