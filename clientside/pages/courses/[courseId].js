@@ -10,8 +10,13 @@ import CourseContent from '@components/course-detail/course-content';
 import ErrorAlert from '../../components/ui/error-alert';
 import Head from 'next/head';
 import Comments from '@components/input/comments';
+import MainHeader from '@components/layout/main-header';
+import Sidebar from '@components/layout/Sidebar';
+import Submenu from '@components/layout/Submenu';
+import { useGlobalContext } from 'store/context';
 
 function CourseDetailPage(props) {
+  const { closeSubmenu } = useGlobalContext();
   const course = props.selectedCourse;
   console.log(course);
   if (!course) {
@@ -31,16 +36,20 @@ function CourseDetailPage(props) {
           content="Shows all of the information for a specific course."
         />
       </Head>
+      <Sidebar />
+      <Submenu />
       <CourseSummary title={course.title} />
-      <CourseLogistics
-        date={course.date}
-        address={course.location}
-        image={course.image}
-      />
-      <CourseContent>
-        <p>{course.description}</p>
-      </CourseContent>
-      <Comments courseId={course.id} />
+      <div onMouseOver={closeSubmenu}>
+        <CourseLogistics
+          date={course.date}
+          address={course.location}
+          image={course.image}
+        />
+        <CourseContent>
+          <p>{course.description}</p>
+        </CourseContent>
+        <Comments courseId={course.id} />
+      </div>
     </>
   );
 }

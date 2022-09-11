@@ -22,6 +22,7 @@ function MyApp({ Component, pageProps }) {
               content="initial-scale=1.0, width=device-width"
             />
           </Head>
+
           <Component {...pageProps} />
         </Layout>
       </AppProvider>

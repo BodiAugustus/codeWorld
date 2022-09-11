@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { getFeaturedCourses } from '../dummy-data';
+import { getFeaturedCourses } from '../helpers/api-util';
 import CourseList from '@components/courses/course-list';
 import NewsletterRegistration from '@components/input/newsletter-registration';
 import Hero from '@components/layout/Hero';
@@ -10,10 +10,11 @@ function HomePage(props) {
   return (
     <div>
       <Head>
-        <title>Code World</title>
+        <title>Code 🌎 World</title>
 
-        <meta name="Main screen" content="Give your child a better future!" />
+        <meta name="Main screen" content="Give your child a head start!" />
       </Head>
+
       <Sidebar />
       <Hero />
       <Submenu />

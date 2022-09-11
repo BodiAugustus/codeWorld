@@ -6,10 +6,15 @@ import ResultsTitle from '@components/courses/results-title';
 import Button from '@components/ui/button';
 import ErrorAlert from '@components/ui/error-alert';
 import Head from 'next/head';
+import Sidebar from '@components/layout/Sidebar';
+import Submenu from '@components/layout/Submenu';
+import { useGlobalContext } from 'store/context';
 
 function FilteredCoursesPage(props) {
   const router = useRouter();
   const [loadedCourses, setLoadedCourses] = useState();
+
+  const { closeSubmenu } = useGlobalContext();
 
   const filterData = router.query.slug;
 
@@ -114,8 +119,12 @@ function FilteredCoursesPage(props) {
   return (
     <>
       {pageHeadData}
+      <Sidebar />
+      <Submenu />
       <ResultsTitle date={date} />
-      <CourseList items={filteredCourses} />
+      <div onMouseOver={closeSubmenu}>
+        <CourseList items={filteredCourses} />
+      </div>
     </>
   );
 }
