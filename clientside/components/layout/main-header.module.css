@@ -1,4 +1,4 @@
-.header {
+/* .header {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -37,5 +37,92 @@
 
   .navigation a {
     font-size: 1.5rem;
+  }
+} */
+.logo {
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Fira', sans-serif;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #94fdfd;
+}
+
+.nav {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: red;
+  position: relative;
+  z-index: 1;
+}
+.nav_center {
+  width: 90vw;
+  max-width: var(--max-width);
+}
+.nav_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_links {
+  display: none;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius);
+  border-color: transparent;
+  color: white;
+  background: var(--clr-black);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.btn:hover {
+  background: var(--clr-grey-5);
+}
+
+.signin_btn {
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  .nav_center {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+  }
+  .toggle_btn {
+    display: none;
+  }
+  .signin_btn {
+    display: inline-block;
+  }
+  .nav_links {
+    display: block;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    height: 100%;
+    display: grid;
+    align-items: center;
+  }
+  .nav_links li {
+    height: 100%;
+  }
+  .link_btn {
+    height: 100%;
+    background: transparent;
+    border-color: transparent;
+    font-size: 1.1rem;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    width: 10rem;
   }
 }
