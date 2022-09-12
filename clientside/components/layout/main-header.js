@@ -26,13 +26,17 @@ function MainHeader() {
     <nav className={styles.nav} onMouseOver={handleSubmenu}>
       <div className={styles.nav_center}>
         <div className={`${styles.nav_header} items-center`}>
-          <h2 className="flex gap-2 font-poppins font-bold mt-2 leading-none tracking-tight">
-            <span className="text-emerald-500">Code</span>{' '}
-            <GiWorld className="animate-spin-slow  text-green-500 bg-blue-600 rounded-full" />{' '}
-            <span className="text-blue-600">World</span>
-          </h2>
+          <Link href="/">
+            <a>
+              <h2 className="flex gap-2 font-poppins font-bold mt-2 leading-none tracking-tight">
+                <span className="text-emerald-500">Code</span>{' '}
+                <GiWorld className="animate-spin-slow  text-green-500 bg-blue-600 rounded-full" />{' '}
+                <span className="text-blue-600">World</span>
+              </h2>
+            </a>
+          </Link>
           <button
-            className={`${styles.btn} ${styles.toggle_btn}`}
+            className={`${styles.btn2} ${styles.toggle_btn}`}
             onClick={openSidebar}
           >
             <FaBars />

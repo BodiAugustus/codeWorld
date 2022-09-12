@@ -145,19 +145,19 @@ p {
 }
 .sidebar {
   width: 90vw;
-  height: 95vh;
+  height: 55vh;
   max-width: var(--fixed-width);
   background: var(--clr-white);
   border-radius: var(--radius);
   box-shadow: var(--dark-shadow);
   position: relative;
-  padding: 4rem 2rem;
+  padding: 2rem 2rem;
 }
 .close-btn {
   font-size: 2rem;
   background: transparent;
   border-color: transparent;
-  color: var(--clr-grey-5);
+  color: red;
   position: absolute;
   top: 1rem;
   right: 1rem;

@@ -5,6 +5,10 @@ import NewsletterRegistration from '@components/input/newsletter-registration';
 import Hero from '@components/layout/Hero';
 import Sidebar from '@components/layout/Sidebar';
 import Submenu from '@components/layout/Submenu';
+import SectionTwo from '@components/main-page/section-two';
+import SectionThree from '@components/main-page/section-three';
+import SectionFour from '@components/main-page/section-four';
+import SectionFive from '@components/main-page/section-five';
 
 function HomePage(props) {
   return (
@@ -18,6 +22,10 @@ function HomePage(props) {
       <Sidebar />
       <Hero />
       <Submenu />
+      <SectionTwo />
+      <SectionThree />
+      <SectionFour />
+      <SectionFive />
       <NewsletterRegistration />
       <CourseList items={props.courses} />
     </div>

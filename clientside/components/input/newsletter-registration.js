@@ -53,24 +53,28 @@ function NewsletterRegistration() {
   }
 
   return (
-    <section className={classes.newsletter}>
-      <h2>Sign up to stay updated!</h2>
-      <form onSubmit={registrationHandler}>
-        <div className={classes.control}>
-          <input
-            type="email"
-            id="email"
-            required
-            minLength={5}
-            maxLength={40}
-            placeholder="Your email"
-            aria-label="Your email"
-            ref={emailInputRef}
-          />
-          <button>Register</button>
-        </div>
-      </form>
-    </section>
+    <div>
+      <h2 className="max-w-[600px] text-center mx-auto pt-12 -mb-5">
+        Sign up for our newsletter to stay updated!
+      </h2>
+      <section className={classes.newsletter}>
+        <form onSubmit={registrationHandler}>
+          <div className={classes.control}>
+            <input
+              type="email"
+              id="email"
+              required
+              minLength={5}
+              maxLength={40}
+              placeholder="Your email"
+              aria-label="Your email"
+              ref={emailInputRef}
+            />
+            <button>Register</button>
+          </div>
+        </form>
+      </section>
+    </div>
   );
 }
 

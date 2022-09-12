@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { useGlobalContext } from 'store/context';
 import styles from './Hero.module.css';
@@ -9,17 +10,27 @@ const Hero = () => {
     <section className={styles.hero} onMouseOver={closeSubmenu}>
       <div className={styles.hero_center}>
         <article className={styles.hero_info}>
-          <h1 className="font-poppins font-extrabold">
+          <h1 className="font-poppins font-extrabold tracking-tighter text-sky-700">
             The Future is Digital.
           </h1>
-          <p>
-            Set your kids up for success in the digital age by teaching them how
-            to code videogames, websites, web applications and much more!
+          <p className="text-slate-700">
+            Ensure your child does not get left behind by having them learn how
+            to code videogames, websites, web applications and more!
           </p>
-          <button className={styles.btn}>start now</button>
+          <Link href="/courses">
+            <a
+              className={`${styles.btn} bg-blue-600 text-white font-medium 
+              hover:scale-105 
+              hover:bg-blue-700 
+              active:bg-blue-600`}
+            >
+              All Courses &rarr;
+            </a>
+          </Link>
         </article>
         <article className={styles.hero_images}>
           <img
+            className={styles.phone_img}
             src="https://education.planeteersgame.com/wp-content/uploads/2017/05/Coding_Image_Top.jpg"
             alt=""
           />
