@@ -9,7 +9,7 @@ function Layout(props) {
   const activeNotification = notificationCtx.notification;
 
   return (
-    <>
+    <div className=" max-w-[1568px]">
       <MainHeader />
       <main>{props.children}</main>
       {activeNotification && (
@@ -19,7 +19,7 @@ function Layout(props) {
           status={activeNotification.status}
         />
       )}
-    </>
+    </div>
   );
 }
 

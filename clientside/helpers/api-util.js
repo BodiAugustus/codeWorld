@@ -1,6 +1,6 @@
 export async function getAllCourses() {
   const response = await fetch(
-    'https://events-90731-default-rtdb.firebaseio.com/events.json'
+    'https://codeworld-c17fa-default-rtdb.firebaseio.com/courses.json'
   );
 
   const data = await response.json();

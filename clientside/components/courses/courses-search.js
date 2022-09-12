@@ -33,7 +33,7 @@ function CoursesSearch(props) {
             <option value="2">Feb</option>
             <option value="3">Mar</option>
             <option value="4">Apr</option>
-            <option value="5">May`</option>
+            <option value="5">May</option>
             <option value="6">June</option>
             <option value="7">July</option>
             <option value="8">Aug</option>

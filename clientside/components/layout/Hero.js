@@ -9,16 +9,20 @@ const Hero = () => {
     <section className={styles.hero} onMouseOver={closeSubmenu}>
       <div className={styles.hero_center}>
         <article className={styles.hero_info}>
-          <h1>Payments Infastructure for the internet</h1>
+          <h1 className="font-poppins font-extrabold">
+            The Future is Digital.
+          </h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro ea
-            vel quidem, pariatur mollitia tenetur dolores iusto quae ipsa, sit
-            assumenda omnis eos. Maxime, vel.
+            Set your kids up for success in the digital age by teaching them how
+            to code videogames, websites, web applications and much more!
           </p>
           <button className={styles.btn}>start now</button>
         </article>
         <article className={styles.hero_images}>
-          <img src="/images/phone.svg" alt="" />
+          <img
+            src="https://education.planeteersgame.com/wp-content/uploads/2017/05/Coding_Image_Top.jpg"
+            alt=""
+          />
         </article>
       </div>
     </section>

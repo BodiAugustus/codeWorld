@@ -55,7 +55,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: red;
+  background: whitesmoke;
   position: relative;
   z-index: 1;
 }
@@ -73,17 +73,22 @@
 }
 
 .btn {
-  font-size: 1rem;
-  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  padding: 0.7rem 0.95rem;
   border-radius: var(--radius);
   border-color: transparent;
-  color: white;
-  background: var(--clr-black);
+  color: whitesmoke;
+  font-weight: 800;
   cursor: pointer;
-  transition: var(--transition);
+  transition: all 0.2s linear;
 }
 .btn:hover {
-  background: var(--clr-grey-5);
+  transform: scale(105%);
+  color: oldlace;
+}
+.btn:active {
+  transform: scale(100%);
+  color: whitesmoke;
 }
 
 .signin_btn {

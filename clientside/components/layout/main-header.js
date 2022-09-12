@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useGlobalContext } from 'store/context';
 
 import { FaBars } from 'react-icons/fa';
+import { GiWorld } from 'react-icons/gi';
 import styles from './main-header.module.css';
 function MainHeader() {
   const { openSidebar, openSubmenu, closeSubmenu } = useGlobalContext();
@@ -20,35 +21,47 @@ function MainHeader() {
       closeSubmenu();
     }
   };
+
   return (
     <nav className={styles.nav} onMouseOver={handleSubmenu}>
       <div className={styles.nav_center}>
-        <div className={styles.nav_header}>
-          <img src="/images/logo.svg" alt="" className={styles.logo} />
-          <button className={styles.btn} onClick={openSidebar}>
-            <FaBars className={styles.toggle_btn} />
+        <div className={`${styles.nav_header} items-center`}>
+          <h2 className="flex gap-2 font-poppins font-bold mt-2 leading-none tracking-tight">
+            <span className="text-emerald-500">Code</span>{' '}
+            <GiWorld className="animate-spin-slow  text-green-500 bg-blue-600 rounded-full" />{' '}
+            <span className="text-blue-600">World</span>
+          </h2>
+          <button
+            className={`${styles.btn} ${styles.toggle_btn}`}
+            onClick={openSidebar}
+          >
+            <FaBars />
           </button>
         </div>
-        <ul className={styles.nav_links}>
-          <li>
+        <ul className={`${styles.nav_links} text-emerald-500 font-bold `}>
+          <li className="hover:text-emerald-300">
             <button onMouseOver={displaySubmenu} className="link_btn">
-              products
+              courses
             </button>
           </li>
-          <li>
+          <li className="hover:text-emerald-300">
             <button onMouseOver={displaySubmenu} className="link_btn">
-              developers
+              about
             </button>
           </li>
-          <li>
+          <li className="hover:text-emerald-300">
             <button onMouseOver={displaySubmenu} className="link_btn">
-              company
+              contact
             </button>
           </li>
         </ul>
 
         <div className={styles.signin_btn}>
-          <button className={styles.btn}>Sign In</button>
+          <button
+            className={`${styles.btn} bg-sky-600 hover:bg-sky-700 active:bg-sky-600`}
+          >
+            Request Info
+          </button>
         </div>
       </div>
     </nav>

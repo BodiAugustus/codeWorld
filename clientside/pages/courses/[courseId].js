@@ -10,7 +10,6 @@ import CourseContent from '@components/course-detail/course-content';
 import ErrorAlert from '../../components/ui/error-alert';
 import Head from 'next/head';
 import Comments from '@components/input/comments';
-import MainHeader from '@components/layout/main-header';
 import Sidebar from '@components/layout/Sidebar';
 import Submenu from '@components/layout/Submenu';
 import { useGlobalContext } from 'store/context';
@@ -58,7 +57,7 @@ export async function getStaticProps(context) {
   const courseId = context.params.courseId;
 
   const course = await getCourseById(courseId);
-  console.log(course);
+  // console.log(course);
 
   return {
     props: {

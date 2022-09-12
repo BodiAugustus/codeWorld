@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
             />
           </Head>
 
-          <Component {...pageProps} />
+          <Component {...pageProps} c />
         </Layout>
       </AppProvider>
     </NotificationContextProvider>

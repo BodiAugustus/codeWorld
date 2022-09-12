@@ -1,28 +1,67 @@
-import { FaCreditCard, FaBook, FaBriefcase } from 'react-icons/fa';
+import { FaCreditCard } from 'react-icons/fa';
+import { AiOutlineHtml5, AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
+import { DiCss3 } from 'react-icons/di';
+import { SiJavascript } from 'react-icons/si';
+import { FcInfo } from 'react-icons/fc';
+import { GrReactjs } from 'react-icons/gr';
+import { GiMagnifyingGlass } from 'react-icons/gi';
 import React from 'react';
 const sublinks = [
   {
-    page: 'products',
+    page: 'courses',
     links: [
-      { label: 'payment', icon: <FaCreditCard />, url: '/products' },
-      { label: 'terminal', icon: <FaCreditCard />, url: '/products' },
-      { label: 'connect', icon: <FaCreditCard />, url: '/products' },
+      {
+        label: 'HTML & CSS',
+        icon: (
+          <div className="">
+            <AiOutlineHtml5 fill="#EF5B0C" />
+            <DiCss3 fill="#1F4690" />
+          </div>
+        ),
+        url: '/courses/htmlCss',
+      },
+      {
+        label: 'Javascript',
+        icon: <SiJavascript fill="#FFEA11" />,
+        url: '/courses/javascript',
+      },
+      {
+        label: 'React',
+        icon: <GrReactjs fill="skyblue" />,
+        url: '/courses/react',
+      },
     ],
   },
   {
-    page: 'developers',
+    page: 'about',
     links: [
-      { label: 'plugins', icon: <FaBook />, url: '/products' },
-      { label: 'libraries', icon: <FaBook />, url: '/products' },
-      { label: 'help', icon: <FaBook />, url: '/products' },
-      { label: 'billing', icon: <FaBook />, url: '/products' },
+      { label: 'about', icon: <FcInfo />, url: '/products' },
+      {
+        label: 'FAQ',
+        icon: <GiMagnifyingGlass fill="purple" />,
+        url: '/products',
+      },
+
+      {
+        label: 'billing',
+        icon: <FaCreditCard fill="black" />,
+        url: '/products',
+      },
     ],
   },
   {
-    page: 'company',
+    page: 'contact',
     links: [
-      { label: 'about', icon: <FaBriefcase />, url: '/products' },
-      { label: 'customers', icon: <FaBriefcase />, url: '/products' },
+      {
+        label: 'email',
+        icon: <AiOutlineMail fill="#FEC260" />,
+        url: '/contact',
+      },
+      {
+        label: '904-599-3111',
+        icon: <AiOutlinePhone fill="blue" />,
+        url: '#',
+      },
     ],
   },
 ];
