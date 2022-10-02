@@ -10,30 +10,28 @@ const Hero = () => {
     <section className={styles.hero} onMouseOver={closeSubmenu}>
       <div className={styles.hero_center}>
         <article className={styles.hero_info}>
-          <h1 className="font-poppins font-extrabold tracking-tighter text-sky-700">
+          <h1 className="font-poppins font-extrabold tracking-tighter text-cyan-600">
             The Future is Digital.
           </h1>
-          <p className="text-slate-700">
-            Ensure your child does not get left behind by having them learn how
-            to code videogames, websites, web applications and more!
+          <p className="text-cyan-700">
+            Ensure your child doesn&apos;t get left behind by letting them learn
+            how to code webpages, videogames, web applications and more!
           </p>
-          <Link href="/courses">
-            <a
-              className={`${styles.btn} bg-blue-600 text-white font-medium 
-              hover:scale-105 
-              hover:bg-blue-700 
-              active:bg-blue-600`}
-            >
-              All Courses &rarr;
-            </a>
-          </Link>
+          <div className="inline-block hover:scale-110 transition ease-linear delay-300 active:scale-100">
+            <Link href="/courses">
+              <a
+                className={`${styles.btn} bg-cyan-600 text-white font-medium 
+             
+              hover:bg-cyan-700 
+              active:bg-cyan-600`}
+              >
+                All Courses &rarr;
+              </a>
+            </Link>
+          </div>
         </article>
         <article className={styles.hero_images}>
-          <img
-            className={styles.phone_img}
-            src="https://education.planeteersgame.com/wp-content/uploads/2017/05/Coding_Image_Top.jpg"
-            alt=""
-          />
+          <img src="/images/hero-bg.png" alt="" />
         </article>
       </div>
     </section>

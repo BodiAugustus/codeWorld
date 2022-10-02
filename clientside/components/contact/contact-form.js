@@ -81,14 +81,30 @@ function ContactForm() {
       message: requestError,
     };
   }
-
+  // .contact {
+  //   margin: var(--size-8) auto;
+  //   border-radius: 6px;
+  //   background-color: var(--color-grey-100);
+  //   width: 90%;
+  //   max-width: 50rem;
+  //   padding: var(--size-4);
+  //   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  //   font-size: var(--size-6);
+  // }
   return (
-    <section className={styles.contact}>
-      <h1>How can I help you?</h1>
-      <form onSubmit={sendMessageHandler} className={styles.form}>
-        <div className={styles.controls}>
-          <div className={styles.control}>
-            <label htmlFor="email">Your email</label>
+    <section className="pb-8 mx-auto rounded-lg bg-emerald-400 w-[100%] max-w-[30rem] p-4 shadow-lg text-lg">
+      <h3 className="mb-4 font-bold tracking-tight text-center">
+        Send us a Message!
+      </h3>
+      <form
+        onSubmit={sendMessageHandler}
+        className="font-poppins p-1 rounded-md w-[100%] border-2 border-sky-600 "
+      >
+        <div className="flex gap-4 flex-wrap">
+          <div className=" min-w-[10rem] p-2 flex">
+            <label className="font-bold" htmlFor="email">
+              Your email:
+            </label>
             <input
               type="email"
               name=""
@@ -96,22 +112,29 @@ function ContactForm() {
               required
               value={enteredEmail}
               onChange={e => setEnteredEmail(e.target.value)}
+              className="font-family-inherit  p-1 m-1 rounded-md w-[90%] border-1 border-stone-200 bg-white"
+              placeholder="Insert email here"
             />
           </div>
-          <div className={styles.control}>
-            <label htmlFor="name">Your name</label>
+
+          <div className="flex-1 min-w-[10rem] p-2">
+            <label className="font-bold" htmlFor="name">
+              Your name:
+            </label>
             <input
               type="text"
               name=""
               id="name"
               required
               value={enteredName}
-              onChange={e => setEnteredName(e.target.value)}
+              onChanfont-poppinsge={e => setEnteredName(e.target.value)}
             />
           </div>
         </div>
-        <div className={styles.control}>
-          <label htmlFor="message">Your message</label>
+        <div className="flex-1 min-w-[10rem]">
+          <label className="font-bold" htmlFor="message">
+            Your message:
+          </label>
           <textarea
             name=""
             id="message"
@@ -120,6 +143,7 @@ function ContactForm() {
             required
             value={enteredMessage}
             onChange={e => setEnteredMessage(e.target.value)}
+            className="bg-white"
           ></textarea>
         </div>
         <div className={styles.actions}>

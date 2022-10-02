@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React, { useState, useRef, useEffect } from 'react';
 import { useGlobalContext } from 'store/context';
 
@@ -36,10 +37,12 @@ const Submenu = () => {
         {links.map((link, i) => {
           const { label, icon, url } = link;
           return (
-            <a href={url} key={i}>
-              {icon}
-              {label}
-            </a>
+            <Link key={i} href={url}>
+              <a>
+                {icon}
+                {label}
+              </a>
+            </Link>
           );
         })}
       </div>

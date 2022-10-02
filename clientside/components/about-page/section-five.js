@@ -1,11 +1,8 @@
-import styles from './section-three.module.css';
-import revealSections from '@helpers/reveal-sections';
+import styles from './section-two.module.css';
 
-function SectionThree() {
-  revealSections();
-
+function SectionFive() {
   return (
-    <div className="grid grid-cols-2 text-center section">
+    <div className="grid grid-cols-2 text-center">
       <div className="pt-32 px-10">
         <span className="bg-blue-200 rounded-lg px-2 py-1 opacity-70 text-sky-600 text-sm mr-36 ">
           KEEP KIDS ENGAGED
@@ -27,7 +24,7 @@ function SectionThree() {
         <div className={styles.inner}>
           <figure>
             <img
-              src="https://www.tynker.com/image/content/coding-for-kids-the-why-and-how/coding-made-easy.png"
+              src="https://www.preface.ai/blog/wp-content/uploads/2021/04/coding-kids-preface1-scaled.jpg"
               alt=""
             />
           </figure>
@@ -37,4 +34,4 @@ function SectionThree() {
   );
 }
 
-export default SectionThree;
+export default SectionFive;

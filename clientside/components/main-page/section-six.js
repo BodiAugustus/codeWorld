@@ -1,17 +1,17 @@
-import styles from './section-three.module.css';
+import styles from './section-six.module.css';
 import revealSections from '@helpers/reveal-sections';
 
-function SectionThree() {
+function SectionSix() {
   revealSections();
 
   return (
     <div className="grid grid-cols-2 text-center section">
-      <div className="pt-32 px-10">
-        <span className="bg-blue-200 rounded-lg px-2 py-1 opacity-70 text-sky-600 text-sm mr-36 ">
-          KEEP KIDS ENGAGED
+      <div className="pt-32 px-10 relative">
+        <span className="bg-blue-200 rounded-lg px-2 py-1 opacity-70 text-sky-600 text-sm absolute left-[12%] top-[20%]">
+          iNDIVDUAL ATTENTION
         </span>
         <h2 className="font-poppins font-extrabold mt-4 tracking-tight">
-          <span className="text-blue-600">FUN</span> CODING
+          <span className="text-blue-600">SMALL</span> CLASS SIZES
         </h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nemo
@@ -26,10 +26,7 @@ function SectionThree() {
       <div className={styles.wrapper}>
         <div className={styles.inner}>
           <figure>
-            <img
-              src="https://www.tynker.com/image/content/coding-for-kids-the-why-and-how/coding-made-easy.png"
-              alt=""
-            />
+            <img src="/images/main-img-3.webp" alt="" />
           </figure>
         </div>
       </div>
@@ -37,4 +34,4 @@ function SectionThree() {
   );
 }
 
-export default SectionThree;
+export default SectionSix;

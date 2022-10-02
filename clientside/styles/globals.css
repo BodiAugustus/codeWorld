@@ -28,3 +28,97 @@ a {
     background: black;
   }
 }
+.gradient {
+  background: hsla(217, 100%, 50%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(217, 100%, 50%, 1) 0%,
+    hsla(186, 100%, 69%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(217, 100%, 50%, 1) 0%,
+    hsla(186, 100%, 69%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(217, 100%, 50%, 1) 0%,
+    hsla(186, 100%, 69%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
+}
+
+.gradient2 {
+  background: hsla(145, 84%, 73%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(145, 84%, 73%, 1) 0%,
+    hsla(150, 61%, 48%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(145, 84%, 73%, 1) 0%,
+    hsla(150, 61%, 48%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(145, 84%, 73%, 1) 0%,
+    hsla(150, 61%, 48%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#82F4B1", endColorstr="#30C67C", GradientType=1 );
+}
+
+.gradient3 {
+  background: hsla(33, 100%, 53%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(33, 100%, 53%, 1) 0%,
+    hsla(58, 100%, 68%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(33, 100%, 53%, 1) 0%,
+    hsla(58, 100%, 68%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(33, 100%, 53%, 1) 0%,
+    hsla(58, 100%, 68%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF930F", endColorstr="#FFF95B", GradientType=1 );
+}
+.container {
+  width: 90vw;
+  margin: 5rem auto;
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  padding: 2.5rem 2rem;
+  max-width: var(--fixed-width);
+  display: grid;
+  gap: 1rem 2rem;
+}
+.container h3 {
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.section {
+  transition: transform 1s, opacity 1s;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}

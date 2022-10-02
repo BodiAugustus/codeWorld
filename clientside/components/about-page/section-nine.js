@@ -1,12 +1,10 @@
-import styles from './section-five.module.css';
-import revealSections from '@helpers/reveal-sections';
+import styles from './section-nine.module.css';
 
-function SectionFive() {
-  revealSections();
+function SectionNine() {
   return (
-    <div className="relative overflow-hidden ">
-      <div className={`${styles.img_div} flex flex-col section`}>
-        <h2 className="  text-white relative font-extrabold tracking-tight ">
+    <div className="relative overflow-hidden">
+      <div className={`${styles.img_div} flex flex-col`}>
+        <h2 className="  text-white relative font-extrabold tracking-tight">
           JOIN CODE WORLD TODAY
         </h2>
         <p className="relative text-slate-300 text-xl">
@@ -20,4 +18,4 @@ function SectionFive() {
   );
 }
 
-export default SectionFive;
+export default SectionNine;

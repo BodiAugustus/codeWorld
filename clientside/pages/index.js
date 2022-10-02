@@ -9,6 +9,7 @@ import SectionTwo from '@components/main-page/section-two';
 import SectionThree from '@components/main-page/section-three';
 import SectionFour from '@components/main-page/section-four';
 import SectionFive from '@components/main-page/section-five';
+import SectionSix from '@components/main-page/section-six';
 
 function HomePage(props) {
   return (
@@ -25,6 +26,7 @@ function HomePage(props) {
       <SectionTwo />
       <SectionThree />
       <SectionFour />
+      <SectionSix />
       <SectionFive />
       <NewsletterRegistration />
       <CourseList items={props.courses} />

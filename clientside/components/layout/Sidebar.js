@@ -4,6 +4,7 @@ import sublinks from '../../data';
 import styles from './Sidebar.module.css';
 
 import { useGlobalContext } from 'store/context';
+import Link from 'next/link';
 const Sidebar = () => {
   const { isSidebarOpen, closeSidebar } = useGlobalContext();
   return (
@@ -26,10 +27,12 @@ const Sidebar = () => {
                   {links.map((link, index) => {
                     const { url, icon, label } = link;
                     return (
-                      <a key={index} href={url}>
-                        {icon}
-                        {label}
-                      </a>
+                      <Link key={index} href={url}>
+                        <a onClick={closeSidebar} key={index}>
+                          {icon}
+                          {label}
+                        </a>
+                      </Link>
                     );
                   })}
                 </div>

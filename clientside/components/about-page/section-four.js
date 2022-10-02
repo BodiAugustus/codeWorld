@@ -1,14 +1,15 @@
 import styles from './section-four.module.css';
-import revealSections from '@helpers/reveal-sections';
 
 function SectionFour() {
-  revealSections();
   return (
-    <div className="grid grid-cols-2 text-center section">
+    <div className="grid grid-cols-2 text-center">
       <div className={styles.wrapper}>
         <div className={styles.inner}>
           <figure>
-            <img src="/images/main-img-1.webp" alt="" />
+            <img
+              src="https://www.preface.ai/blog/wp-content/uploads/2021/04/coding-kids-preface1-scaled.jpg"
+              alt=""
+            />
           </figure>
         </div>
       </div>

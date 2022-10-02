@@ -5,6 +5,7 @@ import '@styles/index.css';
 
 import { NotificationContextProvider } from 'store/notification-context';
 import { AppProvider } from '../store/context';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -23,7 +24,9 @@ function MyApp({ Component, pageProps }) {
             />
           </Head>
 
-          <Component {...pageProps} c />
+          <ParallaxProvider scrollAxis="vertical">
+            <Component {...pageProps} c />
+          </ParallaxProvider>
         </Layout>
       </AppProvider>
     </NotificationContextProvider>

@@ -1,6 +1,7 @@
 import classes from './newsletter-registration.module.css';
 import { useRef, useContext } from 'react';
 import NotificationContext from 'store/notification-context';
+import revealSections from '@helpers/reveal-sections';
 
 function NewsletterRegistration() {
   const emailInputRef = useRef();
@@ -53,7 +54,7 @@ function NewsletterRegistration() {
   }
 
   return (
-    <div>
+    <div className="section">
       <h2 className="max-w-[600px] text-center mx-auto pt-12 -mb-5">
         Sign up for our newsletter to stay updated!
       </h2>

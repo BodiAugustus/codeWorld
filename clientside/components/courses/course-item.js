@@ -20,8 +20,16 @@ function CourseItem(props) {
   const exploreLink = `/courses/${id}`;
 
   return (
-    <li className={styles.item}>
-      <Image src={'/' + image} alt={title} width={250} height={160} />
+    <li className={`${styles.item} `}>
+      <div className="relative w-64 h-44 ">
+        <Image
+          src={'/' + image}
+          alt={title}
+          layout="fill"
+          width={220}
+          height={240}
+        />
+      </div>
       <div className={styles.content}>
         <div className={styles.summary}>
           <h2>{title}</h2>
@@ -35,12 +43,14 @@ function CourseItem(props) {
           </div>
         </div>
         <div className={styles.actions}>
-          <Button link={exploreLink}>
-            <span> Explore Ecent</span>
-            <span className={styles.icon}>
-              <ArrowIcon />
-            </span>
-          </Button>
+          <Link href={exploreLink}>
+            <Button>
+              <span> Explore Ecent</span>
+              <span className={styles.icon}>
+                <ArrowIcon />
+              </span>
+            </Button>
+          </Link>
         </div>
       </div>
     </li>
