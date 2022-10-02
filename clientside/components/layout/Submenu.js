@@ -38,7 +38,7 @@ const Submenu = () => {
           const { label, icon, url } = link;
           return (
             <Link key={i} href={url}>
-              <a>
+              <a className="hover:text-emerald-400 active:text-emerald-600">
                 {icon}
                 {label}
               </a>

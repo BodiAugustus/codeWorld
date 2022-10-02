@@ -5,7 +5,7 @@ function CourseSummary(props) {
 
   return (
     <section className={classes.summary}>
-      <h1>{title}</h1>
+      <h1 className="tracking-tight">{title}</h1>
     </section>
   );
 }

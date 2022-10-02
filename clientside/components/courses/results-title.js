@@ -11,7 +11,9 @@ function ResultsTitle(props) {
 
   return (
     <section className={styles.title}>
-      <h1>Classes in {humanReadableDate}</h1>
+      <h1 className="tracking-tight mt-20 mb-10">
+        Classes in {humanReadableDate}
+      </h1>
       <Button link="/courses">Show all classes</Button>
     </section>
   );

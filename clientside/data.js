@@ -6,7 +6,7 @@ import { FcInfo } from 'react-icons/fc';
 import { GrReactjs } from 'react-icons/gr';
 import { GiMagnifyingGlass } from 'react-icons/gi';
 import React from 'react';
-import Link from 'next/link';
+
 const sublinks = [
   {
     page: 'courses',
@@ -39,7 +39,7 @@ const sublinks = [
       { label: 'about', icon: <FcInfo />, url: '/about' },
       {
         label: 'FAQ',
-        icon: <GiMagnifyingGlass fill="purple" />,
+        icon: <GiMagnifyingGlass fill="green" />,
         url: '/faq',
       },
 

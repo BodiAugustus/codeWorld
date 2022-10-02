@@ -92,16 +92,16 @@ function ContactForm() {
   //   font-size: var(--size-6);
   // }
   return (
-    <section className="pb-8 mx-auto rounded-lg bg-emerald-400 w-[100%] max-w-[30rem] p-4 shadow-lg text-lg">
+    <section className="pb-8 mx-auto rounded-lg bg-emerald-400 w-[100%] max-w-[30rem] p-4 shadow-lg text-lg text-white">
       <h3 className="mb-4 font-bold tracking-tight text-center">
         Send us a Message!
       </h3>
       <form
         onSubmit={sendMessageHandler}
-        className="font-poppins p-1 rounded-md w-[100%] border-2 border-sky-600 "
+        className="font-poppins p-1 rounded-md w-[100%] border-2 border-emerald-200  "
       >
-        <div className="flex gap-4 flex-wrap">
-          <div className=" min-w-[10rem] p-2 flex">
+        <div className="">
+          <div className="flex-1 min-w-[10rem] p-2 ">
             <label className="font-bold" htmlFor="email">
               Your email:
             </label>
@@ -112,7 +112,7 @@ function ContactForm() {
               required
               value={enteredEmail}
               onChange={e => setEnteredEmail(e.target.value)}
-              className="font-family-inherit  p-1 m-1 rounded-md w-[90%] border-1 border-stone-200 bg-white"
+              className="font-family-inherit  p-1 m-1 rounded-md w-[95%] border-1 text-black outline-none border-stone-200 bg-white"
               placeholder="Insert email here"
             />
           </div>
@@ -127,27 +127,31 @@ function ContactForm() {
               id="name"
               required
               value={enteredName}
-              onChanfont-poppinsge={e => setEnteredName(e.target.value)}
+              onChange={e => setEnteredName(e.target.value)}
+              className="font-family-inherit  p-1 m-1 rounded-md w-[95%] border-1 text-black outline-none border-stone-200 bg-white"
+              placeholder="Insert name here"
             />
           </div>
         </div>
-        <div className="flex-1 min-w-[10rem]">
-          <label className="font-bold" htmlFor="message">
+        <div className="flex-1 flex-col min-w-[10rem]">
+          <label className="font-bold ml-2" htmlFor="message">
             Your message:
           </label>
           <textarea
             name=""
             id="message"
-            cols="30"
             rows="5"
             required
             value={enteredMessage}
             onChange={e => setEnteredMessage(e.target.value)}
-            className="bg-white"
+            className="font-family-inherit  p-1 m-1 rounded-md w-[90%] ml-[1rem] border-1 border-stone-200 bg-white text-black outline-none"
+            placeholder="Insert message here"
           ></textarea>
         </div>
         <div className={styles.actions}>
-          <button>Send Message</button>
+          <button className="bg-white text-emerald-400 px-2 py-1 rounded-lg m-4  mr-6 hover:bg-emerald-300 hover:text-white active:bg-white active:text-emerald-400 transition-all .3s ease-linear ">
+            Send Message
+          </button>
         </div>
       </form>
       {notificationData && (

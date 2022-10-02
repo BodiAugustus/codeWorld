@@ -8,16 +8,22 @@ const Question = ({ title, info }) => {
       <header>
         <h4 className="font-bold">{title}</h4>
         {seeMore ? (
-          <button onClick={() => setSeeMore(!seeMore)} className={styles.btn}>
+          <button
+            onClick={() => setSeeMore(!seeMore)}
+            className={`${styles.btn} transition-all .3 linear`}
+          >
             <AiOutlineMinus fill="red" />
           </button>
         ) : (
-          <button onClick={() => setSeeMore(!seeMore)} className={styles.btn}>
-            <AiOutlinePlus fill="blue" />
+          <button
+            onClick={() => setSeeMore(!seeMore)}
+            className={`${styles.btn} transition-all .3 linear`}
+          >
+            <AiOutlinePlus fill="green" />
           </button>
         )}
       </header>
-      <p>{seeMore && info}</p>
+      <p className="transition-all .3 linear ">{seeMore && info}</p>
     </article>
   );
 };
