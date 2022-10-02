@@ -71,7 +71,7 @@ function NewComment(props) {
         ></textarea>
       </div>
       {isInvalid && <p>Please enter a valid email address and comment!</p>}
-      <button>Submit</button>
+      <button className={classes.cmtBtn}>Submit</button>
     </form>
   );
 }

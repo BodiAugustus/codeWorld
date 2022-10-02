@@ -6,18 +6,18 @@ function SectionSix() {
 
   return (
     <div className="grid grid-cols-2 text-center section">
-      <div className="pt-32 px-10 relative">
-        <span className="bg-blue-200 rounded-lg px-2 py-1 opacity-70 text-sky-600 text-sm absolute left-[12%] top-[20%]">
-          iNDIVDUAL ATTENTION
+      <div className="pt-32 px-10 relative font-poppins">
+        <span className="bg-blue-200 rounded-lg px-2 py-1 opacity-70 text-sky-600 text-sm mr-[16.5rem]">
+          INDIVDUAL ATTENTION
         </span>
         <h2 className="font-poppins font-extrabold mt-4 tracking-tight">
           <span className="text-blue-600">SMALL</span> CLASS SIZES
         </h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nemo
-          sit repellat iusto, quisquam aut quos cum repellendus voluptates a?
-          Assumenda, ut, magnam, est obcaecati laborum delectus quis odio
-          perspiciatis dolore ullam quas eaque? Porro!
+        <p className="w-[80%] mx-auto text-lg">
+          With a maximum class size of only eight students, you can be sure that
+          your child is getting the right amount of direct attention and
+          instruction needed to excel in becoming a future computer programmer
+          and software engineer.
         </p>
         <button className="px-4 py-2 text-2xl bg-blue-600 text-white font-bold rounded-md hover:bg-blue-700 hover:scale-105 transition-all .3 linear active:bg-blue-600 active:scale-100">
           Enroll Now!

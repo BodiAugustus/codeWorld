@@ -28,7 +28,13 @@ function Notification(props) {
   return ReactDOM.createPortal(
     <div className={activeClasses} onClick={notificationCtx.hideNotification}>
       <h2>{title}</h2>
-      <p>{message}</p>
+      <p
+        className={`${
+          status === 'error' ? 'text-red-600 pt-3' : 'text-white pt-3'
+        }`}
+      >
+        {message}
+      </p>
     </div>,
     document.getElementById('notifications')
   );

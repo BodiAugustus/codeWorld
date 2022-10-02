@@ -29,6 +29,7 @@
 
 .control input,
 .control textarea {
+  outline: none;
   font: inherit;
   padding: 0.25rem;
   border-radius: 4px;
@@ -37,6 +38,6 @@
   background-color: #dcfff9;
 }
 
-.form button {
+.cmtBtn {
   background-color: white;
 }

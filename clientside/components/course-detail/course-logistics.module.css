@@ -23,8 +23,6 @@
 }
 
 .image img {
-  width: 10rem;
-  height: 10rem;
   object-fit: cover;
 }
 
@@ -56,8 +54,6 @@
   }
 
   .image img {
-    width: 20rem;
-    height: 20rem;
   }
 
   .list {

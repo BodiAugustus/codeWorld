@@ -21,14 +21,8 @@ function CourseItem(props) {
 
   return (
     <li className={`${styles.item} `}>
-      <div className="relative w-64 h-44 ">
-        <Image
-          src={'/' + image}
-          alt={title}
-          layout="fill"
-          width={220}
-          height={240}
-        />
+      <div className="relative w-64 h-48 mt-2 ">
+        <Image src={'/' + image} alt={title} layout="fill" />
       </div>
       <div className={styles.content}>
         <div className={styles.summary}>
@@ -45,10 +39,12 @@ function CourseItem(props) {
         <div className={styles.actions}>
           <Link href={exploreLink}>
             <Button>
-              <span> Explore Ecent</span>
-              <span className={styles.icon}>
-                <ArrowIcon />
-              </span>
+              <div className="flex">
+                <span>Course Details</span>
+                <span className={styles.icon}>
+                  <ArrowIcon />
+                </span>
+              </div>
             </Button>
           </Link>
         </div>

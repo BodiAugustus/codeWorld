@@ -32,7 +32,7 @@ function CourseDetailPage(props) {
 
         <meta
           name="Course page"
-          content="Shows all of the information for a specific course."
+          content="Shows all of the information for a specific coding course."
         />
       </Head>
       <Sidebar />

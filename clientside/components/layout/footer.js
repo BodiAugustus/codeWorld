@@ -32,9 +32,9 @@ function Footer() {
         </Link>
       </div>
 
-      <div className="mr-5">
-        <p className="m-0 mt-3">Code World &#169; {year}</p>
-        <p>All Rights Reserved</p>
+      <div className="mr-5 ">
+        <p className="m-0 mt-3 text-emerald-500">Code World &#169; {year}</p>
+        <p className="text-emerald-500">All Rights Reserved</p>
       </div>
     </div>
   );

@@ -9,7 +9,7 @@ function SectionFive() {
         <h2 className="  text-white relative font-extrabold tracking-tight ">
           JOIN CODE WORLD TODAY
         </h2>
-        <p className="relative text-slate-300 text-xl">
+        <p className="relative text-slate-100 text-xl">
           Unlock your childs path to a brighter future!
         </p>
         <button className="px-4 py-4 cursor-pointer bg-emerald-600 rounded-lg font-bold  text-white text-xl relative transition-all .3 linear hover:bg-emerald-500 hover:scale-105 active:bg-emerald-600 active:scale-100">

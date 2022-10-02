@@ -12,18 +12,20 @@ function SectionFour() {
           </figure>
         </div>
       </div>
-      <div className="pt-32 px-10">
-        <span className="bg-blue-200 rounded-lg px-2 py-1 opacity-70 text-sky-600 text-sm mr-96 ">
-          AGES 7 TO 14
+      <div className="pt-20 px-10 font-poppins">
+        <span className="bg-blue-200 rounded-xl px-2 py-1 opacity-70 text-sky-600 text-sm mr-[21rem] ">
+          AGES 8 TO 15
         </span>
         <h2 className="font-poppins font-extrabold mt-4 tracking-tight">
           FROM BEGINNER TO <span className="text-blue-600">EXPERT</span>
         </h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nemo
-          sit repellat iusto, quisquam aut quos cum repellendus voluptates a?
-          Assumenda, ut, magnam, est obcaecati laborum delectus quis odio
-          perspiciatis dolore ullam quas eaque? Porro!
+        <p className="w-[80%] mx-auto text-lg">
+          Our curriculum is guaranteed to take your child from novice to wizard
+          utilizing the latest technologies and methods. Your child will learn
+          all of the skills required to create their own online based
+          businesses, find high-paying professional opportunities right out of
+          high school, or else secure easy recruitment into highly favorable
+          university computer science programs and research opportunities.
         </p>
         <button className="px-4 py-2 text-2xl bg-blue-600 text-white font-bold rounded-md hover:bg-blue-700 hover:scale-105 transition-all .3 linear active:bg-blue-600 active:scale-100">
           Learn More &rarr;

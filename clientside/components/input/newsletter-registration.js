@@ -1,7 +1,6 @@
 import classes from './newsletter-registration.module.css';
 import { useRef, useContext } from 'react';
 import NotificationContext from 'store/notification-context';
-import revealSections from '@helpers/reveal-sections';
 
 function NewsletterRegistration() {
   const emailInputRef = useRef();
@@ -11,10 +10,11 @@ function NewsletterRegistration() {
     event.preventDefault();
 
     const enteredEmail = emailInputRef.current.value;
+    emailInputRef.current.value = '';
 
     notificationCtx.showNotification({
       title: 'Signing up...',
-      message: 'Registering for newsletter!',
+      message: 'Registering for the newsletter...',
       status: 'pending',
     });
 
@@ -38,7 +38,7 @@ function NewsletterRegistration() {
       .then(data => {
         notificationCtx.showNotification({
           title: 'Success!',
-          message: 'Successfully registered for newsletter!',
+          message: 'Successfully registered for the newsletter!',
           status: 'success',
         });
       })
@@ -55,7 +55,7 @@ function NewsletterRegistration() {
 
   return (
     <div className="section">
-      <h2 className="max-w-[600px] text-center mx-auto pt-12 -mb-5">
+      <h2 className="max-w-[700px] text-center mx-auto pt-12 -mb-5 font-extrabold tracking-tight font-poppins uppercase">
         Sign up for our newsletter to stay updated!
       </h2>
       <section className={classes.newsletter}>
@@ -66,8 +66,8 @@ function NewsletterRegistration() {
               id="email"
               required
               minLength={5}
-              maxLength={40}
-              placeholder="Your email"
+              maxLength={50}
+              placeholder="Your email here"
               aria-label="Your email"
               ref={emailInputRef}
             />
