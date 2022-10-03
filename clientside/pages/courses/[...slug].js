@@ -108,7 +108,7 @@ function FilteredCoursesPage(props) {
       <>
         {pageHeadData}
         <ErrorAlert>
-          <p>No classes found for those settings!</p>
+          <p className="text-emerald-100">No classes found for those dates!</p>
         </ErrorAlert>
         <Button link="/courses">Back to all classes</Button>
       </>

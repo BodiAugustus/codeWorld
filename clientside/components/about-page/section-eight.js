@@ -1,32 +1,28 @@
 import styles from './section-two.module.css';
-
+import revealSections from '@helpers/reveal-sections';
 function SectionEight() {
+  revealSections();
   return (
-    <div className="grid grid-cols-2 text-center">
-      <div className="pt-32 px-10">
-        <span className="bg-blue-200 rounded-lg px-2 py-1 opacity-70 text-sky-600 text-sm mr-36 ">
-          KEEP KIDS ENGAGED
-        </span>
+    <div className="grid grid-cols-2 text-center section">
+      <div className="pt-20 px-10">
         <h2 className="font-poppins font-extrabold mt-4 tracking-tight">
-          <span className="text-blue-600">FUN</span> CODING
+          <span className="text-blue-600">BUILDING</span> STRONG COMMUNITIES
         </h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nemo
-          sit repellat iusto, quisquam aut quos cum repellendus voluptates a?
-          Assumenda, ut, magnam, est obcaecati laborum delectus quis odio
-          perspiciatis dolore ullam quas eaque? Porro!
+        <p className="text-lg w-[70%] mx-auto">
+          We pride ourselves in partnering with entrepreneurs to boost STEM
+          education in communities across the country through our
+          state-of-the-art learning centers.
         </p>
-        <button className="px-4 py-2 text-2xl bg-blue-600 text-white font-bold rounded-md hover:bg-blue-700 hover:scale-105 transition-all .3 linear active:bg-blue-600 active:scale-100">
-          Enroll Now!
-        </button>
+        <p className="text-lg w-[70%] mx-auto">
+          For our franchise owners, Code Ninjas offers the invaluable
+          opportunity of a meaningful career path that positively impacts and
+          strengthens their communities.
+        </p>
       </div>
       <div className={styles.wrapper}>
-        <div className={styles.inner}>
+        <div>
           <figure>
-            <img
-              src="http://thecodewiz.com/static/media/franchisehomepage.f138e455.webp"
-              alt=""
-            />
+            <img className="rounded-lg" src="/images/aboutimg5.jpg" alt="" />
           </figure>
         </div>
       </div>

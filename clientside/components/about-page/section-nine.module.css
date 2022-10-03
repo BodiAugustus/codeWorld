@@ -21,7 +21,7 @@
 
 .img_div::before {
   content: '';
-  background-image: url('https://pakwired.com/wp-content/uploads/2019/07/kids-can-code.jpg');
+  background-image: url('/images/aboutimg6.jpg');
   background-size: cover;
   position: absolute;
   top: 0px;

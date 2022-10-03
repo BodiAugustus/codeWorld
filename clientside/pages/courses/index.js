@@ -29,8 +29,11 @@ function AllCoursesPage(props) {
       </Head>
       <Sidebar />
       <Submenu />
-      <CoursesSearch onSearch={handleFindCourses} />
       <div onMouseOver={closeSubmenu}>
+        <CoursesSearch
+          onMouseOver={closeSubmenu}
+          onSearch={handleFindCourses}
+        />
         <CourseList items={courses} />
       </div>
     </div>

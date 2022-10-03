@@ -1,32 +1,30 @@
 import styles from './section-two.module.css';
-
+import revealSections from '@helpers/reveal-sections';
 function SectionFive() {
+  revealSections();
   return (
-    <div className="grid grid-cols-2 text-center">
-      <div className="pt-32 px-10">
-        <span className="bg-blue-200 rounded-lg px-2 py-1 opacity-70 text-sky-600 text-sm mr-36 ">
-          KEEP KIDS ENGAGED
-        </span>
+    <div className="grid grid-cols-2 text-center section">
+      <div className="pt-16 px-10">
         <h2 className="font-poppins font-extrabold mt-4 tracking-tight">
-          <span className="text-blue-600">FUN</span> CODING
+          INVEST IN THEIR
+          <span className="text-blue-600"> FUTURE</span>
         </h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nemo
-          sit repellat iusto, quisquam aut quos cum repellendus voluptates a?
-          Assumenda, ut, magnam, est obcaecati laborum delectus quis odio
-          perspiciatis dolore ullam quas eaque? Porro!
+        <p className="text-lg w-[70%] mx-auto">
+          Technology is advancing at an incredible rate, and we're just getting
+          started. Code World believes that there&apos;s never been a more
+          exciting time to advance our culture - starting with our youngest
+          ones. Every kid deserves the chance to unlock their innate, unlimited
+          capacity to learn.
         </p>
-        <button className="px-4 py-2 text-2xl bg-blue-600 text-white font-bold rounded-md hover:bg-blue-700 hover:scale-105 transition-all .3 linear active:bg-blue-600 active:scale-100">
-          Enroll Now!
-        </button>
+        <p className="text-lg w-[70%] mx-auto">
+          Whether or not they pursue coding as a career, we want to provide kids
+          with the skills that will help them more easily pursue their dreams.
+        </p>
       </div>
       <div className={styles.wrapper}>
-        <div className={styles.inner}>
+        <div>
           <figure>
-            <img
-              src="https://www.preface.ai/blog/wp-content/uploads/2021/04/coding-kids-preface1-scaled.jpg"
-              alt=""
-            />
+            <img className="rounded-lg" src="/images/aboutimg3.jpg" alt="" />
           </figure>
         </div>
       </div>

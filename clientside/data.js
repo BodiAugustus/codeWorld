@@ -39,7 +39,7 @@ const sublinks = [
       { label: 'about', icon: <FcInfo />, url: '/about' },
       {
         label: 'FAQ',
-        icon: <GiMagnifyingGlass fill="green" />,
+        icon: <GiMagnifyingGlass fill="gray" />,
         url: '/faq',
       },
 

@@ -1,10 +1,12 @@
 import { useParallax } from 'react-scroll-parallax';
 import { useRef } from 'react';
 import Image from 'next/image';
-import Button from '@components/ui/button';
+import revealSections from '@helpers/reveal-sections';
 import styles from './parallax.module.css';
+import Link from 'next/link';
 
 function Parallax() {
+  revealSections();
   const target = useRef(null);
   const train = useParallax({
     speed: 500,
@@ -21,17 +23,22 @@ function Parallax() {
   });
   return (
     <div ref={target} className="w-[98vw] ">
-      <div className="relative overflow-hidden">
+      <div className="relative overflow-hidden section">
         <div className={`${styles.img_div} flex flex-col`}>
           <h2 className="  text-white relative font-extrabold tracking-tight">
-            JOIN CODE WORLD TODAY
+            JUMP START YOUR CHILD&apos;S FUTURE
           </h2>
-          <p className="relative text-slate-300 text-xl">
-            Unlock your childs path to a brighter future!
+          <p className="relative text-slate-100 text-xl text-center w-[70%]">
+            Kids learn to code through our engaging project-based curriculum
+            that boosts self-confidence and teaches teamwork, logic, and problem
+            solving. They gain vital skills while having a blast. That's the
+            Code World way!
           </p>
-          <button className="px-4 py-4 cursor-pointer bg-emerald-600 rounded-lg font-bold  text-white text-xl relative transition-all .3 linear hover:bg-emerald-500 hover:scale-105 active:bg-emerald-600 active:scale-100">
-            ENROLL NOW
-          </button>
+          <Link href="/courses">
+            <button className="px-4 py-4 cursor-pointer bg-emerald-400 rounded-lg font-bold  text-white text-xl relative transition-all .3 linear hover:bg-emerald-500 hover:scale-105 active:bg-emerald-600 active:scale-100">
+              ENROLL NOW
+            </button>
+          </Link>
         </div>
       </div>
       <div

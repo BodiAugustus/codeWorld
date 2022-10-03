@@ -46,6 +46,32 @@ function CourseDetailPage(props) {
         />
         <CourseContent>
           <p>{course.description}</p>
+          <p>{course.wsl}</p>
+          <ul>
+            <li>{course.wsl1}</li>
+            <li>{course.wsl2}</li>
+            <li>{course.wsl3}</li>
+            <li>{course.wsl4}</li>
+            <li>{course.wsl5}</li>
+            <li>{course.wsl6}</li>
+            <li>{course.wsl7}</li>
+            <li>{course.wsl8}</li>
+            <li>{course.wsl9}</li>
+            <li>{course.wsl10}</li>
+            <li>{course.wsl11}</li>
+            <li>{course.wsl12}</li>
+            <li>{course.wsl13}</li>
+            <li>{course.wsl14}</li>
+            <li>{course.wsl15}</li>
+          </ul>
+          <p className="pt-8">{course.wsd}</p>
+          <ul>
+            <li>{course.wsd1}</li>
+            <li>{course.wsd2}</li>
+            <li>{course.wsd3}</li>
+            <li>{course.wsd4}</li>
+            <li>{course.wsd5}</li>
+          </ul>
         </CourseContent>
         <Comments courseId={course.id} />
       </div>

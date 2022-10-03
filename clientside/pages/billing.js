@@ -20,13 +20,13 @@ function BillingPage() {
           <div className="mb-12">
             <h2 className="tracking-tighter pt-2">Payments</h2>
             <p>
-              The full monthly payment of 150 USD is required to be paid in full
-              before attending any classes. Payment can be made by cash, credit
-              card, or Ethereum, Bitcoin, or Monero cryptocurrencies. Class
-              seats are booked on a first-come, first-serve basis each month so
-              to ensure your child stays in the same class and time they want
-              please ensure prompt payment is made when reminded at the start of
-              every month or else set up automatic payments using a credit card.
+              Payment of 150 USD is required to be paid in full before attending
+              any classes each month. Payment can be made by cash, credit card,
+              or Ethereum, Bitcoin, or Monero cryptocurrencies. Class seats are
+              booked on a first-come, first-serve basis each month. To help
+              ensure that your child stays in the same class and time slot
+              desired, please ensure that prompt payment is made at the start of
+              every month.
             </p>
           </div>
 
@@ -44,7 +44,7 @@ function BillingPage() {
               If you elect to cancel your monthly membership in the middle of a
               pre-paid period, you can choose to continue to access the classes
               for the remainder of the pre-paid period, or have your access
-              terminated but with no refund or proration of charges
+              terminated but with no refund or proration of any charges
               withstanding.
             </p>
           </div>

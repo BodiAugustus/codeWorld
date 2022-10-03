@@ -1,34 +1,31 @@
 import styles from './section-four.module.css';
-
+import revealSections from '@helpers/reveal-sections';
 function SectionSeven() {
+  revealSections();
   return (
-    <div className="grid grid-cols-2 text-center">
+    <div className="grid grid-cols-2 text-center section">
       <div className={styles.wrapper}>
-        <div className={styles.inner}>
+        <div>
           <figure>
-            <img
-              src="https://www.preface.ai/blog/wp-content/uploads/2021/04/coding-kids-preface1-scaled.jpg"
-              alt=""
-            />
+            <img className="rounded-lg" src="/images/aboutimg4.jpg" alt="" />
           </figure>
         </div>
       </div>
-      <div className="pt-32 px-10">
-        <span className="bg-blue-200 rounded-lg px-2 py-1 opacity-70 text-sky-600 text-sm mr-96 ">
-          AGES 7 TO 14
-        </span>
+      <div className="pt-24 px- text-center">
         <h2 className="font-poppins font-extrabold mt-4 tracking-tight">
-          FROM BEGINNER TO <span className="text-blue-600">EXPERT</span>
+          <span className="text-blue-600">FUN</span> BAKED IN
         </h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nemo
-          sit repellat iusto, quisquam aut quos cum repellendus voluptates a?
-          Assumenda, ut, magnam, est obcaecati laborum delectus quis odio
-          perspiciatis dolore ullam quas eaque? Porro!
+        <p className="w-[70%] mx-auto text-lg">
+          If you love what you&apos;re doing then work doesn't feel like work.
+          That&apos;s why positivity and fun are baked into every aspect of what
+          we do at Code World.
         </p>
-        <button className="px-4 py-2 text-2xl bg-blue-600 text-white font-bold rounded-md hover:bg-blue-700 hover:scale-105 transition-all .3 linear active:bg-blue-600 active:scale-100">
-          Learn More &rarr;
-        </button>
+        <p className="w-[70%] mx-auto text-lg">
+          Our custom made and regularly updated curriculum teaches kids to code
+          by building projects that they both use and love, including complete
+          games and websites. Kids are hardly even aware they&apos;re learning -
+          just having fun!
+        </p>
       </div>
     </div>
   );
