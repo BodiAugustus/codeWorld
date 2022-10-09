@@ -2,12 +2,21 @@ import Sidebar from '@components/layout/Sidebar';
 import Submenu from '@components/layout/Submenu';
 import { useGlobalContext } from 'store/context';
 import revealSections from '@helpers/reveal-sections';
+import Head from 'next/head';
 
 function BillingPage() {
   const { closeSubmenu } = useGlobalContext();
   revealSections();
   return (
     <div className="mt-14">
+      <Head>
+        <title>Billing & Payments</title>
+
+        <meta
+          name="Billing & Payments Page"
+          content="Provides all of the information about billing and payments."
+        />
+      </Head>
       <Sidebar />
       <Submenu />
       <div onMouseOver={closeSubmenu}>

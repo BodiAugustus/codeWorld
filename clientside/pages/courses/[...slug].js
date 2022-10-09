@@ -44,7 +44,7 @@ function FilteredCoursesPage(props) {
 
       <meta
         name="Filtered courses page"
-        content={`A list of filtered courses`}
+        content="Allows for searches to be done in the future to plan for and register for classes."
       />
     </Head>
   );

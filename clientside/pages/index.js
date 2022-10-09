@@ -17,7 +17,10 @@ function HomePage(props) {
       <Head>
         <title>Code 🌎 World</title>
 
-        <meta name="Main screen" content="Give your child a head start!" />
+        <meta
+          name="Main Page"
+          content="Code World main information page for parents and students."
+        />
       </Head>
 
       <Sidebar />

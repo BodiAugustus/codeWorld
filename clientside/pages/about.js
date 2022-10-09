@@ -1,7 +1,7 @@
 import Parallax from '@components/about-page/parallax';
 import SectionEight from '@components/about-page/section-eight';
 import SectionFive from '@components/about-page/section-five';
-
+import Head from 'next/head';
 import SectionFour from '@components/about-page/section-four';
 import SectionNine from '@components/about-page/section-nine';
 import SectionSeven from '@components/about-page/section-seven';
@@ -14,6 +14,14 @@ function AboutPage() {
   const { closeSubmenu } = useGlobalContext();
   return (
     <div>
+      <Head>
+        <title>About</title>
+
+        <meta
+          name="About page"
+          content="Gives more information about what Code World offers and how to sign up for classes."
+        />
+      </Head>
       <Sidebar />
       <Submenu />
       <div onMouseOver={closeSubmenu}>

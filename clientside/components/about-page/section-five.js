@@ -1,5 +1,7 @@
 import styles from './section-two.module.css';
 import revealSections from '@helpers/reveal-sections';
+import Image from 'next/image';
+
 function SectionFive() {
   revealSections();
   return (
@@ -25,7 +27,13 @@ function SectionFive() {
       <div className={styles.wrapper}>
         <div>
           <figure>
-            <img className="rounded-lg" src="/images/aboutimg3.jpg" alt="" />
+            <Image
+              className="rounded-lg"
+              src="/images/aboutimg3.jpg"
+              alt="Code World students"
+              height={400}
+              width={600}
+            />
           </figure>
         </div>
       </div>

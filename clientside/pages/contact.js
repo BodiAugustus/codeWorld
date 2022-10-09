@@ -3,12 +3,21 @@ import Sidebar from '@components/layout/Sidebar';
 import Submenu from '@components/layout/Submenu';
 import { useGlobalContext } from 'store/context';
 import revealSections from '@helpers/reveal-sections';
+import Head from 'next/head';
 
 function ContactPage() {
   const { closeSubmenu } = useGlobalContext();
   revealSections();
   return (
     <div className="bg-slate-200 mt-14 pb-14 font-poppins">
+      <Head>
+        <title>Contact</title>
+
+        <meta
+          name="Contact Us Page"
+          content="Provides an email submission form to reach out with any questions, comments or concerns."
+        />
+      </Head>
       <Sidebar />
       <Submenu />
       <div

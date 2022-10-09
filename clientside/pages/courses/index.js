@@ -23,8 +23,8 @@ function AllCoursesPage(props) {
         <title>Courses</title>
 
         <meta
-          name="Courses page"
-          content="Shows all of the currently offered coding courses."
+          name="All Courses page"
+          content="Shows all of the currently offered coding courses with their dates and times."
         />
       </Head>
       <Sidebar />

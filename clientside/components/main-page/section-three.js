@@ -1,6 +1,7 @@
 import styles from './section-three.module.css';
 import revealSections from '@helpers/reveal-sections';
 import Link from 'next/link';
+import Image from 'next/image';
 
 function SectionThree() {
   revealSections();
@@ -31,7 +32,12 @@ function SectionThree() {
       <div className={styles.wrapper}>
         <div className={styles.inner}>
           <figure>
-            <img src="/images/cw1.png" alt="" />
+            <Image
+              src="/images/cw1.png"
+              alt="Code World student coding"
+              height={400}
+              width={600}
+            />
           </figure>
         </div>
       </div>

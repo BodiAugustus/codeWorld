@@ -5,6 +5,7 @@ import { useState } from 'react';
 import data2 from '../data2';
 import Question from '@components/faq/single-question';
 import revealSections from '@helpers/reveal-sections';
+import Head from 'next/head';
 
 function FaqPage() {
   const { closeSubmenu } = useGlobalContext();
@@ -12,6 +13,14 @@ function FaqPage() {
   revealSections();
   return (
     <div className="section">
+      <Head>
+        <title>FAQs</title>
+
+        <meta
+          name="FAQs page"
+          content="Provides answers to some of the most commonly asked questions about Code World."
+        />
+      </Head>
       <Sidebar />
       <Submenu />
 

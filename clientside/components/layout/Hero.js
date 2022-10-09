@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { useGlobalContext } from 'store/context';
 import styles from './Hero.module.css';
+import Image from 'next/image';
 
 const Hero = () => {
   const { closeSubmenu } = useGlobalContext();
@@ -31,7 +32,12 @@ const Hero = () => {
           </div>
         </article>
         <article className={styles.hero_images}>
-          <img src="/images/hero-bg.png" alt="" />
+          <Image
+            src="/images/hero-bg.png"
+            alt="Code World class"
+            height={400}
+            width={600}
+          />
         </article>
       </div>
     </section>

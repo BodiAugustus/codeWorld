@@ -1,5 +1,7 @@
 import styles from './section-four.module.css';
 import revealSections from '@helpers/reveal-sections';
+import Image from 'next/image';
+
 function SectionFour() {
   revealSections();
   return (
@@ -7,7 +9,13 @@ function SectionFour() {
       <div className={`${styles.wrapper} `}>
         <div>
           <figure>
-            <img className="rounded-lg" src="/images/aboutimg2.webp" alt="" />
+            <Image
+              className="rounded-lg"
+              src="/images/aboutimg2.webp"
+              alt="Code World students"
+              height={400}
+              width={600}
+            />
           </figure>
         </div>
       </div>

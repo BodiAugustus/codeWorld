@@ -1,6 +1,7 @@
 import styles from './section-four.module.css';
 import revealSections from '@helpers/reveal-sections';
 import Link from 'next/link';
+import Image from 'next/image';
 
 function SectionFour() {
   revealSections();
@@ -9,7 +10,12 @@ function SectionFour() {
       <div className={styles.wrapper}>
         <div className={styles.inner}>
           <figure>
-            <img src="/images/main-img-1.webp" alt="" />
+            <Image
+              src="/images/main-img-1.webp"
+              alt="Code World student coding"
+              width={600}
+              height={400}
+            />
           </figure>
         </div>
       </div>

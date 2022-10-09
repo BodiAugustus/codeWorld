@@ -7,7 +7,11 @@ function SectionSeven() {
       <div className={styles.wrapper}>
         <div>
           <figure>
-            <img className="rounded-lg" src="/images/aboutimg4.jpg" alt="" />
+            <img
+              className="rounded-lg"
+              src="/images/aboutimg4.jpg"
+              alt="Code World student and teacher"
+            />
           </figure>
         </div>
       </div>

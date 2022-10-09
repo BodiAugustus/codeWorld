@@ -1,6 +1,7 @@
 import styles from './section-six.module.css';
 import revealSections from '@helpers/reveal-sections';
 import Link from 'next/link';
+import Image from 'next/image';
 
 function SectionSix() {
   revealSections();
@@ -28,7 +29,12 @@ function SectionSix() {
       <div className={styles.wrapper}>
         <div className={styles.inner}>
           <figure>
-            <img src="/images/main-img-3.webp" alt="" />
+            <Image
+              src="/images/main-img-3.webp"
+              alt="Code World students in class"
+              height={400}
+              width={600}
+            />
           </figure>
         </div>
       </div>

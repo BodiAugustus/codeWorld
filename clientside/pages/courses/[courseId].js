@@ -13,6 +13,8 @@ import Comments from '@components/input/comments';
 import Sidebar from '@components/layout/Sidebar';
 import Submenu from '@components/layout/Submenu';
 import { useGlobalContext } from 'store/context';
+import Button from '@components/ui/button';
+import { checkout } from '@helpers/checkout';
 
 function CourseDetailPage(props) {
   const { closeSubmenu } = useGlobalContext();
@@ -31,8 +33,8 @@ function CourseDetailPage(props) {
         <title>{course.title}</title>
 
         <meta
-          name="Course page"
-          content="Shows all of the information for a specific coding course."
+          name="Individual Course page"
+          content="Shows all of the information for a specific coding course including registration."
         />
       </Head>
       <Sidebar />
@@ -46,8 +48,29 @@ function CourseDetailPage(props) {
           time={course.time}
         />
         <CourseContent>
-          <p className="text-[#1C3879]">{course.description}</p>
-          <p className="text-[#1C3879]">{course.wsl}</p>
+          <Button
+            onClick={() => {
+              checkout({
+                lineItems: [
+                  {
+                    price: `${
+                      course.title === 'React'
+                        ? 'price_1LqwniFSa0TezXP7k45XJzss'
+                        : course.title === 'JavaScript'
+                        ? 'price_1Lqwl9FSa0TezXP7IutuJ4od'
+                        : 'price_1Lqts4FSa0TezXP7ICPVzgVl'
+                    }`,
+                    quantity: 1,
+                  },
+                ],
+              });
+            }}
+            className="bg-blue-500 "
+          >
+            Register Now!
+          </Button>
+          <p className="text-[#111] mt-8">{course.description}</p>
+          <p className="text-[#111]">{course.wsl}</p>
           <ul className="font-medium">
             <li>{course.wsl1}</li>
             <li>{course.wsl2}</li>
@@ -65,7 +88,7 @@ function CourseDetailPage(props) {
             <li>{course.wsl14}</li>
             <li>{course.wsl15}</li>
           </ul>
-          <p className="pt-8 text-[#1C3879]">{course.wsd}</p>
+          <p className="pt-8 text-[#111]">{course.wsd}</p>
           <ul className="font-medium">
             <li>{course.wsd1}</li>
             <li>{course.wsd2}</li>
@@ -74,6 +97,29 @@ function CourseDetailPage(props) {
             <li>{course.wsd5}</li>
           </ul>
         </CourseContent>
+        <div className="text-center mt-8 text-2xl">
+          <Button
+            onClick={() => {
+              checkout({
+                lineItems: [
+                  {
+                    price: `${
+                      course.title === 'React'
+                        ? 'price_1LqwniFSa0TezXP7k45XJzss'
+                        : course.title === 'JavaScript'
+                        ? 'price_1Lqwl9FSa0TezXP7IutuJ4od'
+                        : 'price_1Lqts4FSa0TezXP7ICPVzgVl'
+                    }`,
+                    quantity: 1,
+                  },
+                ],
+              });
+            }}
+            className=""
+          >
+            Register Now!
+          </Button>
+        </div>
         <Comments courseId={course.id} />
       </div>
     </>
