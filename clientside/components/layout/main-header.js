@@ -4,6 +4,7 @@ import { useGlobalContext } from 'store/context';
 import { FaBars } from 'react-icons/fa';
 import { GiWorld } from 'react-icons/gi';
 import styles from './main-header.module.css';
+
 function MainHeader() {
   const { openSidebar, openSubmenu, closeSubmenu } = useGlobalContext();
 
@@ -62,11 +63,13 @@ function MainHeader() {
           </ul>
 
           <div className={styles.signin_btn}>
-            <button
-              className={`${styles.btn} bg-sky-600 hover:bg-sky-700 active:bg-sky-600`}
-            >
-              Request Info
-            </button>
+            <Link href="/about">
+              <button
+                className={`${styles.btn} bg-sky-500 hover:bg-sky-400 active:bg-sky-600 active:text-white`}
+              >
+                Learn More
+              </button>
+            </Link>
           </div>
         </div>
       </nav>

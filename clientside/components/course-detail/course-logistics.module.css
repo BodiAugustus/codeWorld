@@ -1,7 +1,7 @@
 .logistics {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
-  background-color: #06283d;
+  background-color: #0f3460;
   padding: 2rem;
   max-width: 50rem;
   width: 80%;
@@ -55,7 +55,7 @@
   }
 
   .image img {
-    object-fit: contain;
+    object-fit: fill;
   }
 
   .list {

@@ -43,11 +43,12 @@ function CourseDetailPage(props) {
           date={course.date}
           address={course.location}
           image={course.image}
+          time={course.time}
         />
         <CourseContent>
-          <p>{course.description}</p>
-          <p>{course.wsl}</p>
-          <ul>
+          <p className="text-[#1C3879]">{course.description}</p>
+          <p className="text-[#1C3879]">{course.wsl}</p>
+          <ul className="font-medium">
             <li>{course.wsl1}</li>
             <li>{course.wsl2}</li>
             <li>{course.wsl3}</li>
@@ -64,8 +65,8 @@ function CourseDetailPage(props) {
             <li>{course.wsl14}</li>
             <li>{course.wsl15}</li>
           </ul>
-          <p className="pt-8">{course.wsd}</p>
-          <ul>
+          <p className="pt-8 text-[#1C3879]">{course.wsd}</p>
+          <ul className="font-medium">
             <li>{course.wsd1}</li>
             <li>{course.wsd2}</li>
             <li>{course.wsd3}</li>

@@ -3,11 +3,12 @@ import Image from 'next/image';
 import Button from '../ui/button';
 import styles from './course-item.module.css';
 import DateIcon from '../icons/date-icon';
-import AddressIcon from '../icons/address-icon';
+// import AddressIcon from '../icons/address-icon';
 import ArrowIcon from '../icons/arrow-right-icon';
+import { BsClock } from 'react-icons/bs';
 
 function CourseItem(props) {
-  const { title, image, date, location, id } = props;
+  const { title, image, date, location, id, time } = props;
 
   const humanReadableDate = new Date(date).toLocaleDateString('en-US', {
     day: 'numeric',
@@ -15,7 +16,7 @@ function CourseItem(props) {
     year: 'numeric',
   });
 
-  const formattedAddress = location.replace(', ', '\n');
+  // const formattedAddress = location.replace(', ', '\n');
 
   const exploreLink = `/courses/${id}`;
 
@@ -26,14 +27,14 @@ function CourseItem(props) {
       </div>
       <div className={styles.content}>
         <div className={styles.summary}>
-          <h2>{title}</h2>
+          <h2 className="tracking-tight">{title}</h2>
           <div className={styles.date}>
             <DateIcon />
             <time>{humanReadableDate}</time>
           </div>
           <div className={styles.address}>
-            <AddressIcon />
-            <address>{formattedAddress}</address>
+            <BsClock />
+            <address>{time}</address>
           </div>
         </div>
         <div className={styles.actions}>

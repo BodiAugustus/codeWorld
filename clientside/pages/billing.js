@@ -22,11 +22,11 @@ function BillingPage() {
             <p>
               Payment of 150 USD is required to be paid in full before attending
               any classes each month. Payment can be made by cash, credit card,
-              or Ethereum, Bitcoin, or Monero cryptocurrencies. Class seats are
-              booked on a first-come, first-serve basis each month. To help
-              ensure that your child stays in the same class and time slot
-              desired, please ensure that prompt payment is made at the start of
-              every month.
+              or Monero, Ethereum, Bitcoin, or Fantom cryptocurrencies. There is
+              a 15% discount when paying with Monero. Class seats are booked on
+              a first-come, first-serve basis each month. To help ensure that
+              your child stays in the same class and time slot desired, please
+              ensure that prompt payment is made at the start of every month.
             </p>
           </div>
 
@@ -34,18 +34,20 @@ function BillingPage() {
             <h2 className="tracking-tighter ">Refunds and Cancellations</h2>
             <p>
               You will not be entitled to refunds for a purchased monthly
-              membership which you elect to cancel. Our coding center uses
-              student registrations to predict and obtain the resources needed
-              to provide the required services to our students. Therefore,
-              refunding student cancellations would have a negative impact on
-              the services provided to other students.
+              membership which you elect to cancel or are absent from. Our
+              coding center uses student registrations to predict and obtain the
+              resources needed to provide the required services to our students.
+              Therefore, refunding student cancellations would have a negative
+              impact on the services provided to other students.
             </p>
             <p className="pb-6">
               If you elect to cancel your monthly membership in the middle of a
               pre-paid period, you can choose to continue to access the classes
               for the remainder of the pre-paid period, or have your access
               terminated but with no refund or proration of any charges
-              withstanding.
+              withstanding. Missed classes do not roll over to a new month. The
+              monthly membership is for one two-hour class each week for a total
+              of eight hours instructional time per month.
             </p>
           </div>
         </div>

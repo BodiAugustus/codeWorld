@@ -18,7 +18,8 @@ function SectionFive() {
         </p>
         <p className="text-lg w-[70%] mx-auto">
           Whether or not they pursue coding as a career, we want to provide kids
-          with the skills that will help them more easily pursue their dreams.
+          with the skills that will help them more easily pursue their dreams in
+          the digital age.
         </p>
       </div>
       <div className={styles.wrapper}>

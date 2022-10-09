@@ -45,7 +45,7 @@ function Parallax() {
         ref={train.ref}
         className="absolute"
         style={{
-          top: '179vh',
+          top: '119vh',
           right: '2vw',
         }}
       >

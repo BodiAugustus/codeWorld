@@ -100,23 +100,23 @@ a {
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF930F", endColorstr="#FFF95B", GradientType=1 );
 }
 .gradient4 {
-  background: hsla(130, 100%, 53%, 1);
+  background: hsla(140, 100%, 53%, 1);
 
   background: linear-gradient(
     90deg,
-    hsla(130, 100%, 53%, 1) 0%,
+    hsla(140, 100%, 53%, 1) 0%,
     hsla(140, 100%, 68%, 1) 100%
   );
 
   background: -moz-linear-gradient(
     90deg,
-    hsla(130, 100%, 53%, 1) 0%,
+    hsla(140, 100%, 53%, 1) 0%,
     hsla(140, 100%, 68%, 1) 100%
   );
 
   background: -webkit-linear-gradient(
     90deg,
-    hsla(130, 100%, 53%, 1) 0%,
+    hsla(140, 100%, 53%, 1) 0%,
     hsla(140, 100%, 68%, 1) 100%
   );
 

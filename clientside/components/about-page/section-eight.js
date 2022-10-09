@@ -9,14 +9,14 @@ function SectionEight() {
           <span className="text-blue-600">BUILDING</span> STRONG COMMUNITIES
         </h2>
         <p className="text-lg w-[70%] mx-auto">
-          We pride ourselves in partnering with entrepreneurs to boost STEM
-          education in communities across the country through our
-          state-of-the-art learning centers.
+          We pride ourselves in partnering with local schools to boost STEM
+          education in communities across Bali through our Code World learning
+          center.
         </p>
         <p className="text-lg w-[70%] mx-auto">
-          For our franchise owners, Code Ninjas offers the invaluable
-          opportunity of a meaningful career path that positively impacts and
-          strengthens their communities.
+          For our students, Code World offers the invaluable opportunity of a
+          meaningful career path that positively impacts their lives and their
+          community.
         </p>
       </div>
       <div className={styles.wrapper}>

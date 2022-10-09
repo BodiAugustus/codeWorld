@@ -1,5 +1,6 @@
 import styles from './section-five.module.css';
 import revealSections from '@helpers/reveal-sections';
+import Link from 'next/link';
 
 function SectionFive() {
   revealSections();
@@ -12,9 +13,11 @@ function SectionFive() {
         <p className="relative text-slate-100 text-xl">
           Unlock your childs path to a brighter future!
         </p>
-        <button className="px-4 py-4 cursor-pointer bg-emerald-600 rounded-lg font-bold  text-white text-xl relative transition-all .3 linear hover:bg-emerald-500 hover:scale-105 active:bg-emerald-600 active:scale-100">
-          ENROLL NOW
-        </button>
+        <Link href="/courses">
+          <button className="px-4 py-4 cursor-pointer bg-emerald-500 rounded-lg font-bold  text-white text-xl relative transition-all .3 linear hover:bg-emerald-400 hover:scale-105 active:bg-emerald-600 active:scale-100">
+            ENROLL NOW
+          </button>
+        </Link>
       </div>
     </div>
   );

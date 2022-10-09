@@ -29,7 +29,9 @@ function HomePage(props) {
       <SectionSix />
       <SectionFive />
       <NewsletterRegistration />
-      <CourseList items={props.courses} />
+      <div className="hidden">
+        <CourseList items={props.courses} />
+      </div>
     </div>
   );
 }

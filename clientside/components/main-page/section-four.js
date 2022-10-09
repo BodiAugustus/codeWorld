@@ -1,5 +1,6 @@
 import styles from './section-four.module.css';
 import revealSections from '@helpers/reveal-sections';
+import Link from 'next/link';
 
 function SectionFour() {
   revealSections();
@@ -14,7 +15,7 @@ function SectionFour() {
       </div>
       <div className="pt-20 px-10 font-poppins">
         <span className="bg-blue-200 rounded-xl px-2 py-1 opacity-70 text-sky-600 text-sm mr-[21rem] ">
-          AGES 8 TO 15
+          AGES 9 TO 15
         </span>
         <h2 className="font-poppins font-extrabold mt-4 tracking-tight">
           FROM BEGINNER TO <span className="text-blue-600">EXPERT</span>
@@ -27,9 +28,11 @@ function SectionFour() {
           high school, or else secure easy recruitment into highly favorable
           university computer science programs and research opportunities.
         </p>
-        <button className="px-4 py-2 text-2xl bg-blue-600 text-white font-bold rounded-md hover:bg-blue-700 hover:scale-105 transition-all .3 linear active:bg-blue-600 active:scale-100">
-          Learn More &rarr;
-        </button>
+        <Link href="/about">
+          <button className="px-4 py-2 text-2xl bg-blue-600 text-white font-bold rounded-md hover:bg-blue-700 hover:scale-105 transition-all .3 linear active:bg-blue-600 active:scale-100">
+            Learn More &rarr;
+          </button>
+        </Link>
       </div>
     </div>
   );
