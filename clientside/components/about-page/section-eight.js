@@ -15,8 +15,8 @@ function SectionEight() {
         </p>
         <p className="text-lg w-[70%] mx-auto">
           For our students, Code World offers the invaluable opportunity of a
-          meaningful career path that positively impacts their lives and their
-          community.
+          meaningful career path that positively impacts their lives and
+          communities.
         </p>
       </div>
       <div className={styles.wrapper}>

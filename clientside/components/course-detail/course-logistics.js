@@ -26,7 +26,15 @@ function CourseLogistics(props) {
           width={200}
         />
       </div>
+
       <ul className={classes.list}>
+        <h2 className="text-base lowercase tracking-tight">
+          <span className="uppercase">P</span>lease confirm your class date and
+          time with the <span className="capitalize">Code World</span> learning
+          center before attending monthly classes at the start of each month by
+          contacting us using either phone or email if you have not signed up
+          for reoccuring payments
+        </h2>
         <div className="flex">
           <LogisticsItem icon={DateIcon} />
           <time className="text-[#aefff8] text-2xl">{humanReadableDate}</time>

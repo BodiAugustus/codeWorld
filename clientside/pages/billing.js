@@ -26,7 +26,9 @@ function BillingPage() {
               a 15% discount when paying with Monero. Class seats are booked on
               a first-come, first-serve basis each month. To help ensure that
               your child stays in the same class and time slot desired, please
-              ensure that prompt payment is made at the start of every month.
+              ensure that prompt payment is made at the start of every month or
+              simply elect for reoccuring payments to automate the process for
+              you.
             </p>
           </div>
 
