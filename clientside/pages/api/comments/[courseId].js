@@ -16,14 +16,18 @@ async function handler(req, res) {
 
   if (req.method === 'POST') {
     //add server-side validation
-    const { email, name, text } = req.body;
+    const { email, name, text, parentName, parentPhone, studentAge } = req.body;
 
     if (
       !email.includes('@') ||
       !name ||
       name.trim() === '' ||
       !text ||
-      text.trim() === ''
+      text.trim() === '' ||
+      !parentName ||
+      parentName.trim() === '' ||
+      !parentPhone ||
+      !studentAge
     ) {
       res.status(422).json({ message: 'Invalid input.' });
 
@@ -36,6 +40,9 @@ async function handler(req, res) {
       name,
       text,
       courseId,
+      parentName,
+      parentPhone,
+      studentAge,
     };
 
     // console.log(newComment);
@@ -51,9 +58,9 @@ async function handler(req, res) {
 
       res
         .status(201)
-        .json({ message: 'Added comment successfully!', comment: newComment });
+        .json({ message: 'Added form successfully!', comment: newComment });
     } catch (error) {
-      res.status(500).json({ message: 'Inserting comment failed!' });
+      res.status(500).json({ message: 'Submitting the form failed!' });
     }
   }
   if (req.method === 'GET') {
@@ -66,7 +73,7 @@ async function handler(req, res) {
       );
       res.status(200).json({ comments: documents });
     } catch (error) {
-      res.status(500).json({ message: 'Getting comments failed!' });
+      res.status(500).json({ message: 'Getting form submission failed!' });
     }
   }
 

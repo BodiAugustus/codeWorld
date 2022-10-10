@@ -8,7 +8,7 @@ function SectionThree() {
 
   return (
     <div className="grid grid-cols-2 text-center section">
-      <div className="pt-32 px-10 font-poppins">
+      <div className="pt-24 px-10 font-poppins">
         <span className="bg-blue-200 rounded-xl px-2 py-1 opacity-70 text-sky-600 text-sm mr-[15rem] ">
           KEEP KIDS ENGAGED
         </span>
@@ -19,9 +19,9 @@ function SectionThree() {
         <p className="text-lg w-[80%] mx-auto">
           Your kids can stay engaged and learn coding while having fun around
           others their own age. Boost problem solving, teamwork and critical
-          thinking skills all while becoming a digital wizard! Support and
-          guidance from our expert Code World instructor is always nearby to
-          ensure both understanding and progress.
+          thinking skills all while becoming a digital wizard at the same time!
+          Support and guidance from our expert Code World instructor is always
+          nearby to ensure both understanding and progress.
         </p>
         <Link href="/courses">
           <button className="px-4 py-2 text-2xl bg-blue-600 text-white font-bold rounded-md hover:bg-blue-700 hover:scale-105 transition-all .3 linear active:bg-blue-600 active:scale-100">

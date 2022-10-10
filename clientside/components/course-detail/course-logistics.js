@@ -1,3 +1,5 @@
+//this is the component for the /courses/COURSENAME page
+
 import Image from 'next/image';
 import AddressIcon from '../icons/address-icon';
 import DateIcon from '../icons/date-icon';
@@ -29,11 +31,10 @@ function CourseLogistics(props) {
 
       <ul className={classes.list}>
         <h2 className="text-base lowercase tracking-tight">
-          <span className="uppercase">P</span>lease confirm your class date and
-          time with the <span className="capitalize">Code World</span> learning
-          center before attending monthly classes at the start of each month by
-          contacting us using either phone or email if you have not signed up
-          for reoccuring payments
+          <span className="uppercase">P</span>lease be aware that students must
+          bring their own personal laptops to class for each session.
+          <span className="capitalize">&nbsp;Code World</span>{' '}
+          <strong>does not</strong> provide laptops for students use.
         </h2>
         <div className="flex">
           <LogisticsItem icon={DateIcon} />

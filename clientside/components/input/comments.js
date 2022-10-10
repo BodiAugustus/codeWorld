@@ -31,8 +31,8 @@ function Comments(props) {
 
   function addCommentHandler(commentData) {
     notificationCtx.showNotification({
-      title: 'Sending comment...',
-      message: 'Your comment is currently being saved!',
+      title: 'Saving new student form...',
+      message: 'Your form submission is currently being saved!',
       status: 'pending',
     });
     // send data to API
@@ -55,7 +55,7 @@ function Comments(props) {
       .then(data => {
         notificationCtx.showNotification({
           title: 'Success!',
-          message: 'Your comment was saved!',
+          message: 'Your form was saved!',
           status: 'success',
         });
       })
@@ -71,11 +71,11 @@ function Comments(props) {
   return (
     <section className={classes.comments}>
       <button onClick={toggleCommentsHandler}>
-        {showComments ? 'Hide' : 'Show'} Comments
+        {showComments ? 'Hide' : 'Show'} New Student Registration Form
       </button>
       {showComments && <NewComment onAddComment={addCommentHandler} />}
-      {showComments && !isFetchingComments && <CommentList items={comments} />}
-      {showComments && isFetchingComments && <p>Loading...</p>}
+      {/* {showComments && !isFetchingComments && <CommentList items={comments} />}
+      {showComments && isFetchingComments && <p>Loading...</p>} */}
     </section>
   );
 }

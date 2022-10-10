@@ -27,18 +27,25 @@ function BillingPage() {
         </div>
         <div className="section text-center font-poppins max-w-[1000px] mx-auto p-8 py-6">
           <div className="mb-12">
-            <h2 className="tracking-tighter pt-2">Payments</h2>
+            <h2 className="tracking-tighter pt-2">Payments General</h2>
             <p>
-              Payment of 150 USD is required to be paid in full before attending
-              any classes each month. Payment can be made by cash, credit card,
-              or Monero, Ethereum, Bitcoin, or Fantom cryptocurrencies. There is
-              a 15% discount when paying with Monero. Class seats are booked on
-              a first-come, first-serve basis each month. To help ensure that
-              your child stays in the same class and time slot desired, please
-              ensure that prompt payment is made at the start of every month or
-              simply elect for reoccuring payments to automate the process for
-              you.
+              Payment of 150 USD is required to be fully paid in IDR before
+              attending any classes each month. Payment can be made by cash,
+              credit or debit card.
             </p>
+            <p>
+              Class seats are booked on a first-come, first-serve basis each
+              month with precedence given to returning students. Once a class is
+              full however, we will not retroactively remove a student at the
+              request of another parent who wishes to have that time slot, even
+              if that parents child has been attending recurrently.
+            </p>
+            <p>
+              To help ensure that your child stays in the same class and time
+              slot desired, please ensure that prompt payment is made at the
+              start of every month.
+            </p>
+            <p>Cash payments are to be made in person.</p>
           </div>
 
           <div>

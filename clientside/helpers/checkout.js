@@ -2,9 +2,9 @@
 import { loadStripe } from '@stripe/stripe-js';
 
 const myDomain = 'http://localhost:3000';
+
 export async function checkout({ lineItems }) {
   let stripePromise = null;
-  let maxStudents = 10;
 
   const getStripe = () => {
     if (!stripePromise) {

@@ -11,10 +11,7 @@ function Button(props) {
   }
 
   return (
-    <button
-      className={`${styles.btn} transition-all .3s ease-linear`}
-      onClick={props.onClick}
-    >
+    <button className={`${styles.btn}`} onClick={props.onClick}>
       {props.children}
     </button>
   );

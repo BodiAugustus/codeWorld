@@ -21,11 +21,11 @@ function FailurePage() {
       <Submenu />
       <div onMouseOver={closeSubmenu}>
         <div className={` gradient6 h-[62vh] mb-6`}>
-          <h1 className="text-center max-w-[70%] mx-auto font-poppins font-extrabold text-slate-100 pt-36 tracking-tight">
+          <h1 className="text-center max-w-[70%] mx-auto font-poppins font-extrabold text-slate-100 pt-24 tracking-tight">
             Your Payment Failed to Process!
           </h1>
-          <h2 className="text-center max-w-[70%] mx-auto font-poppins font-medium text-slate-100 pt-40 tracking-tight">
-            Please follow the instructions given below:
+          <h2 className="text-center max-w-[70%] mx-auto font-poppins font-medium text-slate-100 pt-6 tracking-tight">
+            Please follow the instructions below
           </h2>
         </div>
         <div className="text-center font-poppins max-w-[1000px] mx-auto p-8 py-6">
@@ -38,15 +38,14 @@ function FailurePage() {
               For credit and debit card payments Code World uses the 3rd party
               software payment provider known as Stripe. Stripe currently only
               accepts American Express, China Union Pay, Discover, Diners, Japan
-              Credit Bureau, Mastercard and Visa. If you are trying to use
-              another type of card then the payment will not process
+              Credit Bureau, Mastercard and Visa cards. If you are trying to use
+              another type of payment card then the payment will not process
               successfully.
             </p>
             <p>
               If you are unable to successfully make a payment using your credit
               or debit card for any reason, please email or call us to set up an
-              alternative method, such as using cash or one of our accepted
-              cryptocurrencies.
+              alternative method of payment, such as by using cash.
             </p>
           </div>
         </div>

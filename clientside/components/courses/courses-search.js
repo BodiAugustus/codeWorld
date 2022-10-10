@@ -58,6 +58,7 @@ function CoursesSearch(props) {
             </select>
           </div>
         </div>
+
         <Button>Find Classes</Button>
       </form>
     </>

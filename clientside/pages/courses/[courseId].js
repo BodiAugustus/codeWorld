@@ -1,13 +1,10 @@
-import {
-  getAllCourses,
-  getCourseById,
-  getFeaturedCourses,
-} from '../../helpers/api-util';
+//This page handles purchases
+
+import { getCourseById, getFeaturedCourses } from '@helpers/api-util';
 
 import CourseSummary from '@components/course-detail/course-summary';
 import CourseLogistics from '@components/course-detail/course-logistics';
 import CourseContent from '@components/course-detail/course-content';
-import ErrorAlert from '../../components/ui/error-alert';
 import Head from 'next/head';
 import Comments from '@components/input/comments';
 import Sidebar from '@components/layout/Sidebar';
@@ -49,25 +46,46 @@ function CourseDetailPage(props) {
         />
         <CourseContent>
           <Button
+            quantity={course.quantity}
             onClick={() => {
-              checkout({
-                lineItems: [
-                  {
-                    price: `${
-                      course.title === 'React'
-                        ? 'price_1LqwniFSa0TezXP7k45XJzss'
-                        : course.title === 'JavaScript'
-                        ? 'price_1Lqwl9FSa0TezXP7IutuJ4od'
-                        : 'price_1Lqts4FSa0TezXP7ICPVzgVl'
-                    }`,
-                    quantity: 1,
-                  },
-                ],
-              });
+              if (course.quantity > 0) {
+                checkout({
+                  lineItems: [
+                    {
+                      price: `${
+                        course.title === 'React' && course.date === '2023-01-07'
+                          ? 'price_1LqwniFSa0TezXP7k45XJzss'
+                          : course.title === 'React' &&
+                            course.date === '2023-01-08'
+                          ? 'price_1LrCNUFSa0TezXP7f66bBUHb'
+                          : course.title === 'JavaScript' &&
+                            course.date === '2023-01-07'
+                          ? 'price_1Lqwl9FSa0TezXP7IutuJ4od'
+                          : course.title === 'JavaScript' &&
+                            course.date === '2023-01-08'
+                          ? 'price_1LrCYlFSa0TezXP7kN9ccJzK'
+                          : course.title === 'JavaScript' &&
+                            course.date === '2023-01-13'
+                          ? 'price_1LrCcYFSa0TezXP7S6qbsIXu'
+                          : course.title === 'HTML & CSS' &&
+                            course.date === '2023-01-07'
+                          ? 'price_1Lqts4FSa0TezXP7ICPVzgVl'
+                          : course.title === 'HTML & CSS' &&
+                            course.date === '2023-01-08'
+                          ? 'price_1LrCi4FSa0TezXP7TPWysNQM'
+                          : course.title === 'HTML & CSS' &&
+                            course.date === '2023-01-11'
+                          ? 'price_1LrCimFSa0TezXP7VZDoBW8a'
+                          : 'price_1LrCjdFSa0TezXP768iRqw29'
+                      }`,
+                      quantity: 1,
+                    },
+                  ],
+                });
+              }
             }}
-            className="bg-blue-500 "
           >
-            Register Now!
+            {course.quantity === 0 ? 'This Class Is full' : 'Register Now!'}
           </Button>
           <p className="text-[#111] mt-8">{course.description}</p>
           <p className="text-[#111]">{course.wsl}</p>
@@ -97,30 +115,51 @@ function CourseDetailPage(props) {
             <li>{course.wsd5}</li>
           </ul>
         </CourseContent>
-        <div className="text-center mt-8 text-2xl">
+        <div className="text-center mt-10 mb-14 text-2xl">
           <Button
+            quantity={course.quantity}
             onClick={() => {
-              checkout({
-                lineItems: [
-                  {
-                    price: `${
-                      course.title === 'React'
-                        ? 'price_1LqwniFSa0TezXP7k45XJzss'
-                        : course.title === 'JavaScript'
-                        ? 'price_1Lqwl9FSa0TezXP7IutuJ4od'
-                        : 'price_1Lqts4FSa0TezXP7ICPVzgVl'
-                    }`,
-                    quantity: 1,
-                  },
-                ],
-              });
+              if (course.quantity > 0) {
+                checkout({
+                  lineItems: [
+                    {
+                      price: `${
+                        course.title === 'React' && course.date === '2023-01-07'
+                          ? 'price_1LqwniFSa0TezXP7k45XJzss'
+                          : course.title === 'React' &&
+                            course.date === '2023-01-08'
+                          ? 'price_1LrCNUFSa0TezXP7f66bBUHb'
+                          : course.title === 'JavaScript' &&
+                            course.date === '2023-01-07'
+                          ? 'price_1Lqwl9FSa0TezXP7IutuJ4od'
+                          : course.title === 'JavaScript' &&
+                            course.date === '2023-01-08'
+                          ? 'price_1LrCYlFSa0TezXP7kN9ccJzK'
+                          : course.title === 'JavaScript' &&
+                            course.date === '2023-01-13'
+                          ? 'price_1LrCcYFSa0TezXP7S6qbsIXu'
+                          : course.title === 'HTML & CSS' &&
+                            course.date === '2023-01-07'
+                          ? 'price_1Lqts4FSa0TezXP7ICPVzgVl'
+                          : course.title === 'HTML & CSS' &&
+                            course.date === '2023-01-08'
+                          ? 'price_1LrCi4FSa0TezXP7TPWysNQM'
+                          : course.title === 'HTML & CSS' &&
+                            course.date === '2023-01-11'
+                          ? 'price_1LrCimFSa0TezXP7VZDoBW8a'
+                          : 'price_1LrCjdFSa0TezXP768iRqw29'
+                      }`,
+                      quantity: 1,
+                    },
+                  ],
+                });
+              }
             }}
-            className=""
           >
-            Register Now!
+            {course.quantity === 0 ? 'This Class Is full' : 'Register Now!'}
           </Button>
         </div>
-        <Comments courseId={course.id} />
+        {/* <Comments courseId={course.id} /> */}
       </div>
     </>
   );

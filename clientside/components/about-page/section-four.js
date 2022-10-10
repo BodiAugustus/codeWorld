@@ -19,7 +19,7 @@ function SectionFour() {
           </figure>
         </div>
       </div>
-      <div className="pt-10 px-10">
+      <div className="pt-20 px-10">
         <h2 className="font-poppins font-extrabold mt-4 tracking-tight">
           CODING IS THE NEW <span className="text-blue-600">LITERACY</span>
         </h2>
