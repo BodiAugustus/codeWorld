@@ -55,7 +55,11 @@ function NewsletterRegistration() {
 
   return (
     <div className="section">
-      <h2 className="max-w-[700px] text-center mx-auto pt-12 -mb-5 font-extrabold tracking-tight font-poppins uppercase">
+      <h2
+        className=" text-center mx-auto pt-12 -mb-5 font-extrabold tracking-tight font-poppins uppercase
+      xxxs:text-lg xxxs:w-[90%]
+      md:text-4xl md:max-w-[700px]"
+      >
         Sign up for our newsletter to stay updated!
       </h2>
       <section className={classes.newsletter}>

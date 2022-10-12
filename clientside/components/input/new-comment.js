@@ -59,7 +59,7 @@ function NewComment(props) {
   }
 
   return (
-    <form className={classes.form} onSubmit={sendCommentHandler}>
+    <form className={`${classes.form}`} onSubmit={sendCommentHandler}>
       <div className={classes.row}>
         <div className={classes.control}>
           <label className="text-left" htmlFor="parentName">
@@ -132,8 +132,8 @@ function NewComment(props) {
         />
       </div>
       <div className={classes.control}>
-        <label className="text-left" htmlFor="comment">
-          Anything else you want us to know
+        <label className="text-left pt-3" htmlFor="comment">
+          Any notes or special instructions
         </label>
         <textarea
           className="w-[100%]"

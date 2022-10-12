@@ -22,17 +22,26 @@ function CourseItem(props) {
 
   return (
     <li className={`${styles.item} `}>
-      <div className="relative w-64 h-48 mt-2 ">
+      <div
+        className="relative w-64 h-48 mt-2 
+      xs:mx-auto"
+      >
         <Image src={'/' + image} alt={title} layout="fill" />
       </div>
       <div className={styles.content}>
-        <div className={styles.summary}>
+        <div className={`${styles.summary}`}>
           <h2 className="tracking-tight">{title}</h2>
-          <div className={styles.date}>
+          <div
+            className={`${styles.date} xxxs:justify-center
+          md:justify-start`}
+          >
             <DateIcon />
             <time>{humanReadableDate}</time>
           </div>
-          <div className={styles.address}>
+          <div
+            className={`${styles.address} xxxs:justify-center
+          md:justify-start`}
+          >
             <BsClock />
             <address>{time}</address>
           </div>
@@ -40,7 +49,10 @@ function CourseItem(props) {
         <div className={styles.actions}>
           <Link href={exploreLink}>
             <Button>
-              <div className="flex">
+              <div
+                className="flex
+              xs:justify-center"
+              >
                 <span>Course Details</span>
                 <span className={styles.icon}>
                   <ArrowIcon />

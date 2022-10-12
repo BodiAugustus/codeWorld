@@ -2,31 +2,48 @@ import styles from './section-four.module.css';
 import revealSections from '@helpers/reveal-sections';
 import Link from 'next/link';
 import Image from 'next/image';
+import sectionPic from '../../public/images/main-img-1.webp';
+import sectionPic2 from '../../public/images/cw1.png';
 
 function SectionFour() {
   revealSections();
   return (
-    <div className="grid grid-cols-2 text-center section">
+    <div
+      className="grid text-center section
+    xxxs:grid-cols-1 
+    md:grid-cols-2"
+    >
       <div className={styles.wrapper}>
         <div className={styles.inner}>
           <figure>
             <Image
-              src="/images/main-img-1.webp"
-              alt="Code World student coding"
-              width={600}
-              height={400}
+              src={sectionPic}
+              alt="A Code World student coding on her laptop"
             />
           </figure>
         </div>
       </div>
-      <div className="pt-20 px-10 font-poppins">
-        <span className="bg-blue-200 rounded-xl px-2 py-1 opacity-70 text-sky-600 text-sm mr-[21rem] ">
+      <div
+        className=" px-10 font-poppins
+      md:pt-20"
+      >
+        <span
+          className="bg-blue-200 rounded-xl px-2 py-1 opacity-70 text-sky-600 text-sm 
+        md:mr-[18.5rem] "
+        >
           AGES 9 TO 15
         </span>
-        <h2 className="font-poppins font-extrabold mt-4 tracking-tight">
+        <h2
+          className="font-poppins font-extrabold mt-4 tracking-tight
+        xxxs:text-2xl
+        md:text-4xl"
+        >
           FROM BEGINNER TO <span className="text-blue-600">EXPERT</span>
         </h2>
-        <p className="w-[80%] mx-auto text-lg">
+        <p
+          className=" mx-auto text-lg
+        md:w-[80%]"
+        >
           Our curriculum is guaranteed to take your child from novice to wizard
           utilizing the latest technologies and methods. Your child will learn
           all of the skills required to create their own online based
@@ -39,6 +56,13 @@ function SectionFour() {
             Learn More &rarr;
           </button>
         </Link>
+
+        <figure className="xxxs:mt-10 md:hidden">
+          <Image
+            src={sectionPic2}
+            alt="Code World student holding open laptop"
+          />
+        </figure>
       </div>
     </div>
   );

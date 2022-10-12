@@ -8,7 +8,13 @@ function FailurePage() {
   const { closeSubmenu } = useGlobalContext();
 
   return (
-    <div className="mt-14">
+    <div
+      className="xxxs:-mt-20
+      xxs:-mt-16
+      xs:-mt-24
+      small:-mt-28
+    md:mt-14"
+    >
       <Head>
         <title>Unsuccessful Registration!</title>
 
@@ -21,7 +27,13 @@ function FailurePage() {
       <Submenu />
       <div onMouseOver={closeSubmenu}>
         <div className={` gradient6 h-[62vh] mb-6`}>
-          <h1 className="text-center max-w-[70%] mx-auto font-poppins font-extrabold text-slate-100 pt-24 tracking-tight">
+          <h1
+            className="text-center max-w-[70%] mx-auto font-poppins font-extrabold text-slate-100 tracking-tight
+            xxxs:pt-8
+            xxs:pt-4
+            xs:pt-16
+          md:pt-24"
+          >
             Your Payment Failed to Process!
           </h1>
           <h2 className="text-center max-w-[70%] mx-auto font-poppins font-medium text-slate-100 pt-6 tracking-tight">
@@ -29,7 +41,10 @@ function FailurePage() {
           </h2>
         </div>
         <div className="text-center font-poppins max-w-[1000px] mx-auto p-8 py-6">
-          <div className="mb-12">
+          <div
+            className="xxxs:-mt-10
+          md:mb-12 md:-mt-0"
+          >
             <h2 className="tracking-tighter pt-2">
               Something went wrong with your payment!
             </h2>

@@ -7,10 +7,20 @@ function SectionFive() {
   return (
     <div className="relative overflow-hidden ">
       <div className={`${styles.img_div} flex flex-col section`}>
-        <h2 className="  text-white relative font-extrabold tracking-tight ">
+        <h2
+          className="  text-white relative font-extrabold tracking-tight 
+        xxxs:text-center
+        small:w-[90%]
+        md:w-[100%]"
+        >
           JOIN CODE WORLD TODAY
         </h2>
-        <p className="relative text-slate-100 text-xl">
+        <p
+          className="relative text-slate-100 text-xl
+        xxxs:text-center
+        xs:w-[90%]
+        md:w-full"
+        >
           Unlock your childs path to a brighter future!
         </p>
         <Link href="/courses">

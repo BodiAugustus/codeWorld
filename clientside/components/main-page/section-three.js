@@ -2,21 +2,41 @@ import styles from './section-three.module.css';
 import revealSections from '@helpers/reveal-sections';
 import Link from 'next/link';
 import Image from 'next/image';
+import sectionPic from '../../public/images/cw1.png';
 
 function SectionThree() {
   revealSections();
 
   return (
-    <div className="grid grid-cols-2 text-center section">
-      <div className="pt-24 px-10 font-poppins">
-        <span className="bg-blue-200 rounded-xl px-2 py-1 opacity-70 text-sky-600 text-sm mr-[15rem] ">
+    <div
+      className="grid  text-center section
+    xxxs:grid-cols-1 
+    md:grid-cols-2"
+    >
+      <div
+        className="pt-24 px-10 font-poppins
+      xs:pt-0
+      xp:-mt-4
+      md:pt-24"
+      >
+        <span
+          className="bg-blue-200 rounded-xl px-2 py-1 opacity-70 text-sky-600 text-sm 
+        md:mr-[12.5rem] "
+        >
           KEEP KIDS ENGAGED
         </span>
-        <h2 className="font-poppins font-extrabold mt-4 tracking-tight">
+        <h2
+          className="font-poppins font-extrabold mt-4 tracking-tight
+        xxxs:text-2xl
+        md:text-4xl"
+        >
           HAVE
           <span className="text-blue-600"> FUN</span> CODING
         </h2>
-        <p className="text-lg w-[80%] mx-auto">
+        <p
+          className="text-lg  mx-auto
+        md:w-[80%]"
+        >
           Your kids can stay engaged and learn coding while having fun around
           others their own age. Boost problem solving, teamwork and critical
           thinking skills all while becoming a digital wizard at the same time!
@@ -29,14 +49,12 @@ function SectionThree() {
           </button>
         </Link>
       </div>
-      <div className={styles.wrapper}>
+      <div className={`${styles.wrapper} xxxs:hidden md:block`}>
         <div className={styles.inner}>
           <figure>
             <Image
-              src="/images/cw1.png"
-              alt="Code World student coding"
-              height={400}
-              width={600}
+              src={sectionPic}
+              alt="Code World student holding open laptop"
             />
           </figure>
         </div>

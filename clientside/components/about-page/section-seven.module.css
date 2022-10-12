@@ -1,7 +1,7 @@
 .wrapper {
   perspective: 2000px;
-  margin: 4em auto;
-  width: 37em;
+  margin: 2em auto;
+  width: 18em;
 }
 
 .inner {
@@ -23,4 +23,11 @@
   height: auto;
   max-width: 100%;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    width: 37em;
+    margin: 4em auto;
+  }
 }

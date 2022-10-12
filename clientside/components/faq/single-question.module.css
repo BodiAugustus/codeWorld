@@ -11,7 +11,7 @@
   border-radius: 0.25rem;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 1rem;
 }
 .question h4 {
   text-transform: none;
@@ -45,4 +45,10 @@
   margin-left: 1rem;
   align-self: center;
   min-width: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .question {
+    margin: 0 auto;
+  }
 }

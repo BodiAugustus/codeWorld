@@ -25,10 +25,17 @@ function Parallax() {
     <div ref={target} className="w-[98vw] ">
       <div className="relative overflow-hidden section">
         <div className={`${styles.img_div} flex flex-col`}>
-          <h2 className="  text-white relative font-extrabold tracking-tight">
+          <h2
+            className="  text-white relative font-extrabold tracking-tight text-center
+          "
+          >
             JUMP START YOUR CHILD&apos;S FUTURE
           </h2>
-          <p className="relative text-slate-100 text-xl text-center w-[70%]">
+          <p
+            className="relative text-slate-100 text-xl text-center 
+          xxxs:w-[90%]
+          md:w-[70%]"
+          >
             Kids learn to code through our engaging project-based curriculum
             that boosts self-confidence and teaches teamwork, logic, and problem
             solving. They gain vital skills while having a blast. That's the
@@ -43,18 +50,26 @@ function Parallax() {
       </div>
       <div
         ref={train.ref}
-        className="absolute"
-        style={{
-          top: '119vh',
-          right: '2vw',
-        }}
+        className="absolute 
+      xxxs:top-[100vh] xxxs:right-[2vw]
+      md:top-[119vh] md:right-[2vw]"
       >
         <Image src="/images/javascript.png" height={350} width={400} />
       </div>
-      <div ref={react.ref} className="absolute top-[200vh] left-[20vw]">
+      <div
+        ref={react.ref}
+        className="absolute 
+      xxxs:top-[180vh] xxxs:left-[10vw]
+      md:top-[200vh] md:left-[20vw]"
+      >
         <Image src="/images/react.png" height={400} width={400} />
       </div>
-      <div ref={cloud.ref} className="absolute top-[130vh]">
+      <div
+        ref={cloud.ref}
+        className="absolute 
+      xxxs:top-[100vh]
+      md:top-[130vh]"
+      >
         <Image src="/images/htmlCss.png" height={200} width={400} />
       </div>
     </div>

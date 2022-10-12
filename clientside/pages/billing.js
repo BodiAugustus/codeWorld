@@ -8,7 +8,13 @@ function BillingPage() {
   const { closeSubmenu } = useGlobalContext();
   revealSections();
   return (
-    <div className="mt-14">
+    <div
+      className="xxxs:-mt-20
+      xxs:-mt-16
+      xs:-mt-24
+      small:-mt-28
+    md:mt-14"
+    >
       <Head>
         <title>Billing & Payments</title>
 
@@ -21,13 +27,24 @@ function BillingPage() {
       <Submenu />
       <div onMouseOver={closeSubmenu}>
         <div className={` gradient3 h-[62vh] mb-6`}>
-          <h1 className="text-center max-w-[70%] mx-auto font-poppins font-extrabold text-slate-100 pt-36 tracking-tight">
+          <h1
+            className="text-center max-w-[70%] mx-auto font-poppins font-extrabold text-slate-100 tracking-tight
+            xxxs:pt-28
+            xs:pt-40
+          md:pt-36"
+          >
             BILLING & PAYMENTS
           </h1>
         </div>
         <div className="section text-center font-poppins max-w-[1000px] mx-auto p-8 py-6">
           <div className="mb-12">
-            <h2 className="tracking-tighter pt-2">Payments General</h2>
+            <h2
+              className="tracking-tighter 
+            xxxs:-mt-6
+            md:pt-2 md:-mt-0"
+            >
+              Payments General
+            </h2>
             <p>
               Payment of 150 USD is required to be fully paid in IDR before
               attending any classes each month. Payment can be made by cash,
@@ -49,7 +66,12 @@ function BillingPage() {
           </div>
 
           <div>
-            <h2 className="tracking-tighter ">Refunds and Cancellations</h2>
+            <h2
+              className="tracking-tighter xxxs:-mt-4
+            md:-mt-0"
+            >
+              Refunds & Cancellations
+            </h2>
             <p>
               You will not be entitled to refunds for a purchased monthly
               membership which you elect to cancel or are absent from. Our
@@ -58,7 +80,11 @@ function BillingPage() {
               Therefore, refunding student cancellations would have a negative
               impact on the services provided to other students.
             </p>
-            <p className="pb-6">
+            <p
+              className="
+            xxxs:-mb-0
+            md:pb-6"
+            >
               If you elect to cancel your monthly membership in the middle of a
               pre-paid period, you can choose to continue to access the classes
               for the remainder of the pre-paid period, or have your access

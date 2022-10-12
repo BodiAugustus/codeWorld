@@ -9,7 +9,14 @@ function SuccessPage() {
   const { closeSubmenu } = useGlobalContext();
 
   return (
-    <div className="mt-14">
+    <div
+      className="
+    xxxs:-mt-20
+    xxs:-mt-16
+    xs:-mt-24
+    small:-mt-28
+    md:mt-14"
+    >
       <Head>
         <title>Successful Registration!</title>
 
@@ -21,8 +28,19 @@ function SuccessPage() {
       <Sidebar />
       <Submenu />
       <div onMouseOver={closeSubmenu}>
-        <div className="gradient2 h-[62vh] mb-6">
-          <h1 className="text-center max-w-[70%] mx-auto font-poppins font-extrabold text-slate-100 pt-24 tracking-tight">
+        <div
+          className="gradient2 h-[62vh] 
+        xxxs:mb-6
+        xxs:mb-0
+        md:mb-6"
+        >
+          <h1
+            className="text-center max-w-[70%] mx-auto font-poppins font-extrabold text-slate-100  tracking-tight
+            xxxs:pt-10 
+            xxs:pt-5
+            xs:pt-20
+          md:pt-24"
+          >
             Thank you for your payment!
           </h1>
           <h2 className="text-center max-w-[70%] mx-auto font-poppins font-medium text-slate-100  tracking-tight pt-6">
@@ -34,11 +52,21 @@ function SuccessPage() {
             <h2 className="tracking-tighter pt-2">
               Complete the New Student registration form!
             </h2>
-            <p>
+            <p
+              className="xxs:-mb-5
+            md:-mb-0"
+            >
               Please fill out and submit the new student registration form below
             </p>
             <Comments />
-            <h2 className="tracking-tighter pt-2">Confirm your spot!</h2>
+            <h2
+              className="tracking-tighter 
+            xxxs:-mt-5
+            
+            md:pt-2 md:-mt-0"
+            >
+              Confirm your spot!
+            </h2>
             <p>
               Please call or email us at Code World to confirm that your class
               date and time is available as soon as possible after making your

@@ -6,8 +6,18 @@ function CourseList(props) {
   revealSections();
   const { items } = props;
   return (
-    <div className="section font-poppins text-center font-extrabold max-w-[700px] mx-auto  mt-[15vh] ">
-      <h2 className="tracking-tight -mb-16">UPCOMING CLASSES</h2>
+    <div
+      className="section font-poppins text-center font-extrabold max-w-[700px] mx-auto 
+      xxxs:mt-[5vh] 
+    md:mt-[15vh] "
+    >
+      <h2
+        className="tracking-tight -mb-16
+      xxxs:text-2xl
+      md:text-4xl"
+      >
+        UPCOMING CLASSES
+      </h2>
 
       <ul className={styles.list}>
         {items.map(event => (

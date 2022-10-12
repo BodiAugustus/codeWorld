@@ -1,7 +1,7 @@
 .newsletter {
   margin: 3rem auto;
   width: 90%;
-  max-width: 30rem;
+  max-width: 18rem;
 }
 
 .newsletter h2 {
@@ -42,4 +42,11 @@
 
 .control input {
   flex: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .newsletter {
+    width: 90%;
+    max-width: 30rem;
+  }
 }

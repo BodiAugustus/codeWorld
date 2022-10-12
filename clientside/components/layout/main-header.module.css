@@ -57,13 +57,14 @@
 
 .svg {
   position: absolute;
-  top: -1px;
+  top: -24px;
+
   z-index: 1;
 }
 
 .svg2 {
   position: absolute;
-  top: -45px;
+  top: -60px;
   z-index: 2;
 }
 
@@ -80,7 +81,7 @@
 
 .nav_center {
   width: 90vw;
-  max-width: var(--max-width);
+  max-width: 1568px;
 }
 
 .nav_header {
@@ -123,7 +124,7 @@
 }
 .btn2:hover {
   transform: scale(105%);
-  color: skyblue;
+  color: royalblue;
 }
 .btn2:active {
   transform: scale(100%);
@@ -134,7 +135,7 @@
   display: none;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
   .nav_center {
     display: grid;
     grid-template-columns: auto 1fr auto;
@@ -168,5 +169,13 @@
     text-transform: capitalize;
     letter-spacing: 1px;
     width: 10rem;
+  }
+
+  .svg {
+    top: -1px;
+  }
+
+  .svg2 {
+    top: -45px;
   }
 }

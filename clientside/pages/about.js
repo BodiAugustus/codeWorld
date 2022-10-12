@@ -25,11 +25,27 @@ function AboutPage() {
       <Sidebar />
       <Submenu />
       <div onMouseOver={closeSubmenu}>
-        <div className={`gradient h-[62vh] mb-6 font-poppins mt-14`}>
-          <h1 className="text-center max-w-[70%]  mx-auto  font-extrabold text-slate-100 tracking-tighter pt-28 mb-8">
+        <div
+          className={`gradient   font-poppins 
+          xxxs:-mt-20  xxxs:-mb-5
+          xxs:-mt-16
+          xs:-mt-24
+          small:-mt-28
+        md:mt-14 h-[62vh] md:mb-6`}
+        >
+          <h1
+            className="text-center max-w-[70%] mx-auto font-extrabold text-slate-100 tracking-tighter mb-8
+          xxxs:pt-24
+          xs:pt-40
+          md:pt-28"
+          >
             ABOUT
           </h1>
-          <p className="mx-auto text-center text-lg text-yellow-50">
+          <p
+            className="mx-auto text-center text-lg text-yellow-50
+          xxxs:px-6 xxxs:-mt-4
+          md:px-0 md:-mt-0"
+          >
             Learn how to code while making websites, games, and having fun!
           </p>
         </div>

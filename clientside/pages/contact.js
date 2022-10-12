@@ -9,7 +9,14 @@ function ContactPage() {
   const { closeSubmenu } = useGlobalContext();
   revealSections();
   return (
-    <div className="bg-slate-200 mt-14 pb-14 font-poppins">
+    <div
+      className="bg-slate-200 pb-14 font-poppins
+    xxxs:-mt-32
+    xxs:-mt-28
+    xs:-mt-36
+    small:-mt-40
+    md:mt-14"
+    >
       <Head>
         <title>Contact</title>
 
@@ -22,14 +29,24 @@ function ContactPage() {
       <Submenu />
       <div
         onMouseOver={closeSubmenu}
-        className={` gradient2 h-[62vh] mt-14 mb-6`}
+        className={` gradient2 mt-14 
+        xxxs:-mb-5
+        h-[62vh] md:mb-6`}
       >
-        <h1 className="text-center max-w-[70%] mx-auto font-poppins font-extrabold text-slate-100 pt-36 tracking-tight">
+        <h1
+          className="text-center max-w-[70%] mx-auto font-poppins font-extrabold text-slate-100 pt-36 tracking-tight
+        xs:pt-44
+        md:pt-36"
+        >
           CONTACT
         </h1>
       </div>
       <div className="section">
-        <h1 className="my-4 font-bold tracking-tight text-center pt-6 text-emerald-400 ">
+        <h1
+          className="my-4 font-bold tracking-tight text-center pt-10 text-emerald-400
+        xxxs:text-4xl
+        md:text-5xl "
+        >
           How can we help?
         </h1>
         <ContactForm />

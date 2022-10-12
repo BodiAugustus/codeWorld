@@ -6,10 +6,20 @@ function SectionNine() {
   return (
     <div className="relative overflow-hidden section">
       <div className={`${styles.img_div} flex flex-col`}>
-        <h2 className="  text-white relative font-extrabold tracking-tight">
+        <h2
+          className="  text-white relative font-extrabold tracking-tight
+        xxxs:text-center
+        small:w-[95%]
+        md:w-[100%]"
+        >
           JOIN CODE WORLD TODAY
         </h2>
-        <p className="relative text-slate-100 text-xl">
+        <p
+          className="relative text-slate-100 text-xl
+        xxxs:text-center
+        xs:w-[90%]
+        md:w-[100%]"
+        >
           Unlock your childs path to a brighter future!
         </p>
         <Link href="/courses">

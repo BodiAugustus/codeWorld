@@ -4,6 +4,30 @@
   width: 90%;
   max-width: 40em;
   margin: auto;
-  margin-top: 8rem;
+  margin-top: 12rem;
   text-align: center;
+}
+
+@media (min-width: 373px) {
+  .content {
+    margin-top: 10.5rem;
+  }
+}
+
+@media (min-width: 384px) {
+  .content {
+    margin-top: 14rem;
+  }
+}
+
+@media (min-width: 404px) {
+  .content {
+    margin-top: 15rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .content {
+    margin-top: 8rem;
+  }
 }

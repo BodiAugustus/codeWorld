@@ -92,13 +92,18 @@ function ContactForm() {
   //   font-size: var(--size-6);
   // }
   return (
-    <section className="pb-8 mx-auto rounded-lg bg-emerald-400 w-[100%] max-w-[30rem] p-4 shadow-lg text-lg text-white">
+    <section
+      className="pb-8 mx-auto rounded-lg bg-emerald-400  max-w-[30rem] p-4 shadow-lg text-lg text-white
+    xxxs:w-[95%] xxxs:-mb-5
+    md:w-[100%] md:-mb-0"
+    >
       <h3 className="mb-4 font-bold tracking-tight text-center">
         Send us a Message!
       </h3>
       <form
         onSubmit={sendMessageHandler}
-        className="font-poppins p-1 rounded-md w-[100%] border-2 border-emerald-200  "
+        className="font-poppins p-1 rounded-md  border-2 border-emerald-200 
+        w-[100%]"
       >
         <div className="">
           <div className="flex-1 min-w-[10rem] p-2 ">

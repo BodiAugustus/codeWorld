@@ -23,10 +23,18 @@
   content: '';
   background-image: url('/images/aboutimg6.jpg');
   background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
   position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
   opacity: 0.55;
+}
+
+@media screen and (min-width: 768px) {
+  .img_div::before {
+    background-size: cover;
+  }
 }

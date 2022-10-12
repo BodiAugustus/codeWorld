@@ -30,7 +30,11 @@ function CourseLogistics(props) {
       </div>
 
       <ul className={classes.list}>
-        <h2 className="text-base lowercase tracking-tight">
+        <h2
+          className="text-base lowercase tracking-tight
+        xxxs:px-2 xxxs:text-center
+        md:px-0 md:text-left"
+        >
           <span className="uppercase">P</span>lease be aware that students must
           bring their own personal laptops to class for each session.
           <span className="capitalize">&nbsp;Code World</span>{' '}

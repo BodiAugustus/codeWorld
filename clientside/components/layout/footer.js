@@ -4,17 +4,31 @@ import Link from 'next/link';
 function Footer() {
   const year = new Date().getFullYear();
   return (
-    <div className="bg-sky-900 flex items-center justify-between h-28">
-      <Link href="/">
-        <a className="ml-5">
-          <h2 className="flex gap-2 font-poppins font-bold mt-2 leading-none tracking-tight">
+    <div
+      className="bg-sky-900 items-center justify-between 
+     xxxs:flex-col xxxs:pt-3
+    flex md:h-28 md:flex-row md:pt-0"
+    >
+      <Link href="/" className="">
+        <a
+          className="md:ml-5
+        "
+        >
+          <h2
+            className="flex gap-2 font-poppins font-bold mt-2 leading-none tracking-tight
+          "
+          >
             <span className="text-emerald-500">Code</span>{' '}
             <GiWorld className="animate-spin-slow  text-green-500 bg-blue-600 rounded-full" />{' '}
             <span className="text-blue-600">World</span>
           </h2>
         </a>
       </Link>
-      <div className="flex text-base gap-5  font-bold text-white mr-5">
+      <div
+        className="flex text-base font-bold text-white 
+        xxxs:gap-3
+      md:gap-5 md:mr-5"
+      >
         <Link href="/courses">
           <a className="hover:text-emerald-500">Courses</a>
         </Link>
@@ -32,7 +46,7 @@ function Footer() {
         </Link>
       </div>
 
-      <div className="mr-5 ">
+      <div className="md:mr-5 ">
         <p className="m-0 mt-3 text-emerald-500">Code World &#169; {year}</p>
         <p className="text-emerald-500">All Rights Reserved</p>
       </div>

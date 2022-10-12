@@ -18,7 +18,11 @@ function CoursesSearch(props) {
 
   return (
     <>
-      <h2 className="mt-24 mb-6 font-extrabold font-poppins text-center tracking-tight">
+      <h2
+        className=" font-extrabold font-poppins text-center tracking-tight
+        xxxs:-mt-10 xxxs:text-2xl
+      md:mt-24 md:mb-6 md:text-4xl"
+      >
         CHECK CLASS SCHEDULE
       </h2>
       <form onSubmit={handleSubmit} className={styles.form}>

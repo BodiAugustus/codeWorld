@@ -14,7 +14,10 @@ const Hero = () => {
           <h1 className="font-poppins font-extrabold tracking-tighter text-[#002E94]">
             The Future is Digital.
           </h1>
-          <p className="text-[#1C3879]">
+          <p
+            className="text-[#1C3879]
+          xxxs:text-lg"
+          >
             Ensure your child isn&apos;t left behind by letting them learn how
             to code websites, online games, real-world applications and more!
           </p>

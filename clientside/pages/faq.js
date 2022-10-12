@@ -24,10 +24,27 @@ function FaqPage() {
       <Sidebar />
       <Submenu />
 
-      <div className="">
+      <div
+        className="overflow-hidden 
+      xxxs:-mt-20
+      xxs:-mt-16
+      xs:-mt-24
+      small:-mt-28
+      md:-mt-0"
+      >
         <div onMouseOver={closeSubmenu}>
-          <div className={` gradient4 h-[62vh] mt-14 mb-6`}>
-            <h1 className="text-center max-w-[70%] mx-auto font-poppins font-extrabold text-slate-100 pt-36 tracking-tight">
+          <div
+            className={` gradient4  md:mb-6
+            xxxs:-mt-0  xxxs:mb-0
+          md:mt-14 h-[62vh]
+          `}
+          >
+            <h1
+              className="text-center max-w-[70%] mx-auto font-poppins font-extrabold text-slate-100 tracking-tight
+              xxxs:pt-32 xxxs:text-4xl
+              xs:pt-40
+            md:pt-32 md:text-6xl"
+            >
               FREQUENTLY ASKED QUESTIONS
             </h1>
           </div>
