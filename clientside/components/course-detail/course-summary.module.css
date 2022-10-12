@@ -22,7 +22,20 @@
 
 @media (min-width: 768px) {
   .summary {
+    margin-top: -2rem;
+    width: 120%;
+  }
+
+  .summary h1 {
+    font-size: 5rem;
+    padding-top: 3.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .summary {
     margin-top: 4rem;
+    width: 100%;
   }
 
   .summary h1 {

@@ -13,7 +13,8 @@ function FailurePage() {
       xxs:-mt-16
       xs:-mt-24
       small:-mt-28
-    md:mt-14"
+      md:-mt-8
+    lg:mt-14"
     >
       <Head>
         <title>Unsuccessful Registration!</title>
@@ -25,14 +26,15 @@ function FailurePage() {
       </Head>
       <Sidebar />
       <Submenu />
-      <div onMouseOver={closeSubmenu}>
+      <div onMouseOver={closeSubmenu} className="md:w-[120%] lg:w-[100%]">
         <div className={` gradient6 h-[62vh] mb-6`}>
           <h1
             className="text-center max-w-[70%] mx-auto font-poppins font-extrabold text-slate-100 tracking-tight
             xxxs:pt-8
             xxs:pt-4
             xs:pt-16
-          md:pt-24"
+            md:pt-44
+          lg:pt-24"
           >
             Your Payment Failed to Process!
           </h1>

@@ -7,7 +7,8 @@ function Footer() {
     <div
       className="bg-sky-900 items-center justify-between 
      xxxs:flex-col xxxs:pt-3
-    flex md:h-28 md:flex-row md:pt-0"
+    flex md:h-28 md:flex-row md:pt-0 md:w-[120%]
+    lg:w-[100%]"
     >
       <Link href="/" className="">
         <a

@@ -54,7 +54,7 @@ function NewsletterRegistration() {
   }
 
   return (
-    <div className="section">
+    <div className="section md:w-[120%] lg:w-[100%]">
       <h2
         className=" text-center mx-auto pt-12 -mb-5 font-extrabold tracking-tight font-poppins uppercase
       xxxs:text-lg xxxs:w-[90%]

@@ -44,19 +44,29 @@ function MainHeader() {
               <FaBars />
             </button>
           </div>
-          <ul className={`${styles.nav_links} text-emerald-500 font-bold `}>
-            <li className="hover:text-emerald-300">
-              <button onMouseOver={displaySubmenu} className="link_btn">
+          <ul className={`${styles.nav_links} text-emerald-500 font-bold`}>
+            <li className="hover:text-emerald-300 ">
+              <button
+                onMouseOver={displaySubmenu}
+                className="link_btn 
+                md:capitalize"
+              >
                 courses
               </button>
             </li>
             <li className="hover:text-emerald-300">
-              <button onMouseOver={displaySubmenu} className="link_btn">
+              <button
+                onMouseOver={displaySubmenu}
+                className="link_btn md:capitalize"
+              >
                 about
               </button>
             </li>
             <li className="hover:text-emerald-300">
-              <button onMouseOver={displaySubmenu} className="link_btn">
+              <button
+                onMouseOver={displaySubmenu}
+                className="link_btn md:capitalize"
+              >
                 contact
               </button>
             </li>

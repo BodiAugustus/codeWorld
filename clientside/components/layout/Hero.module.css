@@ -77,6 +77,32 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero::before {
+    width: 120%;
+  }
+
+  .hero {
+    min-height: 50vh;
+    margin-top: -8rem;
+  }
+
+  .hero_info h1 {
+    line-height: 1;
+    margin-top: 3rem;
+  }
+
+  .hero_images {
+    display: block;
+    padding-top: 0rem;
+    margin-left: 8rem;
+    margin-top: -1rem;
+  }
+
+  .hero_center {
+    margin-top: 5vh;
+  }
+}
+@media screen and (min-width: 1024px) {
   .hero {
     min-height: 100vh;
   }
@@ -84,10 +110,12 @@
   .hero::before {
     background-size: contain;
     height: 100%;
+    width: 100%;
   }
   .hero_center {
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    margin-top: 3vh;
   }
 
   .hero_info h1 {

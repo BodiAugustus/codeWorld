@@ -31,13 +31,16 @@ function AboutPage() {
           xxs:-mt-16
           xs:-mt-24
           small:-mt-28
-        md:mt-14 h-[62vh] md:mb-6`}
+         h-[62vh] md:mb-6
+        md:-mt-6 md:w-[120%]
+      lg:w-[100%] lg:mt-14`}
         >
           <h1
             className="text-center max-w-[70%] mx-auto font-extrabold text-slate-100 tracking-tighter mb-8
           xxxs:pt-24
           xs:pt-40
-          md:pt-28"
+          md:pt-60 md:text-6xl
+            lg:pt-28"
           >
             ABOUT
           </h1>

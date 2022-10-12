@@ -11,7 +11,8 @@ function SectionFour() {
     <div
       className="grid text-center section
     xxxs:grid-cols-1 
-    md:grid-cols-2"
+    md:grid-cols-2 md:gap-16
+    lg:gap-0"
     >
       <div className={styles.wrapper}>
         <div className={styles.inner}>
@@ -25,24 +26,28 @@ function SectionFour() {
       </div>
       <div
         className=" px-10 font-poppins
-      md:pt-20"
+      md:pt-10 md:px-0 md:ml-16
+      lg:pt-20 lg:px-10 lg:ml-0"
       >
         <span
           className="bg-blue-200 rounded-xl px-2 py-1 opacity-70 text-sky-600 text-sm 
-        md:mr-[18.5rem] "
+          md:mr-0
+        lg:mr-[18.5rem] "
         >
           AGES 9 TO 15
         </span>
         <h2
           className="font-poppins font-extrabold mt-4 tracking-tight
         xxxs:text-2xl
-        md:text-4xl"
+        md:text-4xl md:w-[120%]
+        lg:w-[100%]"
         >
           FROM BEGINNER TO <span className="text-blue-600">EXPERT</span>
         </h2>
         <p
           className=" mx-auto text-lg
-        md:w-[80%]"
+        md:w-[140%] md:
+        lg:w-[80%]"
         >
           Our curriculum is guaranteed to take your child from novice to wizard
           utilizing the latest technologies and methods. Your child will learn
@@ -52,7 +57,11 @@ function SectionFour() {
           university computer science programs and research opportunities.
         </p>
         <Link href="/about">
-          <button className="px-4 py-2 text-2xl bg-blue-600 text-white font-bold rounded-md hover:bg-blue-700 hover:scale-105 transition-all .3 linear active:bg-blue-600 active:scale-100">
+          <button
+            className="px-4 py-2 text-2xl bg-blue-600 text-white font-bold rounded-md hover:bg-blue-700 hover:scale-105 transition-all .3 linear active:bg-blue-600 active:scale-100
+          md:ml-20
+          lg:ml-0"
+          >
             Learn More &rarr;
           </button>
         </Link>

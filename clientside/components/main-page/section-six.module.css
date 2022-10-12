@@ -30,3 +30,8 @@
     width: 37em;
   }
 }
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    width: 33em;
+  }
+}

@@ -9,7 +9,8 @@ function CourseList(props) {
     <div
       className="section font-poppins text-center font-extrabold max-w-[700px] mx-auto 
       xxxs:mt-[5vh] 
-    md:mt-[15vh] "
+    md:mt-[5vh]
+    lg:mt-[15vh] "
     >
       <h2
         className="tracking-tight -mb-16

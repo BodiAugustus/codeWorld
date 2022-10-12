@@ -13,7 +13,7 @@ import SectionSix from '@components/main-page/section-six';
 
 function HomePage(props) {
   return (
-    <div>
+    <div className="">
       <Head>
         <title>Code 🌎 World</title>
 

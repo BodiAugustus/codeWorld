@@ -37,7 +37,14 @@
     background-size: 330%;
   }
 }
+
 @media screen and (min-width: 768px) {
+  .img_div::before {
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
   .img_div::before {
     background-size: cover;
   }

@@ -4,13 +4,16 @@ import Link from 'next/link';
 function SectionNine() {
   revealSections();
   return (
-    <div className="relative overflow-hidden section">
+    <div
+      className="relative overflow-hidden section md:w-[120%]
+    lg:w-[100%]"
+    >
       <div className={`${styles.img_div} flex flex-col`}>
         <h2
           className="  text-white relative font-extrabold tracking-tight
         xxxs:text-center
         small:w-[95%]
-        md:w-[100%]"
+        md:w-[100%] md:text-5xl"
         >
           JOIN CODE WORLD TODAY
         </h2>

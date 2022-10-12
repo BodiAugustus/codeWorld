@@ -30,7 +30,8 @@ function FaqPage() {
       xxs:-mt-16
       xs:-mt-24
       small:-mt-28
-      md:-mt-0"
+      md:-mt-20 md:w-[120%]
+      lg:w-[100%] lg:-mt-0"
       >
         <div onMouseOver={closeSubmenu}>
           <div
@@ -43,7 +44,8 @@ function FaqPage() {
               className="text-center max-w-[70%] mx-auto font-poppins font-extrabold text-slate-100 tracking-tight
               xxxs:pt-32 xxxs:text-4xl
               xs:pt-40
-            md:pt-32 md:text-6xl"
+            md:pt-60 md:text-6xl
+            lg:pt-32"
             >
               FREQUENTLY ASKED QUESTIONS
             </h1>

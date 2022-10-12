@@ -15,7 +15,8 @@ function SuccessPage() {
     xxs:-mt-16
     xs:-mt-24
     small:-mt-28
-    md:mt-14"
+    md:-mt-8
+    lg:mt-14"
     >
       <Head>
         <title>Successful Registration!</title>
@@ -27,7 +28,7 @@ function SuccessPage() {
       </Head>
       <Sidebar />
       <Submenu />
-      <div onMouseOver={closeSubmenu}>
+      <div onMouseOver={closeSubmenu} className="md:w-[120%] lg:w-[100%]">
         <div
           className="gradient2 h-[62vh] 
         xxxs:mb-6
@@ -39,7 +40,8 @@ function SuccessPage() {
             xxxs:pt-10 
             xxs:pt-5
             xs:pt-20
-          md:pt-24"
+          md:pt-44
+          lg:pt-24"
           >
             Thank you for your payment!
           </h1>

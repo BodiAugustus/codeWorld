@@ -46,6 +46,14 @@
 
 @media screen and (min-width: 768px) {
   .newsletter {
+    width: 100%;
+    max-width: 30rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .newsletter {
     width: 90%;
     max-width: 30rem;
   }

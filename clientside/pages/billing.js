@@ -13,7 +13,9 @@ function BillingPage() {
       xxs:-mt-16
       xs:-mt-24
       small:-mt-28
-    md:mt-14"
+    md:-mt-6 md:w-[120%] 
+    lg:w-[100%] lg:mt-14
+    "
     >
       <Head>
         <title>Billing & Payments</title>
@@ -31,7 +33,8 @@ function BillingPage() {
             className="text-center max-w-[70%] mx-auto font-poppins font-extrabold text-slate-100 tracking-tight
             xxxs:pt-28
             xs:pt-40
-          md:pt-36"
+          md:pt-60
+          lg:pt-36"
           >
             BILLING & PAYMENTS
           </h1>

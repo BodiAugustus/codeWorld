@@ -14,7 +14,9 @@ function SectionFive() {
       <div
         className="
       xxxs:pt-3
-      md:pt-16 md:px-10"
+      md:pt-4 md:px-0
+      lg:pt-7 lg:px-10
+      xl:pt-8"
       >
         <h2 className="font-poppins font-extrabold mt-4 tracking-tight">
           INVEST IN THEIR
@@ -23,7 +25,9 @@ function SectionFive() {
         <p
           className="text-lg mx-auto
         xxxs:w-[90%]
-        md:w-[70%] "
+        md:w-[95%] 
+        lg:w-[100%]
+        xl:w-[70%]"
         >
           Technology is advancing at an incredible rate, and we're just getting
           started. Code World believes that there&apos;s never been a more
@@ -34,14 +38,19 @@ function SectionFive() {
         <p
           className="text-lg mx-auto
         xxxs:w-[90%] xxxs:-mb-0
-        md:w-[70%] "
+        md:w-[95%] 
+        lg:w-[100%]
+        xl:w-[70%]"
         >
           Whether or not they pursue coding as a career, we want to provide kids
           with the skills that will help them more easily pursue their dreams in
           the digital age.
         </p>
       </div>
-      <div className={styles.wrapper}>
+      <div
+        className={`${styles.wrapper} md:px-5 md:pt-8
+      lg:px-0 lg:pt-0`}
+      >
         <div>
           <figure>
             <Image

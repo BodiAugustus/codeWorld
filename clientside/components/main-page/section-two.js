@@ -1,7 +1,5 @@
-import Image from 'next/image';
 import { GiLaptop, GiTeacher } from 'react-icons/gi';
-import sectionPic from '../../public/images/cw1.png';
-import styles from './section-three.module.css';
+
 function SectionTwo() {
   return (
     <div
@@ -9,17 +7,22 @@ function SectionTwo() {
      xxxs::grid-cols-1 xxxs:h-[95vh]
      xxs:-mt-5 xxs:h-[105vh]
      xs:-mt-14 xs:h-[100vh]
-     md:grid-cols-[1fr_2fr_1fr] md:mb-10 md:h-[42vh]
+     md:grid-cols-[1fr_2fr_1fr] md:-mb-28 md:h-[52vh] md:items-center md:w-[120%] md:mx-0
+     lg:h-[42vh] lg:mb-10 lg:w-[100%] lg:mx-0
+     
      "
     >
       <GiLaptop
-        className="mx-auto mt-auto fill-blue-600
-        text-[14rem] "
+        className="mx-auto  fill-blue-600
+        text-[14rem] 
+        md:text-[10rem]
+        lg:mt-14 lg:text-[14rem]"
       />
       <div
         className="text-center px-3 font-poppins
         xxxs:pt-4
-      md:pt-16"
+      md:pt-0 md:px-0
+      lg:pt-16 lg:px-3"
       >
         <h2
           className="font-extrabold tracking-tight
@@ -34,7 +37,8 @@ function SectionTwo() {
           xxxs:mb-1
           xs:-mb-10
 
-        md:w-[80%] md:mb-0"
+        md:w-[80%] md:mb-0
+        "
         >
           At our digital learning center, kids learn to code in a fun, safe, and
           inspiring environment, with a project-based curriculum that they love.
@@ -45,6 +49,8 @@ function SectionTwo() {
       </div>
       <GiTeacher
         className="text-[14rem] mx-auto  fill-emerald-500
+        md:text-[10rem]
+        lg:mt-12 lg:text-[14rem]
         
         "
       />

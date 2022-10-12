@@ -5,13 +5,20 @@ import Link from 'next/link';
 function SectionFive() {
   revealSections();
   return (
-    <div className="relative overflow-hidden ">
-      <div className={`${styles.img_div} flex flex-col section`}>
+    <div
+      className="relative overflow-hidden
+    md:w-[120%]
+    lg:w-[100%]"
+    >
+      <div
+        className={`${styles.img_div} flex flex-col section
+      `}
+      >
         <h2
           className="  text-white relative font-extrabold tracking-tight 
         xxxs:text-center
         small:w-[90%]
-        md:w-[100%]"
+        md:w-[100%] md:text-5xl"
         >
           JOIN CODE WORLD TODAY
         </h2>

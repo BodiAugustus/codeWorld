@@ -22,11 +22,18 @@ function Parallax() {
     targetElement: target.current,
   });
   return (
-    <div ref={target} className="w-[98vw] ">
+    <div
+      ref={target}
+      className="w-[98vw]
+    md:w-[120%]
+    lg:w-[98vw] "
+    >
       <div className="relative overflow-hidden section">
         <div className={`${styles.img_div} flex flex-col`}>
           <h2
             className="  text-white relative font-extrabold tracking-tight text-center
+            md:text-5xl md:mb-6
+            lg:mb-0
           "
           >
             JUMP START YOUR CHILD&apos;S FUTURE

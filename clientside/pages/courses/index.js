@@ -29,7 +29,7 @@ function AllCoursesPage(props) {
       </Head>
       <Sidebar />
       <Submenu />
-      <div onMouseOver={closeSubmenu}>
+      <div onMouseOver={closeSubmenu} className="md:w-[120%] lg:w-full">
         <CoursesSearch
           onMouseOver={closeSubmenu}
           onSearch={handleFindCourses}

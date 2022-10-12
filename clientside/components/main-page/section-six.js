@@ -16,11 +16,13 @@ function SectionSix() {
       <div
         className=" px-10 relative font-poppins
         xxxs:pt-10
-      md:pt-36"
+      md:pt-24
+      lg:pt-36"
       >
         <span
           className="bg-blue-200 rounded-lg px-2 py-1 opacity-70 text-sky-600 text-sm 
-        md:mr-[13.5rem]"
+        md:mr-0
+        lg:mr-[13.5rem]"
         >
           INDIVDUAL ATTENTION
         </span>
@@ -33,7 +35,8 @@ function SectionSix() {
         </h2>
         <p
           className="mx-auto text-lg
-        md:w-[80%] "
+        md:w-[100%]
+        lg:w-[80%] "
         >
           With a maximum class size of only ten students, you can be sure that
           your child is getting the right amount of direct attention and

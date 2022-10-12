@@ -67,6 +67,51 @@
 @media (min-width: 768px) {
   .logistics {
     padding: 2rem;
+    margin: -11rem auto;
+    gap: 3rem;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .image {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .image img {
+    object-fit: fill;
+  }
+
+  .list {
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logistics {
+    padding: 2rem;
+    margin: -4rem auto;
+    gap: 3rem;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .image {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .image img {
+    object-fit: fill;
+  }
+
+  .list {
+    align-items: flex-start;
+  }
+}
+@media (min-width: 1280px) {
+  .logistics {
+    padding: 2rem;
     margin: -5rem auto;
     gap: 3rem;
     flex-direction: row;

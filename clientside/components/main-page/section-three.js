@@ -17,11 +17,13 @@ function SectionThree() {
         className="pt-24 px-10 font-poppins
       xs:pt-0
       xp:-mt-4
-      md:pt-24"
+      md:pt-20
+      lg:pt-24"
       >
         <span
           className="bg-blue-200 rounded-xl px-2 py-1 opacity-70 text-sky-600 text-sm 
-        md:mr-[12.5rem] "
+        md:mr-0
+        lg:mr-[12.5rem] "
         >
           KEEP KIDS ENGAGED
         </span>
@@ -35,7 +37,8 @@ function SectionThree() {
         </h2>
         <p
           className="text-lg  mx-auto
-        md:w-[80%]"
+        md:w-[100%]
+        lg:w-[80%]"
         >
           Your kids can stay engaged and learn coding while having fun around
           others their own age. Boost problem solving, teamwork and critical

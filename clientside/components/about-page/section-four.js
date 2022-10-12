@@ -9,12 +9,16 @@ function SectionFour() {
     <div
       className="grid text-center section
     xxxs:grid-cols-1
-    md:grid-cols-2"
+    md:grid-cols-2
+    md:w-[120%] lg:w-[100%]
+    xl:w-[100%]"
     >
       <div className={`${styles.wrapper} `}>
         <figure
           className="xxxs:hidden 
-        md:block md:mt-10"
+        md:block md:mt-12 md:ml-5
+        lg:mt-10
+        "
         >
           <Image
             className="rounded-lg "
@@ -26,7 +30,9 @@ function SectionFour() {
       <div
         className="
       xxxs:px-2 xxxs:-mt-10
-      md:pt-20 md:px-10 md:-mt-0"
+      md:pt-16 md:px-0 md:-mt-0
+      lg:px-0 lg:pt-14
+      xl:px-10 xl:pt-24"
       >
         <h2 className="font-poppins font-extrabold mt-4 tracking-tight">
           CODING IS THE NEW <span className="text-blue-600">LITERACY</span>
