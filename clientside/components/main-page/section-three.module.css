@@ -9,13 +9,10 @@
   transform: rotateY(140deg);
 }
 .inner figure {
-  box-shadow: -6px 6px 2px -3px rgba(100, 100, 100, 0.1);
-
   padding: 1em;
   display: inline-block;
   margin-right: 1em;
   background: rgba(250, 200, 200, 0.1);
-  border: 1px solid rgba(250, 200, 200, 0.5);
 }
 
 .inner img {
@@ -28,5 +25,10 @@
 @media screen and (min-width: 768px) {
   .wrapper {
     width: 37em;
+  }
+
+  .inner figure {
+    border: 1px solid rgba(250, 200, 200, 0.5);
+    box-shadow: -6px 6px 2px -3px rgba(100, 100, 100, 0.1);
   }
 }

@@ -22,13 +22,15 @@ function SectionTwo() {
       <div
         className="text-center px-3 font-poppins
         xxxs:pt-4
-        xs:-mt-14 xs:mb-0
+        xs:-mt-14 
       md:pt-0 md:px-0
       lg:pt-16 lg:px-3"
       >
         <h2
           className="font-extrabold tracking-tight
         xxxs:text-2xl
+        xs:mt-3
+        xp:mt-0
         md:text-4xl"
         >
           <span className="text-blue-600">LEARN</span> TO{' '}
