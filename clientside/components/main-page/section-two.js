@@ -22,7 +22,7 @@ function SectionTwo() {
       <div
         className="text-center px-3 font-poppins
         xxxs:pt-4
-        xs:-mt-14
+        xs:-mt-14 xs:mb-0
       md:pt-0 md:px-0
       lg:pt-16 lg:px-3"
       >
