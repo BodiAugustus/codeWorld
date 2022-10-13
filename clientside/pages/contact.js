@@ -10,13 +10,15 @@ function ContactPage() {
   revealSections();
   return (
     <div
-      className="bg-slate-200 pb-14 font-poppins
+      className="bg-slate-200 pb-14 font-poppins max-w-[1536px]
     xxxs:-mt-32
     xxs:-mt-28
     xs:-mt-36
     
     md:-mt-20 md:w-[120%] lg:w-[100%]
     lg:mt-14
+    2xl:mt-20
+    
     "
     >
       <Head>
@@ -40,7 +42,9 @@ function ContactPage() {
           className="text-center max-w-[70%] mx-auto font-poppins font-extrabold text-slate-100 pt-36 tracking-tight
         xs:pt-44
         md:pt-60
-          lg:pt-24"
+          lg:pt-24
+          xl:pt-40
+          2xl:pt-52"
         >
           CONTACT
         </h1>

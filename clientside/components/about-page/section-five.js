@@ -9,7 +9,8 @@ function SectionFive() {
     <div
       className="grid text-center section
     xxxs:grid-cols-1
-    md:grid-cols-2"
+    md:grid-cols-2
+    2xl:w-[75%] 2xl:mx-auto"
     >
       <div
         className="
@@ -27,7 +28,8 @@ function SectionFive() {
         xxxs:w-[90%]
         md:w-[95%] 
         lg:w-[100%]
-        xl:w-[70%]"
+        xl:w-[70%]
+        2xl:w-[90%]"
         >
           Technology is advancing at an incredible rate, and we're just getting
           started. Code World believes that there&apos;s never been a more
@@ -40,7 +42,8 @@ function SectionFive() {
         xxxs:w-[90%] xxxs:-mb-0
         md:w-[95%] 
         lg:w-[100%]
-        xl:w-[70%]"
+        xl:w-[70%]
+        2xl:w-[90%]"
         >
           Whether or not they pursue coding as a career, we want to provide kids
           with the skills that will help them more easily pursue their dreams in

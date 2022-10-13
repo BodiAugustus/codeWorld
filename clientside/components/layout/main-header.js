@@ -49,7 +49,8 @@ function MainHeader() {
               <button
                 onMouseOver={displaySubmenu}
                 className="link_btn 
-                md:capitalize"
+                md:capitalize
+                "
               >
                 courses
               </button>

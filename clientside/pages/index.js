@@ -13,7 +13,7 @@ import SectionSix from '@components/main-page/section-six';
 
 function HomePage(props) {
   return (
-    <div className="">
+    <div className="max-w-[1536px]">
       <Head>
         <title>Code 🌎 World</title>
 

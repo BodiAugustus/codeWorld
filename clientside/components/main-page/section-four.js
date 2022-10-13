@@ -12,7 +12,8 @@ function SectionFour() {
       className="grid text-center section
     xxxs:grid-cols-1 
     md:grid-cols-2 md:gap-16
-    lg:gap-0"
+    lg:gap-0
+    2xl:w-[75%] 2xl:mx-auto"
     >
       <div className={styles.wrapper}>
         <div className={styles.inner}>
@@ -27,7 +28,8 @@ function SectionFour() {
       <div
         className=" px-10 font-poppins
       md:pt-10 md:px-0 md:ml-16
-      lg:pt-20 lg:px-10 lg:ml-0"
+      lg:pt-20 lg:px-10 lg:ml-0
+      2xl:pt-16"
       >
         <span
           className="bg-blue-200 rounded-xl px-2 py-1 opacity-70 text-sky-600 text-sm 

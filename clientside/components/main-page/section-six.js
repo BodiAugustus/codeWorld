@@ -11,7 +11,8 @@ function SectionSix() {
     <div
       className="grid text-center section
     xxxs:grid-cols-1
-    md:grid-cols-2"
+    md:grid-cols-2
+    2xl:w-[75%] 2xl:mx-auto"
     >
       <div
         className=" px-10 relative font-poppins

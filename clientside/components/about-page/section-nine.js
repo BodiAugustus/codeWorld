@@ -14,7 +14,8 @@ function SectionNine() {
         xxxs:text-center
         xs:w-[95%]
         small:w-[95%]
-        md:w-[100%] md:text-5xl"
+        md:w-[100%] md:text-5xl
+        2xl:mb-8"
         >
           JOIN CODE WORLD TODAY
         </h2>
@@ -22,7 +23,8 @@ function SectionNine() {
           className="relative text-slate-100 text-xl
         xxxs:text-center
         xs:w-[90%]
-        md:w-[100%]"
+        md:w-[100%]
+        2xl:mb-8"
         >
           Unlock your childs path to a brighter future!
         </p>

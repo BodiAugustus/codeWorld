@@ -109,6 +109,7 @@
     align-items: flex-start;
   }
 }
+
 @media (min-width: 1280px) {
   .logistics {
     padding: 2rem;
@@ -129,5 +130,11 @@
 
   .list {
     align-items: flex-start;
+  }
+}
+
+@media (min-width: 1536px) {
+  .logistics {
+    margin: -8.5rem auto;
   }
 }

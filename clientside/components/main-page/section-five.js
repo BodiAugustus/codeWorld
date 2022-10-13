@@ -20,7 +20,8 @@ function SectionFive() {
         xs:w-[90%]
         small:w-[90%]
 
-        md:w-[100%] md:text-5xl"
+        md:w-[100%] md:text-5xl
+        2xl:mb-8"
         >
           JOIN CODE WORLD TODAY
         </h2>
@@ -28,7 +29,8 @@ function SectionFive() {
           className="relative text-slate-100 text-xl
         xxxs:text-center
         xs:w-[90%]
-        md:w-full"
+        md:w-full
+        2xl:mb-8"
         >
           Unlock your childs path to a brighter future!
         </p>

@@ -37,3 +37,9 @@
     margin-top: 8rem;
   }
 }
+
+@media (min-width: 1536px) {
+  .content {
+    margin-top: 11.5rem;
+  }
+}

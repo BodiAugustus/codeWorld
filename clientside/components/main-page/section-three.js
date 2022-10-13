@@ -11,14 +11,16 @@ function SectionThree() {
     <div
       className="grid  text-center section
     xxxs:grid-cols-1 
-    md:grid-cols-2"
+    md:grid-cols-2
+    2xl:w-[75%] 2xl:mx-auto"
     >
       <div
         className="pt-24 px-10 font-poppins
       xs:pt-0
       xp:-mt-4
       md:pt-20
-      lg:pt-24"
+      lg:pt-24
+      2xl:pt-32"
       >
         <span
           className="bg-blue-200 rounded-xl px-2 py-1 opacity-70 text-sky-600 text-sm 

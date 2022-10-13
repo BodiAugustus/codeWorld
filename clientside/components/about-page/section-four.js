@@ -11,7 +11,8 @@ function SectionFour() {
     xxxs:grid-cols-1
     md:grid-cols-2
     md:w-[120%] lg:w-[100%]
-    xl:w-[100%]"
+    xl:w-[100%]
+     2xl:mx-auto 2xl:w-[85%]"
     >
       <div className={`${styles.wrapper} `}>
         <figure
@@ -32,7 +33,8 @@ function SectionFour() {
       xxxs:px-2 xxxs:-mt-10
       md:pt-16 md:px-0 md:-mt-0
       lg:px-0 lg:pt-14
-      xl:px-10 xl:pt-24"
+      xl:px-10 xl:pt-20
+      2xl:pt-24"
       >
         <h2 className="font-poppins font-extrabold mt-4 tracking-tight">
           CODING IS THE NEW <span className="text-blue-600">LITERACY</span>
@@ -40,7 +42,8 @@ function SectionFour() {
         <p
           className="mx-auto text-lg
         xxxs:w-[90%]
-        md:w-[70%] "
+        md:w-[70%]
+        2xl:w-[90%] "
         >
           Coding has been called "the literacy of the 21st century” for good
           reason. Just like math, science, and literature, coding is a key
@@ -49,7 +52,8 @@ function SectionFour() {
         <p
           className="mx-auto text-lg
         xxxs:w-[90%]
-        md:w-[70%] "
+        md:w-[70%] 
+        2xl:w-[90%]"
         >
           There&apos;s a huge need for the younger generation to not only
           understands technology, but to know how it works.

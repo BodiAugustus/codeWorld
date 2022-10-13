@@ -10,13 +10,15 @@ function SuccessPage() {
 
   return (
     <div
-      className="
+      className="max-w-[1536px]
     xxxs:-mt-20
     xxs:-mt-16
     xs:-mt-[12vh]
     
     md:-mt-8
-    lg:mt-14"
+    lg:mt-14
+    2xl:mt-20
+  "
     >
       <Head>
         <title>Successful Registration!</title>
@@ -33,7 +35,8 @@ function SuccessPage() {
           className="gradient2 h-[62vh] 
         xxxs:mb-6
         xxs:mb-0
-        md:mb-6"
+        md:mb-6
+        "
         >
           <h1
             className="text-center max-w-[70%] mx-auto font-poppins font-extrabold text-slate-100  tracking-tight
@@ -41,7 +44,8 @@ function SuccessPage() {
             xxs:pt-5
             xs:pt-20
           md:pt-44
-          lg:pt-24"
+          lg:pt-24
+          2xl:pt-40"
           >
             Thank you for your payment!
           </h1>

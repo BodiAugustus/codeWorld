@@ -9,12 +9,14 @@ function FailurePage() {
 
   return (
     <div
-      className="xxxs:-mt-20
+      className="max-w-[1536px]
+      xxxs:-mt-20
       xxs:-mt-16
       xs:-mt-[12vh]
       
       md:-mt-8
-    lg:mt-14"
+    lg:mt-14
+    2xl:mt-20"
     >
       <Head>
         <title>Unsuccessful Registration!</title>
@@ -34,7 +36,8 @@ function FailurePage() {
             xxs:pt-4
             xs:pt-16
             md:pt-44
-          lg:pt-24"
+          lg:pt-24
+          2xl:pt-40"
           >
             Your Payment Failed to Process!
           </h1>

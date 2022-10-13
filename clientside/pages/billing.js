@@ -9,12 +9,14 @@ function BillingPage() {
   revealSections();
   return (
     <div
-      className="xxxs:-mt-20
+      className="max-w-[1536px]
+      xxxs:-mt-20
       xxs:-mt-16
       xs:-mt-[12vh]
       
     md:-mt-6 md:w-[120%] 
     lg:w-[100%] lg:mt-14
+    2xl:mt-20
     "
     >
       <Head>
@@ -34,7 +36,8 @@ function BillingPage() {
             xxxs:pt-28
             xs:pt-40
           md:pt-60
-          lg:pt-36"
+          lg:pt-36
+          2xl:pt-52"
           >
             BILLING & PAYMENTS
           </h1>

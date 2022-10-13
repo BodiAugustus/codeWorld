@@ -273,3 +273,9 @@ p {
     width: 10rem;
   }
 }
+
+@media screen and (min-width: 1536px) {
+  .link_btn {
+    font-size: 1.8rem;
+  }
+}

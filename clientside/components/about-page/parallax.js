@@ -35,6 +35,7 @@ function Parallax() {
             small:w-[95%]
             md:text-5xl md:mb-6
             lg:mb-0
+            2xl:mb-8
           "
           >
             JUMP START YOUR CHILD&apos;S FUTURE
@@ -42,7 +43,8 @@ function Parallax() {
           <p
             className="relative text-slate-100 text-xl text-center 
           xxxs:w-[90%]
-          md:w-[70%]"
+          md:w-[70%]
+          2xl:mb-8"
           >
             Kids learn to code through our engaging project-based curriculum
             that boosts self-confidence and teaches teamwork, logic, and problem

@@ -37,7 +37,11 @@ function CourseDetailPage(props) {
       <Sidebar />
       <Submenu />
       <CourseSummary title={course.title} />
-      <div onMouseOver={closeSubmenu} className="md:w-[120%] lg:w-[100%]">
+      <div
+        onMouseOver={closeSubmenu}
+        className="max-w-[1536px]
+      md:w-[120%] lg:w-[100%]"
+      >
         <CourseLogistics
           date={course.date}
           address={course.location}

@@ -12,7 +12,7 @@ function FaqPage() {
   const [questions, setQuestions] = useState(data2);
   revealSections();
   return (
-    <div className="section">
+    <div className="section max-w-[1536px]">
       <Head>
         <title>FAQs</title>
 
@@ -31,7 +31,9 @@ function FaqPage() {
       xs:-mt-[12vh]
       
       md:-mt-20 md:w-[120%]
-      lg:w-[100%] lg:-mt-0"
+      lg:w-[100%] lg:-mt-0
+      2xl:mt-6
+      "
       >
         <div onMouseOver={closeSubmenu}>
           <div
@@ -45,7 +47,8 @@ function FaqPage() {
               xxxs:pt-32 xxxs:text-4xl
               xs:pt-40
             md:pt-60 md:text-6xl
-            lg:pt-32"
+            lg:pt-32
+            2xl:pt-44"
             >
               FREQUENTLY ASKED QUESTIONS
             </h1>

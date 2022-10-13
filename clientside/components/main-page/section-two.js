@@ -9,6 +9,7 @@ function SectionTwo() {
      xs:-mt-4 xs:h-[100vh]
      md:grid-cols-[1fr_2fr_1fr] md:-mb-28 md:h-[52vh] md:items-center md:w-[120%] md:mx-0
      lg:h-[42vh] lg:mb-10 lg:w-[100%] lg:mx-0
+     2xl:w-[70%] 2xl:mx-auto
      
      "
     >
