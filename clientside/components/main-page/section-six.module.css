@@ -1,13 +1,8 @@
 .wrapper {
-  perspective: 2000px;
   margin: 4em auto;
   width: 20em;
 }
 
-.inner {
-  transition: 0.3s;
-  transform: rotateY(140deg);
-}
 .inner figure {
   box-shadow: -6px 6px 2px -3px rgba(100, 100, 100, 0.1);
 
@@ -28,6 +23,12 @@
 @media screen and (min-width: 768px) {
   .wrapper {
     width: 37em;
+    perspective: 2000px;
+  }
+
+  .inner {
+    transition: 0.3s;
+    transform: rotateY(140deg);
   }
 }
 @media screen and (min-width: 1024px) {

@@ -11,7 +11,7 @@ function BillingPage() {
     <div
       className="xxxs:-mt-20
       xxs:-mt-16
-      xs:-mt-24
+      xs:-mt-[12vh]
       small:-mt-28
     md:-mt-6 md:w-[120%] 
     lg:w-[100%] lg:mt-14

@@ -64,8 +64,13 @@
 
 @media screen and (min-width: 384px) {
   .hero {
-    margin-top: -6rem;
+    margin-top: -6.5rem;
     min-height: 48vh;
+  }
+
+  .hero_info h1 {
+    line-height: 1;
+    margin-top: 1rem;
   }
 }
 

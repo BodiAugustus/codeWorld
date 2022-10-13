@@ -1,7 +1,7 @@
 //for STRIPE
 import { loadStripe } from '@stripe/stripe-js';
 
-const myDomain = 'http://localhost:3000';
+const myDomain = 'code-world-silk.vercel.app';
 
 export async function checkout({ lineItems }) {
   let stripePromise = null;

@@ -6,7 +6,7 @@ function SectionTwo() {
       className=" grid mx-10 
      xxxs::grid-cols-1 xxxs:h-[95vh]
      xxs:-mt-5 xxs:h-[105vh]
-     xs:-mt-14 xs:h-[100vh]
+     xs:-mt-4 xs:h-[100vh]
      md:grid-cols-[1fr_2fr_1fr] md:-mb-28 md:h-[52vh] md:items-center md:w-[120%] md:mx-0
      lg:h-[42vh] lg:mb-10 lg:w-[100%] lg:mx-0
      
@@ -15,12 +15,14 @@ function SectionTwo() {
       <GiLaptop
         className="mx-auto  fill-blue-600
         text-[14rem] 
+
         md:text-[10rem]
         lg:mt-14 lg:text-[14rem]"
       />
       <div
         className="text-center px-3 font-poppins
         xxxs:pt-4
+        xs:-mt-14
       md:pt-0 md:px-0
       lg:pt-16 lg:px-3"
       >
@@ -35,7 +37,8 @@ function SectionTwo() {
         <p
           className="text-lg  text-center mx-auto
           xxxs:mb-1
-          xs:-mb-10
+          xs:-mb-6
+
 
         md:w-[80%] md:mb-0
         "

@@ -12,6 +12,7 @@ function SectionNine() {
         <h2
           className="  text-white relative font-extrabold tracking-tight
         xxxs:text-center
+        xs:w-[95%]
         small:w-[95%]
         md:w-[100%] md:text-5xl"
         >

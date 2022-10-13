@@ -58,6 +58,7 @@ function NewsletterRegistration() {
       <h2
         className=" text-center mx-auto pt-12 -mb-5 font-extrabold tracking-tight font-poppins uppercase
       xxxs:text-lg xxxs:w-[90%]
+      xs:text-2xl
       md:text-4xl md:max-w-[700px]"
       >
         Sign up for our newsletter to stay updated!

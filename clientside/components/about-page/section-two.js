@@ -20,6 +20,7 @@ function SectionTwo() {
       >
         <h2
           className="font-poppins font-extrabold mt-4 tracking-tight
+          xs:w-[95%]
         xxxs:text-3xl
         md:text-4xl"
         >

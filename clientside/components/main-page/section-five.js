@@ -17,7 +17,9 @@ function SectionFive() {
         <h2
           className="  text-white relative font-extrabold tracking-tight 
         xxxs:text-center
+        xs:w-[90%]
         small:w-[90%]
+
         md:w-[100%] md:text-5xl"
         >
           JOIN CODE WORLD TODAY

@@ -47,6 +47,12 @@
   min-width: 2rem;
 }
 
+@media screen and (min-width: 384px) {
+  .question {
+    margin: 1rem 1rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .question {
     margin: 0 auto;

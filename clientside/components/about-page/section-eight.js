@@ -29,8 +29,8 @@ function SectionEight() {
         xl:w-[70%]"
         >
           We pride ourselves in partnering with local schools to boost STEM
-          education in communities across Bali through our Code World learning
-          center.
+          education in communities across the island through our Code World
+          learning center.
         </p>
         <p
           className="text-lg mx-auto

@@ -29,7 +29,7 @@ function AboutPage() {
           className={`gradient   font-poppins 
           xxxs:-mt-20  xxxs:-mb-5
           xxs:-mt-16
-          xs:-mt-24
+          xs:-mt-[12vh]
           small:-mt-28
          h-[62vh] md:mb-6
         md:-mt-6 md:w-[120%]
