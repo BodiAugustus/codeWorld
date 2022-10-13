@@ -32,6 +32,7 @@ function Parallax() {
         <div className={`${styles.img_div} flex flex-col`}>
           <h2
             className="  text-white relative font-extrabold tracking-tight text-center
+            small:w-[95%]
             md:text-5xl md:mb-6
             lg:mb-0
           "

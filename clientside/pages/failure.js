@@ -12,7 +12,7 @@ function FailurePage() {
       className="xxxs:-mt-20
       xxs:-mt-16
       xs:-mt-[12vh]
-      small:-mt-28
+      
       md:-mt-8
     lg:mt-14"
     >

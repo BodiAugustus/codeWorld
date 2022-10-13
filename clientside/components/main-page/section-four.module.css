@@ -10,7 +10,6 @@
   display: inline-block;
   margin-right: 1em;
   background: rgba(250, 200, 200, 0.1);
-  border: 1px solid rgba(250, 200, 200, 0.5);
 }
 
 .inner img {
@@ -25,6 +24,10 @@
     perspective: 2000px;
     width: 34em;
     margin-top: 6rem;
+  }
+
+  .inner figure {
+    border: 1px solid rgba(250, 200, 200, 0.5);
   }
 
   .inner {

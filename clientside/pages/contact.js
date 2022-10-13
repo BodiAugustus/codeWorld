@@ -14,7 +14,7 @@ function ContactPage() {
     xxxs:-mt-32
     xxs:-mt-28
     xs:-mt-36
-    small:-mt-40
+    
     md:-mt-20 md:w-[120%] lg:w-[100%]
     lg:mt-14
     "

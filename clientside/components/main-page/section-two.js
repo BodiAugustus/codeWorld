@@ -29,9 +29,9 @@ function SectionTwo() {
         <h2
           className="font-extrabold tracking-tight
         xxxs:text-2xl
-        xs:mt-3
-        xp:mt-0
-        md:text-4xl"
+        xs:mt-6
+        
+        md:text-4xl md:mt-0"
         >
           <span className="text-blue-600">LEARN</span> TO{' '}
           <span className="text-emerald-500">CODE!</span>

@@ -30,7 +30,7 @@ function AboutPage() {
           xxxs:-mt-20  xxxs:-mb-5
           xxs:-mt-16
           xs:-mt-[12vh]
-          small:-mt-28
+          
          h-[62vh] md:mb-6
         md:-mt-6 md:w-[120%]
       lg:w-[100%] lg:mt-14`}
