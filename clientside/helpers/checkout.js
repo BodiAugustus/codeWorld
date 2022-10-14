@@ -1,7 +1,7 @@
 //for STRIPE
 import { loadStripe } from '@stripe/stripe-js';
 
-const myDomain = 'https://code-world-silk.vercel.app';
+const myDomain = 'https://www.codeworld.io/';
 //http://localhost:3000
 
 export async function checkout({ lineItems }) {
