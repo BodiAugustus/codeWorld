@@ -80,7 +80,7 @@ function CourseDetailPage(props) {
                           : course.title === 'HTML & CSS' &&
                             course.date === '2023-01-11'
                           ? 'price_1LrCimFSa0TezXP7VZDoBW8a'
-                          : 'price_1LrCjdFSa0TezXP768iRqw29'
+                          : 'price_1M4y7CFSa0TezXP77P272r3A'
                       }`,
                       quantity: 1,
                     },
@@ -151,7 +151,7 @@ function CourseDetailPage(props) {
                           : course.title === 'HTML & CSS' &&
                             course.date === '2023-01-11'
                           ? 'price_1LrCimFSa0TezXP7VZDoBW8a'
-                          : 'price_1LrCjdFSa0TezXP768iRqw29'
+                          : 'price_1M4y7CFSa0TezXP77P272r3A'
                       }`,
                       quantity: 1,
                     },
