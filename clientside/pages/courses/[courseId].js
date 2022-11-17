@@ -58,29 +58,29 @@ function CourseDetailPage(props) {
                     {
                       price: `${
                         course.title === 'React' && course.date === '2023-01-21'
-                          ? 'price_1M4z7GFSa0TezXP7VGtkXIOq'
+                          ? 'price_1M56fvFSa0TezXP7TymWk59I'
                           : course.title === 'React' &&
                             course.date === '2023-01-22'
-                          ? 'price_1M4z6oFSa0TezXP73mvaPHE1'
+                          ? 'price_1M56gqFSa0TezXP7szqCLPnr'
                           : course.title === 'JavaScript' &&
                             course.date === '2023-01-21'
-                          ? 'price_1M4z5UFSa0TezXP76X4ZTn3N'
+                          ? 'price_1M56hQFSa0TezXP753pRwbSJ'
                           : course.title === 'JavaScript' &&
                             course.date === '2023-01-22'
-                          ? 'price_1M4z4mFSa0TezXP7BpXKkIgC'
+                          ? 'price_1M56i1FSa0TezXP7LFYQQIQa'
                           : course.title === 'JavaScript' &&
                             course.date === '2023-01-27'
-                          ? 'price_1M4z3jFSa0TezXP7v76Gh5Ev'
+                          ? 'price_1M56ibFSa0TezXP7lKOmnHn6'
                           : course.title === 'HTML & CSS' &&
                             course.date === '2023-01-21'
-                          ? 'price_1M4z1WFSa0TezXP7oYUz8M3W'
+                          ? 'price_1M56j8FSa0TezXP7fCIagdfV'
                           : course.title === 'HTML & CSS' &&
                             course.date === '2023-01-22'
-                          ? 'price_1M4z0HFSa0TezXP7Enl8oiOQ'
+                          ? 'price_1M56jbFSa0TezXP7iGlU76AN'
                           : course.title === 'HTML & CSS' &&
-                            course.date === '2023-02-02'
-                          ? 'price_1M4yzGFSa0TezXP7buRLb6Uv'
-                          : 'price_1M4yyAFSa0TezXP71Q6t7fr4'
+                            course.date === '2023-02-01'
+                          ? 'price_1M56kBFSa0TezXP7sgc0DDRx'
+                          : 'price_1M56lUFSa0TezXP7k8dfhEOQ'
                       }`,
                       quantity: 1,
                     },
@@ -129,29 +129,29 @@ function CourseDetailPage(props) {
                     {
                       price: `${
                         course.title === 'React' && course.date === '2023-01-21'
-                          ? 'price_1M4z7GFSa0TezXP7VGtkXIOq'
+                          ? 'price_1M56fvFSa0TezXP7TymWk59I'
                           : course.title === 'React' &&
                             course.date === '2023-01-22'
-                          ? 'price_1M4z6oFSa0TezXP73mvaPHE1'
+                          ? 'price_1M56gqFSa0TezXP7szqCLPnr'
                           : course.title === 'JavaScript' &&
                             course.date === '2023-01-21'
-                          ? 'price_1M4z5UFSa0TezXP76X4ZTn3N'
+                          ? 'price_1M56hQFSa0TezXP753pRwbSJ'
                           : course.title === 'JavaScript' &&
                             course.date === '2023-01-22'
-                          ? 'price_1M4y7CFSa0TezXP77P272r3A'
+                          ? 'price_1M56i1FSa0TezXP7LFYQQIQa'
                           : course.title === 'JavaScript' &&
                             course.date === '2023-01-27'
-                          ? 'price_1M4z3jFSa0TezXP7v76Gh5Ev'
+                          ? 'price_1M56ibFSa0TezXP7lKOmnHn6'
                           : course.title === 'HTML & CSS' &&
                             course.date === '2023-01-21'
-                          ? 'price_1M4z1WFSa0TezXP7oYUz8M3W'
+                          ? 'price_1M56j8FSa0TezXP7fCIagdfV'
                           : course.title === 'HTML & CSS' &&
                             course.date === '2023-01-22'
-                          ? 'price_1M4z0HFSa0TezXP7Enl8oiOQ'
+                          ? 'price_1M56jbFSa0TezXP7iGlU76AN'
                           : course.title === 'HTML & CSS' &&
-                            course.date === '2023-02-02'
-                          ? 'price_1M4yzGFSa0TezXP7buRLb6Uv'
-                          : 'price_1M4yyAFSa0TezXP71Q6t7fr4'
+                            course.date === '2023-02-01'
+                          ? 'price_1M56kBFSa0TezXP7sgc0DDRx'
+                          : 'price_1M56lUFSa0TezXP7k8dfhEOQ'
                       }`,
                       quantity: 1,
                     },
