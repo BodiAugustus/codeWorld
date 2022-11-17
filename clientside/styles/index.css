@@ -199,7 +199,7 @@ p {
 
 /* links */
 .submenu {
-  background: var(--clr-white);
+  background: #f8ffdb;
   box-shadow: var(--dark-shadow);
   position: absolute;
   top: 4rem;
@@ -249,7 +249,7 @@ p {
   margin-bottom: 1.5rem;
 }
 .submenu-center a {
-  width: 9rem;
+  width: 10rem;
   display: block;
   color: var(--clr-grey-1);
   text-transform: capitalize;

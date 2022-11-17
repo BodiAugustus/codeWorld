@@ -12,13 +12,13 @@ const questions = [
   {
     id: 3,
     title: 'Why should my kids learn how to code?',
-    info: 'Coding has been called "the literacy of the 21st century” and for good reason. Just like math, science, and literature, coding is a key aspect of understanding our technologically advanced world. Almost everything nowdays is digital or runs off code. There is a huge need for the younger generation to not only understand technology, but to know how it works. Regardless of whether your kids one day pursue a career in coding, Code World teaches them confidence, logic, resourcefulness, and problem solving skills that will serve them well for the rest of their lives in the digital age.',
+    info: 'Coding has been called "the literacy of the 21st century” and for good reason. Just like math, science, and literature, coding is a key aspect of understanding our technologically advanced world. Almost everything nowdays is digital or runs off of code. There is a huge need for the younger generation to not only understand technology, but to know how it works. Regardless of whether your kids one day pursue a career in coding, Code World teaches them confidence, logic, resourcefulness, and problem solving skills that will serve them well for the rest of their lives in the digital age.',
   },
   {
     id: 4,
     title:
       'My kids already take computer class at school. So why do they need Code World?',
-    info: 'It’s great that some schools offer computer education, but they are often under-resourced, woefully outdated and unable to offer the sophisticated ongoing coding curriculum that kids need to be competitive in an increasingly globalized and technology dependent workforce. Parents who want their kids to get ahead of the growing curve and to learn coding properly are turning to Code World where our curriculum is always kept proactive and up to date.',
+    info: 'It is great that some schools offer computer education, but they are often under-resourced, woefully outdated and unable to offer the sophisticated ongoing coding curriculum that kids need to be competitive in an increasingly globalized and technology dependent workforce. Parents who want their kids to get ahead of the growing curve and to learn coding properly are turning to Code World where our curriculum is always kept proactive and up to date.',
   },
   {
     id: 5,
@@ -33,7 +33,7 @@ const questions = [
   {
     id: 7,
     title: 'When can my kids attend Code World?',
-    info: 'A monthly subscription to Code World includes 4 two-hour classes which are given on the same day and time each week. Additionally, up to thirty minutes after each lesson can be spent seeking and receiving additional help or answers by students after class has ended for a potential total of ten hours per month of direct instruction in the latest and greatest web based technologies.',
+    info: 'A monthly subscription to Code World includes 4 two-hour classes which are given on the same day and time each week. Additionally, thirty minutes after each lesson can be spent seeking and receiving additional help or answers by students after class has ended for a potential total of ten hours per month of direct instruction in the latest and greatest web based technologies.',
   },
   {
     id: 8,
@@ -69,6 +69,11 @@ const questions = [
     id: 14,
     title: 'What happens if my child misses a class?',
     info: 'In the case of a missed class the student will have the option of joining any other class which is taking place during that same week so long as there is room. If no room is available then the student will be provided the missed content to be made familiar with before the next class.',
+  },
+  {
+    id: 15,
+    title: 'What calender schedule does Code World follow?',
+    info: 'Our classes follow the international school schedule. We understand the importance of family time and holidays and as such, we do not have scheduled classes during officially sanctioned school holidays such as Spring Break or Christmas. We do however offer a special summer school program for any students who wish to take part.',
   },
 ];
 export default questions;
