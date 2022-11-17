@@ -58,29 +58,29 @@ function CourseDetailPage(props) {
                     {
                       price: `${
                         course.title === 'React' && course.date === '2023-01-07'
-                          ? 'price_1M4y7CFSa0TezXP77P272r3A'
+                          ? 'price_1M4z7GFSa0TezXP7VGtkXIOq'
                           : course.title === 'React' &&
                             course.date === '2023-01-08'
-                          ? 'price_1M4y7CFSa0TezXP77P272r3A'
+                          ? 'price_1M4z6oFSa0TezXP73mvaPHE1'
                           : course.title === 'JavaScript' &&
                             course.date === '2023-01-07'
-                          ? 'price_1M4y7CFSa0TezXP77P272r3A'
+                          ? 'price_1M4z5UFSa0TezXP76X4ZTn3N'
                           : course.title === 'JavaScript' &&
                             course.date === '2023-01-08'
-                          ? 'price_1M4y7CFSa0TezXP77P272r3A'
+                          ? 'price_1M4z4mFSa0TezXP7BpXKkIgC'
                           : course.title === 'JavaScript' &&
                             course.date === '2023-01-13'
-                          ? 'price_1M4y7CFSa0TezXP77P272r3A'
+                          ? 'price_1M4z3jFSa0TezXP7v76Gh5Ev'
                           : course.title === 'HTML & CSS' &&
                             course.date === '2023-01-07'
-                          ? 'price_1M4y7CFSa0TezXP77P272r3A'
+                          ? 'price_1M4z1WFSa0TezXP7oYUz8M3W'
                           : course.title === 'HTML & CSS' &&
                             course.date === '2023-01-08'
-                          ? 'price_1M4y7CFSa0TezXP77P272r3A'
+                          ? 'price_1M4z0HFSa0TezXP7Enl8oiOQ'
                           : course.title === 'HTML & CSS' &&
                             course.date === '2023-01-11'
-                          ? 'price_1M4y7CFSa0TezXP77P272r3A'
-                          : 'price_1M4y7CFSa0TezXP77P272r3A'
+                          ? 'price_1M4yzGFSa0TezXP7buRLb6Uv'
+                          : 'price_1M4yyAFSa0TezXP71Q6t7fr4'
                       }`,
                       quantity: 1,
                     },
@@ -129,29 +129,29 @@ function CourseDetailPage(props) {
                     {
                       price: `${
                         course.title === 'React' && course.date === '2023-01-07'
-                          ? 'price_1M4y7CFSa0TezXP77P272r3A'
+                          ? 'price_1M4z7GFSa0TezXP7VGtkXIOq'
                           : course.title === 'React' &&
                             course.date === '2023-01-08'
-                          ? 'price_1M4y7CFSa0TezXP77P272r3A'
+                          ? 'price_1M4z6oFSa0TezXP73mvaPHE1'
                           : course.title === 'JavaScript' &&
                             course.date === '2023-01-07'
-                          ? 'price_1M4y7CFSa0TezXP77P272r3A'
+                          ? 'price_1M4z5UFSa0TezXP76X4ZTn3N'
                           : course.title === 'JavaScript' &&
                             course.date === '2023-01-08'
                           ? 'price_1M4y7CFSa0TezXP77P272r3A'
                           : course.title === 'JavaScript' &&
                             course.date === '2023-01-13'
-                          ? 'price_1M4y7CFSa0TezXP77P272r3A'
+                          ? 'price_1M4z3jFSa0TezXP7v76Gh5Ev'
                           : course.title === 'HTML & CSS' &&
                             course.date === '2023-01-07'
-                          ? 'price_1M4y7CFSa0TezXP77P272r3A'
+                          ? 'price_1M4z1WFSa0TezXP7oYUz8M3W'
                           : course.title === 'HTML & CSS' &&
                             course.date === '2023-01-08'
-                          ? 'price_1M4y7CFSa0TezXP77P272r3A'
+                          ? 'price_1M4z0HFSa0TezXP7Enl8oiOQ'
                           : course.title === 'HTML & CSS' &&
                             course.date === '2023-01-11'
-                          ? 'price_1M4y7CFSa0TezXP77P272r3A'
-                          : 'price_1M4y7CFSa0TezXP77P272r3A'
+                          ? 'price_1M4yzGFSa0TezXP7buRLb6Uv'
+                          : 'price_1M4yyAFSa0TezXP71Q6t7fr4'
                       }`,
                       quantity: 1,
                     },
