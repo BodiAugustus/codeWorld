@@ -9,7 +9,9 @@ export async function checkout({ lineItems }) {
 
   const getStripe = () => {
     if (!stripePromise) {
-      stripePromise = loadStripe(`${process.env.NEXT_PUBLIC_API_KEY2}`);
+      stripePromise = loadStripe(
+        'pk_live_51LqthpFSa0TezXP7Vne2W4ClGNU4StnEn9EQg2H5YqOQNtA24D2s3ElRFipquaBS4JF68a9RQX7TRc19InussUeA00dSpGjwlc'
+      );
     }
     return stripePromise;
   };
