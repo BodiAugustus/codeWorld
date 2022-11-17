@@ -1,4 +1,4 @@
-//for STRIPE
+//for STRIPEe
 import { loadStripe } from '@stripe/stripe-js';
 
 const myDomain = 'https://www.codeworld.io/';
@@ -9,7 +9,7 @@ export async function checkout({ lineItems }) {
 
   const getStripe = () => {
     if (!stripePromise) {
-      stripePromise = loadStripe(process.env.NEXT_PUBLIC_API_KEY2);
+      stripePromise = loadStripe(`${process.env.NEXT_PUBLIC_API_KEY2}`);
     }
     return stripePromise;
   };
