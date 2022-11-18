@@ -52,9 +52,9 @@ function BillingPage() {
               Payments General
             </h2>
             <p>
-              Payment of 200 USD is required to be fully paid before
-              attending any classes each month. Payment can be made by cash,
-              credit or debit card.
+              Payment of 200 USD is required to be fully paid before attending
+              any classes each month. Payment can be made by cash, credit or
+              debit card.
             </p>
             <p>
               Class seats are booked on a first-come, first-serve basis each
@@ -96,8 +96,9 @@ function BillingPage() {
               for the remainder of the pre-paid period, or have your access
               terminated but with no refund or proration of any charges
               withstanding. Missed classes do not roll over to a new month. The
-              monthly membership is for one two-hour class each week for a total
-              of eight hours instructional time per month.
+              monthly membership is for one two-hour class each week with thirty
+              minutes after class time for a total of ten hours instructional
+              time per month.
             </p>
           </div>
         </div>

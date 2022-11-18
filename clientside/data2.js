@@ -18,7 +18,7 @@ const questions = [
     id: 4,
     title:
       'My kids already take computer class at school. So why do they need Code World?',
-    info: 'It is great that some schools offer computer education, but they are often under-resourced, woefully outdated and unable to offer the sophisticated ongoing coding curriculum that kids need to be competitive in an increasingly globalized and technology dependent workforce. Parents who want their kids to get ahead of the growing curve and to learn coding properly are turning to Code World where our curriculum is always kept proactive and up to date.',
+    info: 'It is great that some schools offer computer education, but they are often under-resourced, woefully outdated, too broadly focused and unable to offer the sophisticated ongoing coding curriculum that kids need to be competitive in an increasingly globalized and technology dependent workforce. Parents who want their kids to get ahead of the growing curve and to learn coding properly are turning to Code World where our curriculum is always kept proactive and up to date.',
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const questions = [
   {
     id: 10,
     title: 'How many students attend a Code World class?',
-    info: 'We have a maximum class size of ten students per two hour class.',
+    info: 'We have a maximum class size of twelve students per two hour class.',
   },
   {
     id: 11,
@@ -58,7 +58,7 @@ const questions = [
   {
     id: 12,
     title: 'How much does Code World cost?',
-    info: 'Code World is available for a flat fee of $200 USD each month which allows for eight total hours of personal, pertinent and up-to-date coding in a fun and active enviornment with other children around their same age.',
+    info: 'Code World is available for a flat fee of $200 USD each month which allows for ten total hours of personal, pertinent and up-to-date coding in a fun and active enviornment with other children around their same age.',
   },
   {
     id: 13,

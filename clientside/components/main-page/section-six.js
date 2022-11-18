@@ -39,8 +39,8 @@ function SectionSix() {
         md:w-[100%]
         lg:w-[80%] "
         >
-          With a maximum class size of only ten students, you can be sure that
-          your child is getting the right amount of direct attention and
+          With a maximum class size of only twelve students, you can be sure
+          that your child is getting the right amount of direct attention and
           instruction needed to excel in the digital age.
         </p>
         <Link href="/courses">
