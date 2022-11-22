@@ -18,7 +18,7 @@ const questions = [
     id: 4,
     title:
       'My kids already take computer class at school. So why do they need Code World?',
-    info: 'It is great that some schools offer computer education, but they are often under-resourced, woefully outdated, too broadly focused and unable to offer the sophisticated ongoing coding curriculum that kids need to be competitive in an increasingly globalized and technology dependent workforce. Parents who want their kids to get ahead of the growing curve and to learn coding properly are turning to Code World where our curriculum is always kept proactive and up to date.',
+    info: 'It is great that some schools offer computer education, but they are often under-resourced, woefully outdated, taught by nonprofessionals and unable to offer the sophisticated ongoing coding curriculum that kids need to be competitive in an increasingly globalized and technology dependent workforce. Parents who want their kids to get ahead of the growing curve and to learn coding properly are turning to Code World where our curriculum is always kept proactive and up to date.',
   },
   {
     id: 5,
@@ -33,12 +33,12 @@ const questions = [
   {
     id: 7,
     title: 'When can my kids attend Code World?',
-    info: 'A monthly subscription to Code World includes 4 two-hour classes which are given on the same day and time each week. Additionally, thirty minutes after each lesson can be spent seeking and receiving additional help or answers by students after class has ended for a potential total of ten hours per month of direct instruction in the latest and greatest web based technologies.',
+    info: 'A monthly subscription to Code World includes 4 two-hour classes which are given on the same day and time each week wih a 5-10 minute break in between. Additionally, thirty minutes after each lesson can be spent seeking and receiving additional help by students after class has ended for a potential total of ten hours per month of direct instruction in the latest and greatest web based technologies.',
   },
   {
     id: 8,
     title: 'How often can my kid attend Code World?',
-    info: 'Students are able to attend Code World during their designated class date and time.',
+    info: 'Students are able to attend Code World during their designated class date and time each week.',
   },
   {
     id: 9,
@@ -53,17 +53,17 @@ const questions = [
   {
     id: 11,
     title: 'What language are the classes taught in?',
-    info: 'All curriculum, instruction and assignments are currently only available in the English language.',
+    info: 'All curriculum, instruction and assignments are currently only available in American English.',
   },
   {
     id: 12,
     title: 'How much does Code World cost?',
-    info: 'Code World is available for a flat fee of $200 USD each month which allows for ten total hours of personal, pertinent and up-to-date coding in a fun and active enviornment with other children around their same age.',
+    info: 'Code World is available for a flat fee of $150 USD each month which allows for ten total hours of personal, pertinent and up-to-date coding in a fun and active enviornment with other children around their same age.',
   },
   {
     id: 13,
     title: 'Will the curriculum expand and be updated?',
-    info: 'Oh yes! We are just getting started! We are currently hard at work on our NodeJS and NextJS courses and after that will begin offering web3.0 and blockchain courses as well. The mid to long term will see robotics, AI, and 3D printing brought in and included as course offerings. The future is burning bright with Code World!',
+    info: 'Oh yes! We are just getting started! We are currently hard at work on our NodeJS and NextJS courses and after that will begin offering web3 and blockchain courses as well. The mid to long term will see robotics, AI, and 3D printing brought in and included as course offerings. The future is burning bright with Code World!',
   },
   {
     id: 14,
@@ -73,7 +73,7 @@ const questions = [
   {
     id: 15,
     title: 'What calender schedule does Code World follow?',
-    info: 'Our classes follow the international school schedule. We understand the importance of family time and holidays and as such, we do not have scheduled classes during officially sanctioned school holidays such as Spring Break or Christmas. We do however offer a special summer school program for any students who wish to take part.',
+    info: 'Our classes follow the international school schedule. We understand the importance of family time and holidays and as such, we do not have scheduled classes during officially sanctioned school holidays such as Spring Break or New Years. We do however offer a special summer school program for any students who wish to take part.',
   },
 ];
 export default questions;
