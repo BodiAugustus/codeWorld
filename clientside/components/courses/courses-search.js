@@ -27,7 +27,7 @@ function CoursesSearch(props) {
       </h2>
       <p
         className=" font-extrabold uppercase italic font-poppins text-center  tracking-tight
-        xxxs:-mt-10 xxxs:text-xs
+        xxxs:mt-2 xxxs:text-xs
       md:mt-2 md:mb-2 md:text-xs"
       >
         - New Classes will be Added as Current Classes are Filled -
