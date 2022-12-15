@@ -199,7 +199,7 @@ p {
 
 /* links */
 .submenu {
-  background: #f8ffdb;
+  background: #fff;
   box-shadow: var(--dark-shadow);
   position: absolute;
   top: 4rem;
@@ -279,3 +279,5 @@ p {
     font-size: 1.8rem;
   }
 }
+
+/* Logo Page */

@@ -13,7 +13,7 @@ export async function getAllCourses() {
       ...data[key],
     });
   }
-  console.log(courses);
+  // console.log(courses);
   return courses;
 }
 

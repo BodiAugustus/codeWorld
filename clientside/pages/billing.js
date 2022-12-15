@@ -52,9 +52,9 @@ function BillingPage() {
               Payments General
             </h2>
             <p>
-              Payment of 150 USD is required to be fully paid before attending
-              any classes each month. Payment can be made by cash, credit or
-              debit card.
+              Payment of 2 million Rupiah is required to be fully paid before
+              attending any classes each month. Payment can be made by cash,
+              credit or debit card.
             </p>
             <p>
               Class seats are booked on a first-come, first-serve basis each

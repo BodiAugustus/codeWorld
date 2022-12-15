@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { useGlobalContext } from 'store/context';
+import { useGlobalContext } from '../../store/context';
 import styles from './Hero.module.css';
 import Image from 'next/image';
 

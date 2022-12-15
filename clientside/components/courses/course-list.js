@@ -4,6 +4,7 @@ import revealSections from '@helpers/reveal-sections';
 
 function CourseList(props) {
   revealSections();
+
   const { items } = props;
   return (
     <div
@@ -22,17 +23,20 @@ function CourseList(props) {
       </h2>
 
       <ul className={styles.list}>
-        {items.map(event => (
-          <CourseItem
-            key={event.id}
-            id={event.id}
-            title={event.title}
-            date={event.date}
-            image={event.image}
-            location={event.location}
-            time={event.time}
-          />
-        ))}
+        {items.map(event =>
+          event.isFeatured ? (
+            <CourseItem
+              isFeatured={event.isFeatured}
+              key={event.id}
+              id={event.id}
+              title={event.title}
+              date={event.date}
+              image={event.image}
+              location={event.location}
+              time={event.time}
+            />
+          ) : null
+        )}
       </ul>
     </div>
   );

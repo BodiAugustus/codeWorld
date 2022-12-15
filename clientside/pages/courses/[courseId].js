@@ -16,7 +16,7 @@ import { checkout } from '@helpers/checkout';
 function CourseDetailPage(props) {
   const { closeSubmenu } = useGlobalContext();
   const course = props.selectedCourse;
-  console.log(course);
+  // console.log(course);
   if (!course) {
     return (
       <div>
@@ -58,10 +58,10 @@ function CourseDetailPage(props) {
                     {
                       price: `${
                         course.title === 'React' && course.date === '2023-01-21'
-                          ? 'price_1M4z7GFSa0TezXP7VGtkXIOq'
+                          ? 'price_1MFCSsFSa0TezXP7VCi1KbmV'
                           : course.title === 'React' &&
                             course.date === '2023-01-22'
-                          ? 'price_1M4z6oFSa0TezXP73mvaPHE1'
+                          ? 'price_1MFBg1FSa0TezXP7WkTZCOxL'
                           : course.title === 'JavaScript' &&
                             course.date === '2023-01-21'
                           ? 'price_1M4z5UFSa0TezXP76X4ZTn3N'
@@ -91,6 +91,7 @@ function CourseDetailPage(props) {
           >
             {course.quantity === 0 ? 'This Class Is full' : 'Register Now!'}
           </Button>
+          <p className="text-[#0f3460] mt-8 font-bold">{course.header}</p>
           <p className="text-[#111] mt-8">{course.description}</p>
           <p className="text-[#111]">{course.wsl}</p>
           <ul className="font-medium">
@@ -129,10 +130,10 @@ function CourseDetailPage(props) {
                     {
                       price: `${
                         course.title === 'React' && course.date === '2023-01-21'
-                          ? 'price_1M4z7GFSa0TezXP7VGtkXIOq'
+                          ? 'price_1MFCSsFSa0TezXP7VCi1KbmV'
                           : course.title === 'React' &&
                             course.date === '2023-01-22'
-                          ? 'price_1M4z6oFSa0TezXP73mvaPHE1'
+                          ? 'price_1MFBg1FSa0TezXP7WkTZCOxL'
                           : course.title === 'JavaScript' &&
                             course.date === '2023-01-21'
                           ? 'price_1M4z5UFSa0TezXP76X4ZTn3N'

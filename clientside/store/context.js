@@ -7,6 +7,7 @@ const AppContext = createContext();
 export const AppProvider = ({ children }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isSubmenuOpen, setIsSubmenuOpen] = useState(false);
+
   const [location, setLocation] = useState({});
   const [page, setPage] = useState({
     page: '',
@@ -28,6 +29,7 @@ export const AppProvider = ({ children }) => {
   const closeSubmenu = () => {
     setIsSubmenuOpen(false);
   };
+
   return (
     <AppContext.Provider
       value={{
