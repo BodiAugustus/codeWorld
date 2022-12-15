@@ -21,10 +21,17 @@ function CoursesSearch(props) {
       <h2
         className=" font-extrabold font-poppins text-center tracking-tight
         xxxs:-mt-10 xxxs:text-2xl
-      md:mt-24 md:mb-6 md:text-4xl"
+      md:mt-24 md:mb-1 md:text-4xl"
       >
         CHECK CLASS SCHEDULE
       </h2>
+      <p
+        className=" font-extrabold uppercase italic font-poppins text-center  tracking-tight
+        xxxs:-mt-10 xxxs:text-xs
+      md:mt-2 md:mb-2 md:text-xs"
+      >
+        - New Classes will be Added as Current Classes are Filled -
+      </p>
       <form onSubmit={handleSubmit} className={styles.form}>
         <div className={styles.controls}>
           <div className={styles.control}>
