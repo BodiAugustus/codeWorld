@@ -7,7 +7,7 @@ function Footer() {
     <div
       className="bg-sky-900 items-center justify-between 
      xxxs:flex-col xxxs:pt-3
-    flex md:h-28 md:flex-row md:pt-0 md:w-[120%]
+    flex md:h-32 md:flex-row md:pt-0 md:w-[120%]
     lg:w-[100%]
     2xl:max-w-[1536px]"
     >
@@ -26,26 +26,30 @@ function Footer() {
           </h2>
         </a>
       </Link>
-      <div
-        className="flex text-base font-bold text-white 
+      <div className="flex flex-col text-center ">
+        <div
+          className="flex  mt-1 text-base font-bold text-white
         xxxs:gap-3
-      md:gap-5 md:mr-5"
-      >
-        <Link href="/courses">
-          <a className="hover:text-emerald-500">Courses</a>
-        </Link>
-        <Link href="/about">
-          <a className="hover:text-emerald-500">About</a>
-        </Link>
-        <Link href="/contact">
-          <a className="hover:text-emerald-500">Contact</a>
-        </Link>
-        <Link href="/faq">
-          <a className="hover:text-emerald-500">FAQ</a>
-        </Link>
-        <Link href="/billing">
-          <a className="hover:text-emerald-500">Billing</a>
-        </Link>
+      md:gap-5 md:mr-5
+      
+    "
+        >
+          <Link href="/courses">
+            <a className="hover:text-emerald-500">Courses</a>
+          </Link>
+          <Link href="/about">
+            <a className="hover:text-emerald-500">About</a>
+          </Link>
+          <Link href="/contact">
+            <a className="hover:text-emerald-500">Contact</a>
+          </Link>
+          <Link href="/faq">
+            <a className="hover:text-emerald-500">FAQ</a>
+          </Link>
+          <Link href="/billing">
+            <a className="hover:text-emerald-500">Billing</a>
+          </Link>
+        </div>
       </div>
 
       <div className="md:mr-5 ">

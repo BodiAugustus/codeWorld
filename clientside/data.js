@@ -1,10 +1,12 @@
-import { FaCreditCard } from 'react-icons/fa';
+import { FaCreditCard, FaMapMarkedAlt } from 'react-icons/fa';
 import { AiOutlineHtml5, AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
+import { GrMapLocation } from 'react-icons/gr';
 import { DiCss3 } from 'react-icons/di';
 import { SiJavascript } from 'react-icons/si';
 import { FcInfo } from 'react-icons/fc';
 import { GrReactjs } from 'react-icons/gr';
 import { GiMagnifyingGlass } from 'react-icons/gi';
+
 import React from 'react';
 
 const sublinks = [
@@ -59,9 +61,9 @@ const sublinks = [
         url: '/contact',
       },
       {
-        label: '0821-4646-0083',
-        icon: <AiOutlinePhone fill="blue" />,
-        url: '#',
+        label: 'Address',
+        icon: <FaMapMarkedAlt fill="#2B3467" />,
+        url: 'https://www.google.com/search?q=code+world+bali&biw=1280&bih=648&sxsrf=ALiCzsaKc7b5qCuEMWz7dSegpk5Pbyt4ow%3A1671433450188&ei=6gygY82NC_ea4t4PxL268AI&oq=code+world&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgAMgQIIxAnMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIHCAAQgAQQCjIFCAAQgAQ6BwgjEOoCECc6DAgAEOoCELQCEEMYAToSCC4QxwEQ0QMQ6gIQtAIQQxgBOgQIABBDOhAILhCxAxCDARDHARDRAxBDOgsIABCABBCxAxCDAToKCAAQsQMQgwEQQzoNCC4QsQMQxwEQ0QMQQzoICAAQgAQQsQM6CwguEIAEELEDENQCOgUIABCRAjoKCC4QsQMQ1AIQQzoNCAAQgAQQsQMQgwEQCjoKCAAQgAQQsQMQCkoECEEYAEoECEYYAVCVC1iEGWCLJWgBcAF4AIABhwGIAccIkgEDMi44mAEAoAEBsAEUwAEB2gEGCAEQARgB&sclient=gws-wiz-serp',
       },
     ],
   },
