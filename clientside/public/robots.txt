@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.codeworld.io
+
+# Sitemaps
+Sitemap: https://www.codeworld.io/sitemap.xml
