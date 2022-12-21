@@ -31,7 +31,7 @@ function CourseDetailPage(props) {
 
         <meta
           name="Individual Course page"
-          content="Shows all of the information for a specific coding course including registration."
+          content="Shows all of the information for a specific after school or on the weekend coding course in Bali including registration."
         />
       </Head>
       <Sidebar />

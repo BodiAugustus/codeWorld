@@ -19,7 +19,7 @@ function AboutPage() {
 
         <meta
           name="About page"
-          content="Gives more information about what Code World offers and how to sign up for classes."
+          content="Provides more information about what Code World Bali offers and how to sign up students for weekday or weekend classes."
         />
       </Head>
       <Sidebar />

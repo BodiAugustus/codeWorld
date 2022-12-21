@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
             <title>Code World</title>
             <meta
               name="description"
-              content="Code World offers bright futures for young people through learning how to code!"
+              content="Code World is an after school program in Bali for children that offers bright futures through learning how to code!"
             />
             <meta
               name="viewport"

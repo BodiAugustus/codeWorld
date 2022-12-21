@@ -19,7 +19,7 @@ function HomePage(props) {
 
         <meta
           name="Main Page"
-          content="Code World main information page for parents and students."
+          content="Code World main information page for parents and students. Introduces our after school program and coding courses in Bali along with information on registration, class sizes, and more!"
         />
       </Head>
 

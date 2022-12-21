@@ -24,7 +24,7 @@ function AllCoursesPage(props) {
 
         <meta
           name="All Courses page"
-          content="Shows all of the currently offered coding courses with their dates and times."
+          content="Shows all of the currently offered after school program coding courses with their corresponding dates and times in Bali."
         />
       </Head>
       <Sidebar />

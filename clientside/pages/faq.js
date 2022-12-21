@@ -18,7 +18,7 @@ function FaqPage() {
 
         <meta
           name="FAQs page"
-          content="Provides answers to some of the most commonly asked questions about Code World."
+          content="Provides answers to some of the most commonly asked questions about Code World from parents and the Bali community."
         />
       </Head>
       <Sidebar />
