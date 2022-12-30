@@ -70,7 +70,7 @@ function CourseDetailPage(props) {
                               course.date === '2023-01-25'
                             ? 'price_1MKbZLFSa0TezXP7rYSMdrSG'
                             : course.title === 'JavaScript' &&
-                              course.date === '2023-01-21' &&
+                              course.date === '2023-01-25' &&
                               course.age === 'Ages 9-12'
                             ? 'price_1MKbcrFSa0TezXP7ybjmOBdf'
                             : course.title === 'JavaScript' &&

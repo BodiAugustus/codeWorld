@@ -2,7 +2,7 @@ const questions = [
   {
     id: 1,
     title: 'What is Code World?',
-    info: 'Code World is a dedicated center in Sanur where kids learn to code while building their own web pages, web sites and online games and applications in a fun, safe, and inspiring environment. Kids gain confidence, logic, resourcefulness, and problem solving skills that will serve them for the rest of their lives in the digital age.',
+    info: 'Code World is a dedicated in-person learning center in Sanur, Bali where kids learn to code while building their own web pages, web sites and online games and applications in a fun, safe, and inspiring environment. Kids gain confidence, logic, resourcefulness, and problem solving skills that will serve them for the rest of their lives in the digital age.',
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const questions = [
     id: 4,
     title:
       'My kids already take computer class at school. So why do they need Code World?',
-    info: 'It is great that some schools offer computer education, but they are often woefully outdated, focused more on computer science than computer programming, and often unable to offer the sophisticated ongoing coding curriculum that kids need to be competitive in an increasingly globalized and technology dependent workforce. Parents who want their kids to get ahead of the growing curve and to learn coding properly are turning to Code World where our curriculum is always kept proactive and up to date.',
+    info: 'It is great that some schools offer computer education, but they are often woefully outdated, focused more on computer science than computer programming, and often unable to offer the sophisticated ongoing coding curriculum that kids need to be competitive. Parents who want their kids to get ahead of the growing curve and to learn coding properly are turning to Code World where our curriculum is always kept proactive and up to date.',
   },
   {
     id: 5,
@@ -33,7 +33,7 @@ const questions = [
   {
     id: 7,
     title: 'When can my kids attend Code World?',
-    info: 'A monthly subscription to Code World includes 8 one-hour and fifteen minute classes which are given on the same days and times twice each week. Additionally, thirty minutes after each lesson can be spent seeking and receiving additional help by students after class time has ended for a potential total of fourteen hours per month of direct instruction in the latest and greatest web based technologies.',
+    info: 'A monthly subscription to Code World includes 8 one-hour and fifteen minute classes which are given on the same days and times twice each week. On the weekends we also offer some two-hour class schedules. Additionally, thirty minutes after each lesson can be spent seeking and receiving additional help by students after class time has ended for a potential total of fourteen hours per month of direct instruction in the latest and greatest web based technologies.',
   },
   {
     id: 8,
@@ -58,7 +58,7 @@ const questions = [
   {
     id: 12,
     title: 'How much does Code World cost?',
-    info: 'Code World is available for a flat fee of 1.25 million Rupiah each month which allows for up to 14 total hours of personal, pertinent and up-to-date coding in a fun and active enviornment with other children around their same age. The fee also includes access to a designated and regularly updated Google Classroom where the instructor can be messaged to answer questions or to get help outside of class time.',
+    info: 'Code World is available for a flat fee of 1.25 million Rupiah each month which allows for up to 14 total hours of personal, pertinent and up-to-date coding in a fun and active enviornment with other children around their same age. The fee also includes access to a designated and regularly updated Google Classroom where the instructor can be messaged to answer questions or to get help from outside of class time.',
   },
   {
     id: 13,
