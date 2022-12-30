@@ -82,7 +82,8 @@ function CourseDetailPage(props) {
                               course.date === '2023-01-21'
                             ? 'price_1MKbfSFSa0TezXP75EvQRXZX'
                             : course.title === 'HTML & CSS' &&
-                              course.date === '2023-01-22'
+                              course.date === '2023-01-21' &&
+                              course.age === 'Ages 13-16'
                             ? 'price_1MKbfzFSa0TezXP7MPqeMfdX'
                             : course.title === 'HTML & CSS' &&
                               course.date === '2023-02-01'
@@ -126,7 +127,8 @@ function CourseDetailPage(props) {
                               course.date === '2023-01-21'
                             ? 'price_1MKa4JFSa0TezXP7i0lGsoCR'
                             : course.title === 'HTML & CSS' &&
-                              course.date === '2023-01-22'
+                              course.date === '2023-01-21' &&
+                              course.age === 'Ages 13-16'
                             ? 'price_1MKa51FSa0TezXP7WGpnRMEB'
                             : course.title === 'HTML & CSS' &&
                               course.date === '2023-02-01'
@@ -199,7 +201,8 @@ function CourseDetailPage(props) {
                             course.date === '2023-01-21'
                           ? 'price_1MKbfSFSa0TezXP75EvQRXZX'
                           : course.title === 'HTML & CSS' &&
-                            course.date === '2023-01-22'
+                            course.date === '2023-01-21' &&
+                            course.age === 'Ages 13-16'
                           ? 'price_1MKbfzFSa0TezXP7MPqeMfdX'
                           : course.title === 'HTML & CSS' &&
                             course.date === '2023-02-01'
