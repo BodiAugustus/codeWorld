@@ -71,10 +71,10 @@ function CourseDetailPage(props) {
                             ? 'price_1MKbZLFSa0TezXP7rYSMdrSG'
                             : course.title === 'JavaScript' &&
                               course.date === '2023-01-21'
-                            ? 'price_1MKZyRFSa0TezXP714x1UB4L'
+                            ? 'price_1MKbcrFSa0TezXP7ybjmOBdf'
                             : course.title === 'JavaScript' &&
                               course.date === '2023-01-22'
-                            ? 'price_1MKa2KFSa0TezXP7yKV50ZVq'
+                            ? 'price_1MKbexFSa0TezXP7QaHWHJ8G'
                             : course.title === 'JavaScript' &&
                               course.date === '2023-01-27'
                             ? 'price_1MKZyRFSa0TezXP714x1UB4L'
@@ -120,7 +120,7 @@ function CourseDetailPage(props) {
                             ? 'price_1MKZyRFSa0TezXP714x1UB4L'
                             : course.title === 'JavaScript' &&
                               course.date === '2023-01-22'
-                            ? 'price_1MKa0MFSa0TezXP7UaiCjEi2'
+                            ? 'price_1MKa2KFSa0TezXP7yKV50ZVq'
                             : course.title === 'JavaScript' &&
                               course.date === '2023-01-27'
                             ? 'price_1MKa2KFSa0TezXP7yKV50ZVq'
@@ -192,10 +192,10 @@ function CourseDetailPage(props) {
                           ? 'price_1MKbZLFSa0TezXP7rYSMdrSG'
                           : course.title === 'JavaScript' &&
                             course.date === '2023-01-21'
-                          ? 'price_1MKZyRFSa0TezXP714x1UB4L'
+                          ? 'price_1MKbcrFSa0TezXP7ybjmOBdf'
                           : course.title === 'JavaScript' &&
                             course.date === '2023-01-22'
-                          ? 'price_1MKa2KFSa0TezXP7yKV50ZVq'
+                          ? 'price_1MKbexFSa0TezXP7QaHWHJ8G'
                           : course.title === 'JavaScript' &&
                             course.date === '2023-01-27'
                           ? 'price_1MKZyRFSa0TezXP714x1UB4L'
