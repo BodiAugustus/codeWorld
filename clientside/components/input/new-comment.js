@@ -128,7 +128,7 @@ function NewComment(props) {
           ref={studentAge}
           required
           min={9}
-          max={15}
+          max={16}
         />
       </div>
       <div className={classes.control}>
