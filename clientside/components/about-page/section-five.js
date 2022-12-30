@@ -57,7 +57,7 @@ function SectionFive() {
       >
         <div>
           <figure
-            className="xxxs:min-w-[120%] xxxs:-mx-7 md:-mt-6 md:-mx-12 
+            className="xxxs:min-w-[120%] xxxs:-mx-7 md:-mt-6 md:-mx-12 2xl:-mx-6
       "
           >
             <Image
