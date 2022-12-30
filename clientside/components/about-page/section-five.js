@@ -34,8 +34,8 @@ function SectionFive() {
           Every student and parent gets access to a regularly updated Google
           Classroom that is especially set up for their course. Lecture notes,
           examples, slides, news, games and more are all posted to make sure
-          students have everything they need to excel both inside and outside of
-          class.
+          that students have everything they need to excel both inside and
+          outside of class.
         </p>
         <p
           className="text-lg mx-auto
@@ -56,7 +56,10 @@ function SectionFive() {
       xl:pt-6`}
       >
         <div>
-          <figure>
+          <figure
+            className="xxxs:min-w-[120%] xxxs:-mx-7 md:-mt-6 md:-mx-12 
+      "
+          >
             <Image
               className="rounded-lg"
               src={sectionImage}

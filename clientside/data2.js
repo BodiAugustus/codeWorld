@@ -58,7 +58,7 @@ const questions = [
   {
     id: 12,
     title: 'How much does Code World cost?',
-    info: 'Code World is available for a flat fee of 1.25 million Rupiah each month which allows for up to 14 total hours of personal, pertinent and up-to-date coding in a fun and active enviornment with other children around their same age. The fee also includes access to a designated and regularly updated Google Classroom where the instructor can be messaged to answer questions or get help outside of class time.',
+    info: 'Code World is available for a flat fee of 1.25 million Rupiah each month which allows for up to 14 total hours of personal, pertinent and up-to-date coding in a fun and active enviornment with other children around their same age. The fee also includes access to a designated and regularly updated Google Classroom where the instructor can be messaged to answer questions or to get help outside of class time.',
   },
   {
     id: 13,

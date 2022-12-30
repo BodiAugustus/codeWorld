@@ -52,7 +52,7 @@ function SectionTen() {
         >
           Each of our classes are taught in one of two age groups. We have one
           set of courses for ages nine to twelve and another set of courses for
-          ages thirteen to fifteen.
+          ages thirteen to sixteen.
         </p>
         <p
           className="mx-auto text-lg
@@ -68,7 +68,7 @@ function SectionTen() {
           projects.
         </p>
         <figure
-          className="xxxs:block xxxs:min-w-[90%] xxxs:mx-4
+          className="xxxs:block xxxs:min-w-[90%] xxxs:mx-4 xxxs:mb-6
         md:hidden"
         >
           <Image
