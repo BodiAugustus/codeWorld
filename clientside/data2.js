@@ -23,7 +23,7 @@ const questions = [
   {
     id: 5,
     title: 'What is in the Code World curriculum?',
-    info: 'Our custom built in-house curriculum teaches the full gambit of what is required to build custom websites, web applications, online games, software, and even entire data driven enterprises online. Our curriculum is focused on the industry trends, standards and relevant growth models for the world of tomorrow and as such we will continue to add and update even more courses in the months and years ahead.',
+    info: 'Our self-made, in-house built curriculum teaches the full gambit of what is required to build custom websites, web applications, online games, software, and even entire data driven enterprises online. Our curriculum is focused on the industry trends, standards and relevant growth models for the world of tomorrow and as such we will continue to add and update even more courses in the months and years ahead.',
   },
   {
     id: 6,
@@ -33,7 +33,7 @@ const questions = [
   {
     id: 7,
     title: 'When can my kids attend Code World?',
-    info: 'A monthly subscription to Code World includes 8 one-hour and fifteen minute classes which are given on the same days and times each week. Additionally, thirty minutes after each lesson can be spent seeking and receiving additional help by students after class time has ended for a potential total of fourteen hours per month of direct instruction in the latest and greatest web based technologies.',
+    info: 'A monthly subscription to Code World includes 8 one-hour and fifteen minute classes which are given on the same days and times twice each week. Additionally, thirty minutes after each lesson can be spent seeking and receiving additional help by students after class time has ended for a potential total of fourteen hours per month of direct instruction in the latest and greatest web based technologies.',
   },
   {
     id: 8,
@@ -58,7 +58,7 @@ const questions = [
   {
     id: 12,
     title: 'How much does Code World cost?',
-    info: 'Code World is available for a flat fee of 1.25 million Rupiah each month which allows for up to 14 total hours of personal, pertinent and up-to-date coding in a fun and active enviornment with other children around their same age.',
+    info: 'Code World is available for a flat fee of 1.25 million Rupiah each month which allows for up to 14 total hours of personal, pertinent and up-to-date coding in a fun and active enviornment with other children around their same age. The fee also includes access to a designated and regularly updated Google Classroom where the instructor can be messaged to answer questions or get help outside of class time.',
   },
   {
     id: 13,
