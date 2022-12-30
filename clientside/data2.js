@@ -18,7 +18,7 @@ const questions = [
     id: 4,
     title:
       'My kids already take computer class at school. So why do they need Code World?',
-    info: 'It is great that some schools offer computer education, but they are often woefully outdated, focused more on computer science than computer programming, and often unable to offer the sophisticated ongoing coding curriculum that kids need to be competitive. Parents who want their kids to get ahead of the growing curve and to learn coding properly are turning to Code World where our curriculum is always kept proactive and up to date.',
+    info: 'It is great that some schools offer computer education, but they are often woefully outdated, focused more on computer science than computer programming, and often unable to offer the sophisticated ongoing coding curriculum that kids need to be competitive. Parents who want their kids to get ahead of the curve and to learn coding properly are turning to Code World where our curriculum is always kept proactive and up to date.',
   },
   {
     id: 5,
@@ -33,7 +33,7 @@ const questions = [
   {
     id: 7,
     title: 'When can my kids attend Code World?',
-    info: 'A monthly subscription to Code World includes 8 one-hour and fifteen minute classes which are given on the same days and times twice each week. On the weekends we also offer some two-hour class schedules. Additionally, thirty minutes after each lesson can be spent seeking and receiving additional help by students after class time has ended for a potential total of fourteen hours per month of direct instruction in the latest and greatest web based technologies.',
+    info: 'A monthly subscription to Code World includes 8 one-hour and fifteen minute classes which are given on the same days and times twice each week. On the weekends we also offer a few two-hour class schedules as well for older students. Additionally, thirty minutes after each lesson can be spent seeking and receiving additional help by students after class time has ended for a potential total of fourteen hours per month of direct instruction in the latest and greatest web based technologies.',
   },
   {
     id: 8,
@@ -43,7 +43,7 @@ const questions = [
   {
     id: 9,
     title: 'Can I stay around while my child is learning?',
-    info: 'Of course you can! We even encourage you to bring your own laptop so that you can learn and code along with us at no extra cost!',
+    info: 'Of course you can! We even encourage you to bring your own laptop so that you can learn and code along with us!',
   },
   {
     id: 10,

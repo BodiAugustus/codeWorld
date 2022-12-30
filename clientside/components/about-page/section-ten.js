@@ -62,10 +62,10 @@ function SectionTen() {
         xl:w-[70%]
         2xl:w-[90%] "
         >
-          We have a variable schedule to better meet you and your family's
-          needs. There is also an optional thirty minutes available after every
-          class for the teacher to answer any extra questions or assist with
-          student projects.
+          We have a varied schedule to better meet you and your family's needs.
+          There is also an optional thirty minutes available after every class
+          for the teacher to answer any extra questions or assist with student
+          projects.
         </p>
         <figure
           className="xxxs:block xxxs:min-w-[90%] xxxs:mx-4 xxxs:mb-6
