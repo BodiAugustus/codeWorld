@@ -44,7 +44,7 @@ function SectionTen() {
         </h2>
         <p
           className="mx-auto text-lg
-        xxxs:w-[90%]
+        xxxs:w-[85%]
         md:w-[70%]
         lg:w-[90%]
         xl:w-[70%]
@@ -56,7 +56,7 @@ function SectionTen() {
         </p>
         <p
           className="mx-auto text-lg
-        xxxs:w-[90%]
+        xxxs:w-[85%]
         md:w-[70%]
         lg:w-[90%]
         xl:w-[70%]
