@@ -52,7 +52,7 @@ function BillingPage() {
               Payments General
             </h2>
             <p>
-              Payment of 2 million Rupiah is required to be fully paid before
+              Payment of 1.25 million Rupiah is required to be fully paid before
               attending any classes each month. Payment can be made by cash,
               credit or debit card.
             </p>

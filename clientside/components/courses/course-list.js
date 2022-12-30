@@ -26,6 +26,7 @@ function CourseList(props) {
         {items.map(event =>
           event.isFeatured ? (
             <CourseItem
+              age={event.age}
               isFeatured={event.isFeatured}
               key={event.id}
               id={event.id}

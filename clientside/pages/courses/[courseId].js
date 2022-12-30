@@ -43,54 +43,102 @@ function CourseDetailPage(props) {
       md:w-[120%] lg:w-[100%]"
       >
         <CourseLogistics
+          age={course.age}
           date={course.date}
           address={course.location}
           image={course.image}
           time={course.time}
         />
         <CourseContent>
-          <Button
-            quantity={course.quantity}
-            onClick={() => {
-              if (course.quantity > 0) {
-                checkout({
-                  lineItems: [
-                    {
-                      price: `${
-                        course.title === 'React' && course.date === '2023-01-21'
-                          ? 'price_1MFDeGFSa0TezXP7TrSbexRd'
-                          : course.title === 'React' &&
-                            course.date === '2023-01-22'
-                          ? 'price_1MFDexFSa0TezXP7ccFVDfcc'
-                          : course.title === 'JavaScript' &&
-                            course.date === '2023-01-21'
-                          ? 'price_1MFDfZFSa0TezXP7oQaXC56e'
-                          : course.title === 'JavaScript' &&
-                            course.date === '2023-01-22'
-                          ? 'price_1MFDg8FSa0TezXP7vbQjdk1x'
-                          : course.title === 'JavaScript' &&
-                            course.date === '2023-01-27'
-                          ? 'price_1MFDghFSa0TezXP7d3uDLVUU'
-                          : course.title === 'HTML & CSS' &&
-                            course.date === '2023-01-21'
-                          ? 'price_1MFDhIFSa0TezXP7moWJoxGh'
-                          : course.title === 'HTML & CSS' &&
-                            course.date === '2023-01-22'
-                          ? 'price_1MFDhjFSa0TezXP7NReuA4Xc'
-                          : course.title === 'HTML & CSS' &&
-                            course.date === '2023-02-01'
-                          ? 'price_1MFDiAFSa0TezXP7DPMIt3ek'
-                          : 'price_1MFDiAFSa0TezXP7DPMIt3ek'
-                      }`,
-                      quantity: 1,
-                    },
-                  ],
-                });
-              }
-            }}
-          >
-            {course.quantity === 0 ? 'This Class Is full' : 'Register Now!'}
-          </Button>
+          <div className="flex justify-center items-center gap-5">
+            <Button
+              quantity={course.quantity}
+              onClick={() => {
+                if (course.quantity > 0) {
+                  checkout({
+                    lineItems: [
+                      {
+                        price: `${
+                          course.title === 'React' &&
+                          course.date === '2023-01-21'
+                            ? 'price_1MFDeGFSa0TezXP7TrSbexRd'
+                            : course.title === 'React' &&
+                              course.date === '2023-01-22'
+                            ? 'price_1MFDexFSa0TezXP7ccFVDfcc'
+                            : course.title === 'JavaScript' &&
+                              course.date === '2023-01-21'
+                            ? 'price_1MFDfZFSa0TezXP7oQaXC56e'
+                            : course.title === 'JavaScript' &&
+                              course.date === '2023-01-22'
+                            ? 'price_1MFDg8FSa0TezXP7vbQjdk1x'
+                            : course.title === 'JavaScript' &&
+                              course.date === '2023-01-27'
+                            ? 'price_1MFDghFSa0TezXP7d3uDLVUU'
+                            : course.title === 'HTML & CSS' &&
+                              course.date === '2023-01-21'
+                            ? 'price_1MFDhIFSa0TezXP7moWJoxGh'
+                            : course.title === 'HTML & CSS' &&
+                              course.date === '2023-01-22'
+                            ? 'price_1MFDhjFSa0TezXP7NReuA4Xc'
+                            : course.title === 'HTML & CSS' &&
+                              course.date === '2023-02-01'
+                            ? 'price_1MFDiAFSa0TezXP7DPMIt3ek'
+                            : 'price_1MFDiAFSa0TezXP7DPMIt3ek'
+                        }`,
+                        quantity: 1,
+                      },
+                    ],
+                  });
+                }
+              }}
+            >
+              {course.quantity === 0 ? 'This Class Is full' : 'Register Now!'}
+            </Button>
+            <p className="my-auto">Or</p>
+            <Button
+              quantity={course.quantity}
+              onClick={() => {
+                if (course.quantity > 0) {
+                  checkout({
+                    lineItems: [
+                      {
+                        price: `${
+                          course.title === 'React' &&
+                          course.date === '2023-01-21'
+                            ? 'price_1MFDeGFSa0TezXP7TrSbexRd'
+                            : course.title === 'React' &&
+                              course.date === '2023-01-22'
+                            ? 'price_1MKZnwFSa0TezXP7btEAoaij'
+                            : course.title === 'JavaScript' &&
+                              course.date === '2023-01-21'
+                            ? 'price_1MKZyRFSa0TezXP714x1UB4L'
+                            : course.title === 'JavaScript' &&
+                              course.date === '2023-01-22'
+                            ? 'price_1MKa0MFSa0TezXP7UaiCjEi2'
+                            : course.title === 'JavaScript' &&
+                              course.date === '2023-01-27'
+                            ? 'price_1MKa2KFSa0TezXP7yKV50ZVq'
+                            : course.title === 'HTML & CSS' &&
+                              course.date === '2023-01-21'
+                            ? 'price_1MKa4JFSa0TezXP7i0lGsoCR'
+                            : course.title === 'HTML & CSS' &&
+                              course.date === '2023-01-22'
+                            ? 'price_1MKa51FSa0TezXP7WGpnRMEB'
+                            : course.title === 'HTML & CSS' &&
+                              course.date === '2023-02-01'
+                            ? 'price_1MKa6qFSa0TezXP7S8AOvfZf'
+                            : 'price_1MKa8uFSa0TezXP7fSDJe7iK'
+                        }`,
+                        quantity: 1,
+                      },
+                    ],
+                  });
+                }
+              }}
+            >
+              {course.quantity === 0 ? 'This Class Is full' : 'Two Week Trial!'}
+            </Button>
+          </div>
           <p className="text-[#0f3460] mt-8 font-bold">{course.header}</p>
           <p className="text-[#111] mt-8">{course.description}</p>
           <p className="text-[#111]">{course.wsl}</p>

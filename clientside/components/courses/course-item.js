@@ -5,10 +5,10 @@ import styles from './course-item.module.css';
 import DateIcon from '../icons/date-icon';
 // import AddressIcon from '../icons/address-icon';
 import ArrowIcon from '../icons/arrow-right-icon';
-import { BsClock } from 'react-icons/bs';
+import { BsClock, BsFillPeopleFill } from 'react-icons/bs';
 
 function CourseItem(props) {
-  const { title, image, date, location, id, time } = props;
+  const { title, image, date, location, id, time, age } = props;
 
   const humanReadableDate = new Date(date).toLocaleDateString('en-US', {
     day: 'numeric',
@@ -44,6 +44,13 @@ function CourseItem(props) {
           >
             <BsClock />
             <address>{time}</address>
+          </div>
+          <div
+            className={`${styles.address} xxxs:justify-center xxxs:-mt-2
+          md:justify-start`}
+          >
+            <BsFillPeopleFill />
+            <address>{age}</address>
           </div>
         </div>
         <div className={styles.actions}>

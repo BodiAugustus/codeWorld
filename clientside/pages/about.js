@@ -6,9 +6,11 @@ import SectionFour from '@components/about-page/section-four';
 import SectionNine from '@components/about-page/section-nine';
 import SectionSeven from '@components/about-page/section-seven';
 import SectionTwo from '@components/about-page/section-two';
+
 import Sidebar from '@components/layout/Sidebar';
 import Submenu from '@components/layout/Submenu';
 import { useGlobalContext } from 'store/context';
+import SectionTen from '@components/about-page/section-ten';
 
 function AboutPage() {
   const { closeSubmenu } = useGlobalContext();
@@ -56,6 +58,7 @@ function AboutPage() {
         </div>
       </div>
       <SectionTwo />
+      <SectionTen />
       <Parallax />
       <SectionFour />
       <SectionFive />

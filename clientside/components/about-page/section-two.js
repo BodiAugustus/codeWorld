@@ -43,9 +43,9 @@ function SectionTwo() {
         lg:w-[90%]
         xl:w-[80%]"
         >
-          Far from being just another boring class, our lessons keep students
-          constantly active and engaged so that they can both learn and have fun
-          at the same time!
+          Far from being just another boring class, our in person lessons keep
+          students constantly active and engaged so that they can both learn and
+          have fun at the same time!
         </p>
       </div>
       <div className={styles.wrapper}>

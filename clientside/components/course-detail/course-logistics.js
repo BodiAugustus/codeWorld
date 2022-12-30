@@ -5,10 +5,10 @@ import AddressIcon from '../icons/address-icon';
 import DateIcon from '../icons/date-icon';
 import LogisticsItem from './logistics-item';
 import classes from './course-logistics.module.css';
-import { BsClock } from 'react-icons/bs';
+import { BsClock, BsFillPeopleFill } from 'react-icons/bs';
 
 function CourseLogistics(props) {
-  const { date, address, image, imageAlt, time } = props;
+  const { date, address, image, imageAlt, time, age } = props;
 
   const humanReadableDate = new Date(date).toLocaleDateString('en-US', {
     day: 'numeric',
@@ -49,6 +49,11 @@ function CourseLogistics(props) {
           {' '}
           <LogisticsItem icon={BsClock} />
           <address className="text-[#aefff8] text-2xl">{time}</address>
+        </div>
+        <div className="flex">
+          {' '}
+          <LogisticsItem icon={BsFillPeopleFill} />
+          <address className="text-[#aefff8] text-2xl">{age}</address>
         </div>
       </ul>
     </section>

@@ -36,7 +36,7 @@ function SectionFour() {
           md:mr-0
         lg:mr-[18.5rem] "
         >
-          AGES 9 TO 15
+          AGES 9 TO 16
         </span>
         <h2
           className="font-poppins font-extrabold mt-4 tracking-tight
@@ -54,9 +54,10 @@ function SectionFour() {
           Our curriculum is guaranteed to take your child from novice to wizard
           utilizing the latest technologies and methods. Your child will learn
           all of the skills required to create their own online based
-          businesses, find high-paying professional opportunities right out of
-          high school, or else secure easy recruitment into highly favorable
-          university computer science programs and research opportunities.
+          businesses, find both in-person or remote working opportunities right
+          out of high school, or else secure easy recruitment into highly
+          favorable university computer science programs and research
+          opportunities.
         </p>
         <Link href="/about">
           <button
