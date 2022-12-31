@@ -156,6 +156,9 @@ function CourseDetailPage(props) {
             </Button>
           </div>
           <p className="text-[#0f3460] mt-8 font-bold">{course.header}</p>
+          <p className="text-[#1D1CE5] mt-8 font-bold w-[90%] mx-auto">
+            {course.classTimes}
+          </p>
           <p className="text-[#111] mt-8">{course.description}</p>
           <p className="text-[#111]">{course.wsl}</p>
           <ul className="font-medium">
