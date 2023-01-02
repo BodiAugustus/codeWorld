@@ -166,17 +166,17 @@ function CourseDetailPage(props) {
               {course.quantity === 0 ? 'This Class Is full' : 'Two Week Trial!'}
             </Button>
           </div>
-          <p className="text-[#0f3460] mt-8 font-bold text-4xl">
+          <p className="text-[#0f3460] mt-8 font-bold md:text-4xl">
             {course.header}
           </p>
           <div className="leading-6 w-[95%] md:w-[90%] mx-auto">
-            <p className="text-[#F8485E] mt-8 mb-0 font-bold w-[90%] mx-auto">
+            <p className="text-[#7C83FD] mt-8 mb-0 font-bold w-[90%] mx-auto">
               {course.classFreq}
             </p>
-            <p className="text-[#F8485E] mt-6 font-bold w-[90%] mx-auto">
+            <p className="text-[#7C83FD] mt-6 font-bold w-[90%] mx-auto">
               {course.class1}
             </p>
-            <p className="text-[#F8485E] mt-4 font-bold w-[90%] mx-auto">
+            <p className="text-[#7C83FD] mt-4 font-bold w-[90%] mx-auto">
               {course.class2}
             </p>
           </div>
