@@ -12,6 +12,7 @@ import Submenu from '@components/layout/Submenu';
 import { useGlobalContext } from 'store/context';
 import Button from '@components/ui/button';
 import { checkout } from '@helpers/checkout';
+import Link from 'next/link';
 
 function CourseDetailPage(props) {
   const { closeSubmenu } = useGlobalContext();
@@ -49,6 +50,16 @@ function CourseDetailPage(props) {
           image={course.image}
           time={course.time}
         />
+        {/* <div
+          className="text-center text-2xl
+        relative 
+        xxxs:top-[6.5rem]
+        md:top-14"
+        >
+          <Button>
+            <Link href="/courses">Back to Classes</Link>
+          </Button>
+        </div> */}
         <CourseContent>
           <div
             className="flex justify-center items-center gap-5
@@ -155,10 +166,20 @@ function CourseDetailPage(props) {
               {course.quantity === 0 ? 'This Class Is full' : 'Two Week Trial!'}
             </Button>
           </div>
-          <p className="text-[#0f3460] mt-8 font-bold">{course.header}</p>
-          <p className="text-[#1D1CE5] mt-8 font-bold w-[90%] mx-auto">
-            {course.classTimes}
+          <p className="text-[#0f3460] mt-8 font-bold text-4xl">
+            {course.header}
           </p>
+          <div className="leading-6 w-[95%] md:w-[90%] mx-auto">
+            <p className="text-[#F8485E] mt-8 mb-0 font-bold w-[90%] mx-auto">
+              {course.classFreq}
+            </p>
+            <p className="text-[#F8485E] mt-6 font-bold w-[90%] mx-auto">
+              {course.class1}
+            </p>
+            <p className="text-[#F8485E] mt-4 font-bold w-[90%] mx-auto">
+              {course.class2}
+            </p>
+          </div>
           <p className="text-[#111] mt-8">{course.description}</p>
           <p className="text-[#111]">{course.wsl}</p>
           <ul className="font-medium">
