@@ -163,7 +163,7 @@ function CourseDetailPage(props) {
                 }
               }}
             >
-              {course.quantity === 0 ? 'This Class Is full' : 'Two Week Trial!'}
+              {course.quantity === 0 ? 'This Class Is full' : 'One Week Trial!'}
             </Button>
           </div>
           <p className="text-[#0f3460] mt-8 font-bold md:text-4xl">
