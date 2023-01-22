@@ -33,9 +33,10 @@ function SectionTwo() {
         lg:w-[90%]
         xl:w-[80%]"
         >
-          At our learning center, kids learn to code while building their own
-          projects. They gain problem solving, critical thinking, and STEM
-          skills in a fun, safe, and inspiring environment.
+          At our after school coding program located in Sanur, Bali, kids learn
+          to code while building their own projects. They gain problem solving,
+          critical thinking, and STEM skills in a fun, safe, and inspiring
+          environment.
         </p>
         <p
           className="w-[80%] mx-auto text-lg

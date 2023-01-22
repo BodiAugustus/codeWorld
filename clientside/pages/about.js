@@ -46,14 +46,15 @@ function AboutPage() {
             lg:pt-28
             2xl:pt-44"
           >
-            ABOUT
+            ABOUT CODE WORLD BALI
           </h1>
           <p
             className="mx-auto text-center text-lg text-yellow-50
           xxxs:px-6 xxxs:-mt-4
           md:px-0 md:-mt-0"
           >
-            Learn how to code while making websites, games, and having fun!
+            Learn how to code while making websites, games, and having fun in
+            our after school coding program!
           </p>
         </div>
       </div>

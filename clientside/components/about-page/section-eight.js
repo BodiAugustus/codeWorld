@@ -32,8 +32,8 @@ function SectionEight() {
         2xl:w-[90%]"
         >
           We pride ourselves in partnering with local schools to boost STEM
-          education in communities across the island through our Code World
-          learning center.
+          education in communities across Bali through our Code World after
+          school coding program.
         </p>
         <p
           className="text-lg mx-auto
@@ -43,8 +43,8 @@ function SectionEight() {
         xl:w-[70%] md:-mb-0
         2xl:w-[90%]"
         >
-          For our students, Code World offers the invaluable opportunity of a
-          meaningful career path that positively impacts their lives and
+          For our students, Code World Bali offers the invaluable opportunity of
+          a meaningful career path that positively impacts their lives and
           communities.
         </p>
       </div>

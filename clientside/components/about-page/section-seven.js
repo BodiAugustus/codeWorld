@@ -51,7 +51,7 @@ function SectionSeven() {
         >
           If you love what you&apos;re doing then work doesn't feel like work.
           That&apos;s why positivity and fun are baked into every aspect of what
-          we do at Code World.
+          we do at Code World Bali's after school coding program.
         </p>
         <p
           className="mx-auto text-lg

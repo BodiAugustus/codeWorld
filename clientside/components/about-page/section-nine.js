@@ -14,10 +14,10 @@ function SectionNine() {
         xxxs:text-center
         xs:w-[95%]
         small:w-[95%]
-        md:w-[100%] md:text-5xl
+        md:w-[90%] md:text-5xl
         2xl:mb-8"
         >
-          JOIN CODE WORLD TODAY
+          JOIN CODE WORLD BALI'S AFTER SCHOOL CODING PROGRAM TODAY!
         </h2>
         <p
           className="relative text-slate-100 text-xl
