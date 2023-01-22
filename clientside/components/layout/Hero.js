@@ -12,7 +12,7 @@ const Hero = () => {
       <div className={styles.hero_center}>
         <article className={styles.hero_info}>
           <h1 className="font-poppins font-extrabold tracking-tighter text-[#002E94]">
-            Bali After School Coding Program.
+            Bali After School Coding Program
           </h1>
           <p
             className="text-[#1C3879]

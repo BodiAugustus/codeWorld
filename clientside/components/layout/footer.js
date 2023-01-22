@@ -52,9 +52,12 @@ function Footer() {
         </div>
       </div>
 
-      <div className="md:mr-5 ">
-        <p className="m-0 mt-3 text-emerald-500">Code World &#169; {year}</p>
-        <p className="text-emerald-500">All Rights Reserved</p>
+      <div className="md:mr-5 flex flex-col justify-center items-center ">
+        <p className="m-0 mt-3 text-emerald-500">
+          Code World Bali &#169; {year}
+        </p>
+        <p className="text-emerald-500 mb-0">Jl. Danau Tondano No. 53 A</p>
+        <p className="text-emerald-500">Sanur, Bali, 80027</p>
       </div>
     </div>
   );

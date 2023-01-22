@@ -48,11 +48,11 @@ function SectionTwo() {
         
         "
         >
-          At our in-person digital learning center, kids learn to code in a fun,
-          safe, and inspiring environment with an actual instructor using a
-          project-based curriculum that they love. Parents love it too, because
-          their kids make real progress and gain valuable skills while having a
-          great time. Everyone wins at Code World!
+          At our in-person digital learning center located in Sanur, Bali, kids
+          learn to code in a fun, safe, and inspiring environment with an actual
+          instructor using a project-based curriculum that they love. Parents
+          love it too, because their kids make real progress and gain valuable
+          skills while having a great time. Everybody wins at Code World!
         </p>
       </div>
       <GiTeacher
