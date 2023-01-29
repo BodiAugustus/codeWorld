@@ -78,14 +78,14 @@ function CourseDetailPage(props) {
                           course.date === '2023-01-29'
                             ? 'price_1MKbZLFSa0TezXP7rYSMdrSG'
                             : course.title === 'React' &&
-                              course.date === '2023-01-25'
+                              course.date === '2023-01-29'
                             ? 'price_1MKbZLFSa0TezXP7rYSMdrSG'
                             : course.title === 'JavaScript' &&
                               course.date === '2023-02-01' &&
                               course.age === 'Ages 9-12'
                             ? 'price_1MKbcrFSa0TezXP7ybjmOBdf'
                             : course.title === 'JavaScript' &&
-                              course.date === '2023-01-27' &&
+                              course.date === '2023-02-03' &&
                               course.age === 'Ages 13-16'
                             ? 'price_1MKbdoFSa0TezXP7v7nSRML0'
                             : course.title === 'JavaScript' &&
@@ -97,11 +97,11 @@ function CourseDetailPage(props) {
                               course.age === 'Ages 9-12'
                             ? 'price_1MKbfSFSa0TezXP75EvQRXZX'
                             : course.title === 'HTML & CSS' &&
-                              course.date === '2023-01-26' &&
+                              course.date === '2023-02-02' &&
                               course.age === 'Ages 13-16'
                             ? 'price_1MKbfzFSa0TezXP7MPqeMfdX'
                             : course.title === 'HTML & CSS' &&
-                              course.date === '2023-01-28' &&
+                              course.date === '2023-02-04' &&
                               course.age === 'Ages 9-12'
                             ? 'price_1MKbgjFSa0TezXP7A3pTuNBb'
                             : 'price_1MKbhAFSa0TezXP7lAaYszc1'
@@ -135,7 +135,7 @@ function CourseDetailPage(props) {
                               course.age === 'Ages 9-12'
                             ? 'price_1MKZyRFSa0TezXP714x1UB4L'
                             : course.title === 'JavaScript' &&
-                              course.date === '2023-01-27' &&
+                              course.date === '2023-02-03' &&
                               course.age === 'Ages 13-16'
                             ? 'price_1MKa0MFSa0TezXP7UaiCjEi2'
                             : course.title === 'JavaScript' &&
@@ -147,11 +147,11 @@ function CourseDetailPage(props) {
                               course.age === 'Ages 9-12'
                             ? 'price_1MKa4JFSa0TezXP7i0lGsoCR'
                             : course.title === 'HTML & CSS' &&
-                              course.date === '2023-01-26' &&
+                              course.date === '2023-02-02' &&
                               course.age === 'Ages 13-16'
                             ? 'price_1MKa6qFSa0TezXP7S8AOvfZf'
                             : course.title === 'HTML & CSS' &&
-                              course.date === '2023-01-28' &&
+                              course.date === '2023-02-04' &&
                               course.age === 'Ages 9-12'
                             ? 'price_1MKa51FSa0TezXP7WGpnRMEB'
                             : 'price_1MKa8uFSa0TezXP7fSDJe7iK'
@@ -230,7 +230,7 @@ function CourseDetailPage(props) {
                             course.age === 'Ages 9-12'
                           ? 'price_1MKbcrFSa0TezXP7ybjmOBdf'
                           : course.title === 'JavaScript' &&
-                            course.date === '2023-01-27' &&
+                            course.date === '2023-02-03' &&
                             course.age === 'Ages 13-16'
                           ? 'price_1MKbdoFSa0TezXP7v7nSRML0'
                           : course.title === 'JavaScript' &&
@@ -242,11 +242,11 @@ function CourseDetailPage(props) {
                             course.age === 'Ages 9-12'
                           ? 'price_1MKbfSFSa0TezXP75EvQRXZX'
                           : course.title === 'HTML & CSS' &&
-                            course.date === '2023-01-26' &&
+                            course.date === '2023-02-02' &&
                             course.age === 'Ages 13-16'
                           ? 'price_1MKbfzFSa0TezXP7MPqeMfdX'
                           : course.title === 'HTML & CSS' &&
-                            course.date === '2023-01-28' &&
+                            course.date === '2023-02-04' &&
                             course.age === 'Ages 9-12'
                           ? 'price_1MKbgjFSa0TezXP7A3pTuNBb'
                           : 'price_1MKbhAFSa0TezXP7lAaYszc1'
