@@ -75,10 +75,10 @@ function CourseDetailPage(props) {
                       {
                         price: `${
                           course.title === 'React' &&
-                          course.date === '2023-01-29'
+                          course.date === '2023-02-05'
                             ? 'price_1MKbZLFSa0TezXP7rYSMdrSG'
                             : course.title === 'React' &&
-                              course.date === '2023-01-29'
+                              course.date === '2023-02-05'
                             ? 'price_1MKbZLFSa0TezXP7rYSMdrSG'
                             : course.title === 'JavaScript' &&
                               course.date === '2023-02-01' &&
@@ -89,7 +89,7 @@ function CourseDetailPage(props) {
                               course.age === 'Ages 13-16'
                             ? 'price_1MKbdoFSa0TezXP7v7nSRML0'
                             : course.title === 'JavaScript' &&
-                              course.date === '2023-01-29' &&
+                              course.date === '2023-02-05' &&
                               course.age === 'Ages 13-16'
                             ? 'price_1MKbexFSa0TezXP7QaHWHJ8G'
                             : course.title === 'HTML & CSS' &&
@@ -125,10 +125,10 @@ function CourseDetailPage(props) {
                       {
                         price: `${
                           course.title === 'React' &&
-                          course.date === '2023-01-29'
+                          course.date === '2023-02-05'
                             ? 'price_1MKZnwFSa0TezXP7btEAoaij'
                             : course.title === 'React' &&
-                              course.date === '2023-01-29'
+                              course.date === '2023-02-05'
                             ? 'price_1MKZnwFSa0TezXP7btEAoaij'
                             : course.title === 'JavaScript' &&
                               course.date === '2023-02-01' &&
@@ -139,7 +139,7 @@ function CourseDetailPage(props) {
                               course.age === 'Ages 13-16'
                             ? 'price_1MKa0MFSa0TezXP7UaiCjEi2'
                             : course.title === 'JavaScript' &&
-                              course.date === '2023-01-29' &&
+                              course.date === '2023-02-05' &&
                               course.age === 'Ages 13-16'
                             ? 'price_1MKa2KFSa0TezXP7yKV50ZVq'
                             : course.title === 'HTML & CSS' &&
@@ -218,11 +218,11 @@ function CourseDetailPage(props) {
                     {
                       price: `${
                         course.title === 'React' &&
-                        course.date === '2023-01-29' &&
+                        course.date === '2023-02-05' &&
                         course.age === 'Ages 13-16'
                           ? 'price_1MKbZLFSa0TezXP7rYSMdrSG'
                           : course.title === 'React' &&
-                            course.date === '2023-01-29' &&
+                            course.date === '2023-02-05' &&
                             course.age === 'Ages 13-16'
                           ? 'price_1MKbZLFSa0TezXP7rYSMdrSG'
                           : course.title === 'JavaScript' &&
@@ -234,7 +234,7 @@ function CourseDetailPage(props) {
                             course.age === 'Ages 13-16'
                           ? 'price_1MKbdoFSa0TezXP7v7nSRML0'
                           : course.title === 'JavaScript' &&
-                            course.date === '2023-01-29' &&
+                            course.date === '2023-02-05' &&
                             course.age === 'Ages 13-16'
                           ? 'price_1MKbexFSa0TezXP7QaHWHJ8G'
                           : course.title === 'HTML & CSS' &&
